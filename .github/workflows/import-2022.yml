@@ -1,0 +1,33 @@
+name: Import IPA 2022 public exam questions
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/import_2022_web.py'
+      - '.github/workflows/import-2022.yml'
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install parser
+        run: pip install 'beautifulsoup4>=4.12,<5' 'requests>=2.32,<3'
+      - name: Import 2022 and verify completeness
+        run: python scripts/import_2022_web.py
+      - name: Commit imported exam dataset
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add questions_2022.js data/2022-import-report.json assets/questions/2022/
+          if ! git diff --cached --quiet; then
+            git commit -m "Import 2022 IT Passport 100 questions for editorial verification"
+            git push origin HEAD:main
+          fi
