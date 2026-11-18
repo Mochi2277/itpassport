@@ -1015,7 +1015,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "業務プロセス",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 15,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-033",
@@ -1042,7 +1044,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "IoTシステム・組込みシステム",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 15,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-034",
@@ -1069,7 +1073,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "会計・財務",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 15,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-035",
@@ -1096,7 +1102,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "マーケティング",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 16,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-036",
@@ -1123,7 +1131,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "サービスマネジメント",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 17,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-037",
@@ -1150,7 +1160,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "サービスマネジメント",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 17,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-038",
@@ -1177,7 +1189,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "システム監査",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 18,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-039",
@@ -1204,7 +1218,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "開発プロセス・手法",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 18,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-040",
@@ -1231,7 +1247,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "プロジェクトマネジメント",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 19,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-041",
@@ -1258,7 +1276,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "プロジェクトマネジメント",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 19,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-042",
@@ -1285,7 +1305,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "ファシリティマネジメント",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 19,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-043",
@@ -1312,7 +1334,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "内部統制",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 20,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-044",
@@ -1339,7 +1363,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "開発プロセス・手法",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 20,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-045",
@@ -1406,7 +1432,9 @@ window.QUESTIONS = [
     "textVerifiedParts": [
       "評価式の除算記号",
       "スケジュールとコストの計算式"
-    ]
+    ],
+    "ipaPdfPage": 21,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-046",
@@ -1433,7 +1461,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "システム開発技術",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 21,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-047",
@@ -1460,7 +1490,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "システム開発技術",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 22,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-048",
@@ -1487,7 +1519,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "プロジェクトマネジメント",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 22,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-049",
@@ -1514,7 +1548,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "サービスマネジメントシステム",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 23,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-050",
@@ -1541,7 +1577,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "サービスマネジメントシステム",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 23,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-051",
@@ -1568,7 +1606,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "システム監査",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 23,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-052",
@@ -1595,7 +1635,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "システム監査",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "revised-after-source-transcription"
+    "explanationStatus": "revised-after-source-transcription",
+    "ipaPdfPage": 24,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-053",
@@ -1622,7 +1664,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "内部統制",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 24,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-054",
@@ -1681,7 +1725,9 @@ window.QUESTIONS = [
     "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
     "figureTableLabels": [
       "導入前後の対応時間"
-    ]
+    ],
+    "ipaPdfPage": 25,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-055",
@@ -1708,7 +1754,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "プロジェクトマネジメント",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 26,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-056",
@@ -1735,7 +1783,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "ネットワーク方式",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 27,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-057",
@@ -1762,7 +1812,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "ネットワーク方式",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 27,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-058",
@@ -1789,7 +1841,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "ネットワーク応用",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "screened-against-2025-restored-stem"
+    "explanationStatus": "screened-against-2025-restored-stem",
+    "ipaPdfPage": 28,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-059",
@@ -1816,7 +1870,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報セキュリティ管理",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 28,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-060",
@@ -1843,7 +1899,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "通信プロトコル",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 28,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-061",
@@ -1870,7 +1928,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "トランザクション処理",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 29,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-062",
@@ -1897,7 +1957,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "オペレーティングシステム",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 29,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-063",
@@ -1924,7 +1986,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "応用数学",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 30,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-064",
@@ -1951,7 +2015,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "ネットワーク応用",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 30,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-065",
@@ -1978,7 +2044,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "データベース設計",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 30,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-066",
@@ -2109,7 +2177,9 @@ window.QUESTIONS = [
     "figureTableLabels": [
       "ログイン記録",
       "部署"
-    ]
+    ],
+    "ipaPdfPage": 31,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-067",
@@ -2136,7 +2206,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "プロセッサ",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "screened-against-2025-restored-stem"
+    "explanationStatus": "screened-against-2025-restored-stem",
+    "ipaPdfPage": 32,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-068",
@@ -2163,7 +2235,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報セキュリティ管理",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 32,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-069",
@@ -2190,7 +2264,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報セキュリティ対策・情報セキュリティ実装技術",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 32,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-070",
@@ -2217,7 +2293,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報セキュリティ",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 33,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-071",
@@ -2244,7 +2322,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "ネットワーク応用",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 33,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-072",
@@ -2271,7 +2351,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報デザイン",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "screened-against-2025-restored-stem"
+    "explanationStatus": "screened-against-2025-restored-stem",
+    "ipaPdfPage": 34,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-073",
@@ -2298,7 +2380,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報セキュリティ",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 35,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-074",
@@ -2325,7 +2409,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報セキュリティ対策・情報セキュリティ実装技術",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 35,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-075",
@@ -2352,7 +2438,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "メモリ",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 36,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-076",
@@ -2386,7 +2474,7 @@ window.QUESTIONS = [
         ],
         [
           "1",
-          "消費税",
+          "消費税率",
           "10%",
           ""
         ],
@@ -2428,7 +2516,10 @@ window.QUESTIONS = [
     "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
     "figureTableLabels": [
       "表計算のワークシート"
-    ]
+    ],
+    "ipaPdfPage": 36,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending",
+    "ipaFigureReview": "worksheet-cells-and-formula-checked-against-official-pdf-page-36"
   },
   {
     "id": "ipa-2025-077",
@@ -2455,7 +2546,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報セキュリティ対策・情報セキュリティ実装技術",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 37,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-078",
@@ -2467,8 +2560,8 @@ window.QUESTIONS = [
     "tip": "IPA公式PDFも参照して設問条件と図表を確認してください。",
     "adapted": true,
     "displayTextSource": "external-transcription-needs-ipa-pdf-review",
-    "q": "手続calc Mod 3を呼び出したときの出力はどれか。\n\n〔プログラム〕\n\n○calcMod3()\n\n整数型: totalValue，i\n\ntotalValue ← 0\n\nfor (iを1から7まで1ずつ増やす)\n\nif (i ÷ 3の余りが0と等しい)\n\ntotalValue ← totalValue + i\n\ne　ndif\n\ne　ndfor\n\ntotalValueを出力する",
-    "displayText": "手続calc Mod 3を呼び出したときの出力はどれか。\n\n〔プログラム〕\n\n○calcMod3()\n\n整数型: totalValue，i\n\ntotalValue ← 0\n\nfor (iを1から7まで1ずつ増やす)\n\nif (i ÷ 3の余りが0と等しい)\n\ntotalValue ← totalValue + i\n\ne　ndif\n\ne　ndfor\n\ntotalValueを出力する",
+    "q": "手続calcMod3を呼び出したときの出力はどれか。\n\n〔プログラム〕\n\n○calcMod3()\n\n整数型: totalValue，i\n\ntotalValue ← 0\n\nfor (iを1から7まで1ずつ増やす)\n\nif (i ÷ 3の余りが0と等しい)\n\ntotalValue ← totalValue + i\n\nendif\n\nendfor\n\ntotalValueを出力する",
+    "displayText": "手続calcMod3を呼び出したときの出力はどれか。\n\n〔プログラム〕\n\n○calcMod3()\n\n整数型: totalValue，i\n\ntotalValue ← 0\n\nfor (iを1から7まで1ずつ増やす)\n\nif (i ÷ 3の余りが0と等しい)\n\ntotalValue ← totalValue + i\n\nendif\n\nendfor\n\ntotalValueを出力する",
     "choices": [
       "2",
       "3",
@@ -2482,7 +2575,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "アルゴリズムとプログラミング",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "screened-against-2025-restored-stem"
+    "explanationStatus": "screened-against-2025-restored-stem",
+    "ipaPdfPage": 37,
+    "ipaContentReview": "program-and-options-checked-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-079",
@@ -2509,7 +2604,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "インタフェース設計",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "screened-against-2025-restored-stem"
+    "explanationStatus": "screened-against-2025-restored-stem",
+    "ipaPdfPage": 37,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-080",
@@ -2536,7 +2633,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報に関する理論",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 38,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-081",
@@ -2563,7 +2662,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "ハードウェア(コンピュータ・入出力装置)",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 38,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-082",
@@ -2590,7 +2691,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "トランザクション処理",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 38,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-083",
@@ -2617,7 +2720,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報セキュリティ管理",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 39,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-084",
@@ -2644,7 +2749,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報セキュリティ管理",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 39,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-085",
@@ -2671,7 +2778,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報に関する理論",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 40,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-086",
@@ -2698,7 +2807,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報に関する理論",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 40,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-087",
@@ -2725,7 +2836,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報セキュリティ対策・情報セキュリティ実装技術",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 40,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-088",
@@ -2752,7 +2865,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報セキュリティ対策・情報セキュリティ実装技術",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 41,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-089",
@@ -2779,7 +2894,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報セキュリティ対策・情報セキュリティ実装技術",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 41,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-090",
@@ -2806,7 +2923,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報セキュリティ対策・情報セキュリティ実装技術",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 42,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-091",
@@ -2833,7 +2952,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報セキュリティ管理",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 42,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-092",
@@ -2860,7 +2981,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報セキュリティ対策・情報セキュリティ実装技術",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 43,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-093",
@@ -2887,7 +3010,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報セキュリティ",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 43,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-094",
@@ -2914,7 +3039,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "システムの評価指標",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 43,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-095",
@@ -2941,7 +3068,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "データベース設計",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 44,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-096",
@@ -2968,7 +3097,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "オープンソースソフトウェア",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 44,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-097",
@@ -2995,7 +3126,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報セキュリティ管理",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 44,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-098",
@@ -3022,7 +3155,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "アルゴリズムとプログラミング",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "revised-after-source-transcription"
+    "explanationStatus": "revised-after-source-transcription",
+    "ipaPdfPage": 45,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "ipa-2025-099",
@@ -3034,8 +3169,8 @@ window.QUESTIONS = [
     "tip": "IPA公式PDFも参照して設問条件と図表を確認してください。",
     "adapted": true,
     "displayTextSource": "external-transcription-needs-ipa-pdf-review",
-    "q": "関数calculateAmountOfPrizeは，業務改善の効果における改善額と短縮期間を，それぞれimprovementとperiodで受け取り，賞金額を戻り値とする。改善額が20万円で短縮期間が3日の業務改善と，改善額が5万円で短縮期間が14日の業務改善があった。この二つの賞金額の合計は何円か。ここで，改善額と短縮期間の値はそれぞれ0以上とする。",
-    "displayText": "関数calculateAmountOfPrizeは，業務改善の効果における改善額と短縮期間を，それぞれimprovementとperiodで受け取り，賞金額を戻り値とする。改善額が20万円で短縮期間が3日の業務改善と，改善額が5万円で短縮期間が14日の業務改善があった。この二つの賞金額の合計は何円か。ここで，改善額と短縮期間の値はそれぞれ0以上とする。",
+    "q": "関数calculateAmountOfPrizeは，業務改善の効果における改善額と短縮期間を，それぞれimprovementとperiodで受け取り，賞金額を戻り値とする。改善額が20万円で短縮期間が3日の業務改善と，改善額が5万円で短縮期間が14日の業務改善があった。この二つの賞金額の合計は何円か。ここで，改善額と短縮期間の値はそれぞれ0以上とする。\n\n〔プログラム〕\n\n○整数型：calculateAmountOfPrize(整数型：improvement, // 改善額(円)\n　　　　　　　　　　　　　　　　整数型：period) // 短縮期間(日)\n  整数型：prize // 賞金額(円)\n  if (improvement が 100000 より小さい)\n    if (period が 7 より小さい)\n      prize ← 500\n    else\n      prize ← 1000\n    endif\n  else\n    if (period が 7 より小さい)\n      prize ← 2000\n    else\n      prize ← 5000\n    endif\n  endif\n  return prize",
+    "displayText": "関数calculateAmountOfPrizeは，業務改善の効果における改善額と短縮期間を，それぞれimprovementとperiodで受け取り，賞金額を戻り値とする。改善額が20万円で短縮期間が3日の業務改善と，改善額が5万円で短縮期間が14日の業務改善があった。この二つの賞金額の合計は何円か。ここで，改善額と短縮期間の値はそれぞれ0以上とする。\n\n〔プログラム〕\n\n○整数型：calculateAmountOfPrize(整数型：improvement, // 改善額(円)\n　　　　　　　　　　　　　　　　整数型：period) // 短縮期間(日)\n  整数型：prize // 賞金額(円)\n  if (improvement が 100000 より小さい)\n    if (period が 7 より小さい)\n      prize ← 500\n    else\n      prize ← 1000\n    endif\n  else\n    if (period が 7 より小さい)\n      prize ← 2000\n    else\n      prize ← 5000\n    endif\n  endif\n  return prize",
     "choices": [
       "1,000",
       "1,500",
@@ -3056,7 +3191,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "アルゴリズムとプログラミング",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 46,
+    "ipaContentReview": "missing-program-restored-from-official-pdf-visual"
   },
   {
     "id": "ipa-2025-100",
@@ -3083,7 +3220,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報セキュリティ対策・情報セキュリティ実装技術",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 47,
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
   },
   {
     "id": "demo-01",
