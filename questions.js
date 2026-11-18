@@ -1392,10 +1392,7 @@ window.QUESTIONS = [
     "figureTables": [
       [
         [
-          "",
-          "プロジェクトの指標"
-        ],
-        [
+          "選択肢",
           "スケジュール（％）",
           "コスト（％）"
         ],
@@ -1434,7 +1431,8 @@ window.QUESTIONS = [
       "スケジュールとコストの計算式"
     ],
     "ipaPdfPage": 21,
-    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending",
+    "ipaFigureReview": "comparison-table-reconstructed-from-official-pdf-page-21"
   },
   {
     "id": "ipa-2025-046",
@@ -1694,14 +1692,10 @@ window.QUESTIONS = [
       [
         [
           "",
-          "グループA",
-          "グループB"
-        ],
-        [
-          "対応件数",
-          "対応時間",
-          "対応件数",
-          "対応時間"
+          "グループA対応件数",
+          "グループA対応時間",
+          "グループB対応件数",
+          "グループB対応時間"
         ],
         [
           "AI導入前",
@@ -1713,7 +1707,7 @@ window.QUESTIONS = [
         [
           "AI導入後",
           "800件",
-          "AI導入前と比べて 50%短縮",
+          "AI導入前と比べて50%短縮",
           "200件",
           "AI導入前と同じ時間"
         ]
@@ -1727,7 +1721,8 @@ window.QUESTIONS = [
       "導入前後の対応時間"
     ],
     "ipaPdfPage": 25,
-    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending",
+    "ipaFigureReview": "comparison-table-reconstructed-from-official-pdf-page-25"
   },
   {
     "id": "ipa-2025-055",
@@ -1942,8 +1937,8 @@ window.QUESTIONS = [
     "tip": "IPA公式PDFも参照して設問条件と図表を確認してください。",
     "adapted": true,
     "displayTextSource": "external-transcription-needs-ipa-pdf-review",
-    "q": "OSの仮想記憶方式に関する次の記述中のa〜cに入れる字句の適切な組合せはどれか。\n\nプログラムの実行時に，コンピュータの[ a ]装置の[ b ]な容量に制約されない，[ c ]なアドレス空間を提供する。\n\na b c\n\nア主記憶物理的論理的\n\nイ主記憶論理的物理的\n\nウ補助記憶物理的論理的\n\nエ補助記憶論理的物理的",
-    "displayText": "OSの仮想記憶方式に関する次の記述中のa〜cに入れる字句の適切な組合せはどれか。\n\nプログラムの実行時に，コンピュータの[ a ]装置の[ b ]な容量に制約されない，[ c ]なアドレス空間を提供する。\n\na b c\n\nア主記憶物理的論理的\n\nイ主記憶論理的物理的\n\nウ補助記憶物理的論理的\n\nエ補助記憶論理的物理的",
+    "q": "OSの仮想記憶方式に関する次の記述中のa〜cに入れる字句の適切な組合せはどれか。\n\nプログラムの実行時に，コンピュータの[ a ]装置の[ b ]な容量に制約されない，[ c ]なアドレス空間を提供する。",
+    "displayText": "OSの仮想記憶方式に関する次の記述中のa〜cに入れる字句の適切な組合せはどれか。\n\nプログラムの実行時に，コンピュータの[ a ]装置の[ b ]な容量に制約されない，[ c ]なアドレス空間を提供する。",
     "choices": [
       "主記憶 | 物理的 | 論理的",
       "主記憶 | 論理的 | 物理的",
@@ -1959,7 +1954,7 @@ window.QUESTIONS = [
     "answerVerification": "official-answer-key-compared",
     "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
     "ipaPdfPage": 29,
-    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
+    "ipaContentReview": "stem-and-combinations-checked-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-063",
@@ -2079,73 +2074,73 @@ window.QUESTIONS = [
           "ログイン結果"
         ],
         [
-          "2022-4-10 08:50:42",
+          "2022-04-10 08:50:42",
           "10004",
           "003",
           "失敗"
         ],
         [
-          "2022-4-10 08:53:15",
+          "2022-04-10 08:53:15",
           "10004",
           "003",
           "成功"
         ],
         [
-          "2022-4-10 08:55:48",
+          "2022-04-10 08:55:48",
           "10002",
           "002",
           "成功"
         ],
         [
-          "2022-4-10 09:00:15",
+          "2022-04-10 09:00:15",
           "10001",
           "001",
           "成功"
         ],
         [
-          "2022-4-10 09:01:05",
+          "2022-04-10 09:01:05",
           "10012",
           "002",
           "成功"
         ],
         [
-          "2022-4-10 09:03:01",
+          "2022-04-10 09:03:01",
           "10008",
           "003",
           "成功"
         ],
         [
-          "2022-4-10 09:10:28",
+          "2022-04-10 09:10:28",
           "10007",
           "001",
           "成功"
         ],
         [
-          "2022-4-10 09:32:19",
+          "2022-04-10 09:32:19",
           "10002",
           "002",
           "成功"
         ],
         [
-          "2022-4-10 09:39:22",
+          "2022-04-10 09:39:22",
           "10005",
           "003",
           "失敗"
         ],
         [
-          "2022-4-10 10:00:02",
+          "2022-04-10 10:00:02",
           "10011",
           "001",
           "失敗"
         ],
         [
-          "2022-4-10 10:05:51",
+          "2022-04-10 10:05:51",
           "10011",
           "001",
           "成功"
         ],
         [
-          "2022-4-10 10:30:45",
+          "2022-04-10 10:30:45",
           "10009",
           "002",
           "成功"
@@ -2179,7 +2174,8 @@ window.QUESTIONS = [
       "部署"
     ],
     "ipaPdfPage": 31,
-    "ipaContentReview": "official-page-identified-editorial-proofread-pending"
+    "ipaContentReview": "official-page-identified-editorial-proofread-pending",
+    "ipaFigureReview": "table-values-and-department-mapping-checked-against-official-pdf-page-31"
   },
   {
     "id": "ipa-2025-067",
