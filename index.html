@@ -38,8 +38,7 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
  <div class="cards">
   <button type="button" class="card" id="start-new"><span class="icon">✏️</span><h2>新規で解く</h2><p>令和7年度を1問目から順番に始める</p></button>
   <button type="button" class="card" id="start-resume"><span class="icon">▶️</span><h2>続きから解く</h2><p id="resume-description">前回の学習位置から再開する</p></button>
-  <button type="button" class="card" id="start-year"><span class="icon">📅</span><h2>年度別に解く</h2><p>年度を選んで問題に挑戦する</p></button>
-  <button type="button" class="card" id="start-field"><span class="icon">📚</span><h2>分野別に解く</h2><p>ストラテジ・マネジメント・テクノロジを選ぶ</p></button>
+  <button type="button" class="card" id="start-custom"><span class="icon">📅</span><h2>年度・分野を指定して解く</h2><p>年度・分野・出題順を自由に組み合わせて演習</p></button>
   <button type="button" class="card" id="start-wrong"><span class="icon">🔁</span><h2>間違えた問題を復習</h2><p>苦手な問題を解き直す</p></button>
   <button type="button" class="card" id="start-stats"><span class="icon">📊</span><h2>成績確認・アドバイス</h2><p>分野別正答率とおすすめの復習方法を見る</p></button>
  </div>
@@ -72,7 +71,7 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
  <div class="panel"><h2>学習データの管理</h2><p class="sub">履歴はブラウザ内にのみ保存されます。別の端末には同期されません。</p><button class="btn secondary" id="clear-history" type="button">学習履歴を削除する</button></div>
 </section>
 </main>
-<footer><div>表示バージョン：2026-11-18 / home-v1</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
+<footer><div>表示バージョン：2026-11-18 / home-v2</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
 <script src="questions.js?v=20261118-homev1"></script>
 <script>
 (()=>{'use strict';
@@ -120,7 +119,7 @@ $('feedback').hidden=false;$('feedback').innerHTML='<b>'+(ok?'✓ 正解！':'�
 $('next').textContent=cursor===pool.length-1?'演習を終了する':'次の問題 →';$('next').hidden=false;
 if(session){session.cursor=Math.min(cursor+1,pool.length-1);write(SESSION,session)}}
 function next(){if(cursor>=pool.length-1){session=null;try{localStorage.removeItem(SESSION)}catch(e){}show('stats');return}cursor++;renderQuestion()}
-function setup(kind){$('setup-title').textContent=kind==='year'?'年度別に解く':'分野別に解く';$('setup-description').textContent=kind==='year'?'学習したい年度を選んでください。':'学習したい分野を選んでください。';$('setup-year').value='2025';$('setup-field').value='すべて';$('setup-order').value='order';$('setup-field').parentElement.parentElement.hidden=false;$('setup-year').parentElement.parentElement.hidden=false;updateSetupCount();show('setup')}
+function setup(){$('setup-title').textContent='年度・分野を指定して解く';$('setup-description').textContent='年度・分野・出題順を選んでください。';$('setup-year').value='2025';$('setup-field').value='すべて';$('setup-order').value='order';updateSetupCount();show('setup')}
 function updateSetupCount(){const y=$('setup-year').value,f=$('setup-field').value;$('setup-count').textContent='対象：'+all.filter(q=>q.year===y&&(f==='すべて'||q.field===f)).length+'問'}
 function renderStats(){const n=attempts();$('stats-attempts').textContent=n;$('stats-accuracy').textContent=rate(n,correct());$('stats-unique').textContent=Object.keys(saved).filter(id=>(saved[id]?.attempts||0)>0).length;
 $('field-stats').replaceChildren();const summary=[];
@@ -133,7 +132,7 @@ $('brand').onclick=()=>show('home');$('navstats').onclick=()=>show('stats');
 document.querySelectorAll('[data-home]').forEach(b=>b.onclick=()=>show('home'));
 $('go-home-stats').onclick=()=>show('home');$('quiz-stats').onclick=()=>show('stats');$('start-stats').onclick=()=>show('stats');
 $('start-new').onclick=()=>start({year:'2025',field:'すべて',kind:'order'});$('start-resume').onclick=resume;
-$('start-year').onclick=()=>setup('year');$('start-field').onclick=()=>setup('field');
+$('start-custom').onclick=setup;
 $('start-wrong').onclick=()=>start({year:'すべて',field:'すべて',kind:'wrong'});
 $('review-from-stats').onclick=()=>start({year:'すべて',field:'すべて',kind:'wrong'});
 $('setup-year').onchange=updateSetupCount;$('setup-field').onchange=updateSetupCount;
