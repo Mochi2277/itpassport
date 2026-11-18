@@ -118,6 +118,17 @@ def fetch(n):
             time.sleep(1+attempt*2)
 
 def main():
+    # This is an initial-import script only: never overwrite the published,
+    # manually corrected data on a subsequent workflow run.
+    if OUTPUT.exists():
+        existing=OUTPUT.read_text(encoding="utf-8")
+        if existing.startswith("window.QUESTIONS_2023 = ") or "window.QUESTIONS_2023 = " in existing:
+            try:
+                contents=existing.split("window.QUESTIONS_2023 = ",1)[1].rsplit(";",1)[0]
+                if len(json.loads(contents))==100:
+                    print("SKIP: published 100-question data exists; review/edit it directly")
+                    return
+            except Exception: pass
     def safe(n):
         try:return fetch(n)
         except Exception as e:return {"number":n,"error":str(e)}
