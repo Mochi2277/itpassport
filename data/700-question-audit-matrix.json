@@ -3,9 +3,7 @@
   "examQuestionCount": 700,
   "scope": "Every row was checked for structural invariants; not a text-by-text comparison against IPA PDFs.",
   "errors": [],
-  "warnings": [
-    "2025-Q97 short explanation"
-  ],
+  "warnings": [],
   "rows": [
     {
       "year": 2025,
@@ -7707,5 +7705,9 @@
       "explanationSemantics": "not-certified",
       "needsManualReview": true
     }
+  ],
+  "postFixNotes": [
+    "2025-Q97 short explanation expanded after initial matrix generation",
+    "six irregular tables normalized in source files; column rendering still requires E2E check"
   ]
 }
