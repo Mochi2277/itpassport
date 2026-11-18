@@ -1196,7 +1196,7 @@ window.QUESTIONS_2020 = [
       "24"
     ],
     "answer": 3,
-    "explanation": "音声認識や回答提示にかかる時間を削減して、1日当たりの対応件数と作業時間を比較すると設問の答えは24となります。",
+    "explanation": "AI導入前の対応時間全体の80%を占めるグループAの処理時間が30%短縮されるため，全体の短縮率は0.80×0.30＝0.24，すなわち24%です。グループBは変わりません。",
     "tip": "令和2年度は10月の公開問題です。IPA公式PDFも参照してください。",
     "source": "IPA 令和2年度10月 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2020r02o_ip_qs.pdf",
@@ -1208,14 +1208,10 @@ window.QUESTIONS_2020 = [
       [
         [
           "",
-          "グループA",
-          "グループB"
-        ],
-        [
-          "対応件数",
-          "対応時間",
-          "対応件数",
-          "対応時間"
+          "グループA対応件数",
+          "グループA対応時間",
+          "グループB対応件数",
+          "グループB対応時間"
         ],
         [
           "AI導入前",
@@ -1227,9 +1223,9 @@ window.QUESTIONS_2020 = [
         [
           "AI導入後",
           "500件",
-          "AI導入前と比べて 30%短縮",
+          "AI導入前と比べて30%短縮",
           "500件",
-          "AI導入前と同じ 時間"
+          "AI導入前と同じ時間"
         ]
       ]
     ],
@@ -1237,7 +1233,8 @@ window.QUESTIONS_2020 = [
     "explanationStatus": "original-draft",
     "figureTableLabels": [
       "AI導入前後の対応時間"
-    ]
+    ],
+    "figureTableReformatStatus": "normalized-column-layout-needs-final-official-pdf-visual-confirmation"
   },
   {
     "id": "ipa-2020-044",
@@ -2052,7 +2049,9 @@ window.QUESTIONS_2020 = [
           "4",
           "商品C",
           "10,000",
-          "20,000 30,000"
+          "20,000",
+          "30,000",
+          ""
         ]
       ]
     ],
@@ -2060,7 +2059,8 @@ window.QUESTIONS_2020 = [
     "explanationStatus": "original-draft",
     "figureTableLabels": [
       "月別売上額"
-    ]
+    ],
+    "figureTableReformatStatus": "normalized-column-layout-needs-final-official-pdf-visual-confirmation"
   },
   {
     "id": "ipa-2020-072",
