@@ -1665,7 +1665,7 @@ window.QUESTIONS = [
     "number": 58,
     "field": "テクノロジ系",
     "answer": 2,
-    "explanation": "DNSは名前解決を提供する仕組みです。",
+    "explanation": "DNS（Domain Name System）は、ホスト名やドメイン名を通信に必要なIPアドレスへ対応付ける仕組みです。IPアドレスの自動割当てはDHCP、ブラウザーの暗号化通信はTLSの役割です。",
     "tip": "IPA公式PDFも参照して設問条件と図表を確認してください。",
     "adapted": true,
     "displayTextSource": "external-transcription-needs-ipa-pdf-review",
@@ -1684,7 +1684,7 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "ネットワーク応用",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "screened-against-2025-restored-stem"
   },
   {
     "id": "ipa-2025-059",
@@ -2012,7 +2012,7 @@ window.QUESTIONS = [
     "number": 67,
     "field": "テクノロジ系",
     "answer": 1,
-    "explanation": "GPUは画像処理に適した並列演算装置です。",
+    "explanation": "GPU（Graphics Processing Unit）は画像描画用の並列演算を効率よく処理するハードウェアで、3次元画像や動画の描画を滑らかにします。GUIは操作画面の概念で、UPSは無停電電源装置です。",
     "tip": "IPA公式PDFも参照して設問条件と図表を確認してください。",
     "adapted": true,
     "displayTextSource": "external-transcription-needs-ipa-pdf-review",
@@ -2031,7 +2031,7 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "プロセッサ",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "screened-against-2025-restored-stem"
   },
   {
     "id": "ipa-2025-068",
@@ -2147,7 +2147,7 @@ window.QUESTIONS = [
     "number": 72,
     "field": "テクノロジ系",
     "answer": 1,
-    "explanation": "4原則は近接・整列・反復・対比です。",
+    "explanation": "見やすいデザインの基本原則は、関連項目をまとめる「近接」、要素の位置をそろえる「整列」、ルールを統一する「反復」、大小や色の差を強調する「対比」です。したがってaは整列、bは対比です。",
     "tip": "IPA公式PDFも参照して設問条件と図表を確認してください。",
     "adapted": true,
     "displayTextSource": "external-transcription-needs-ipa-pdf-review",
@@ -2166,7 +2166,7 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報デザイン",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "screened-against-2025-restored-stem"
   },
   {
     "id": "ipa-2025-073",
@@ -2358,7 +2358,7 @@ window.QUESTIONS = [
     "number": 78,
     "field": "テクノロジ系",
     "answer": 3,
-    "explanation": "3と6が条件に当てはまるので3＋6＝9です。",
+    "explanation": "1から7までの整数で3で割り切れるのは3と6だけです。プログラムはこの2数をtotalValueへ加算するので、出力は3＋6＝9になります。",
     "tip": "IPA公式PDFも参照して設問条件と図表を確認してください。",
     "adapted": true,
     "displayTextSource": "external-transcription-needs-ipa-pdf-review",
@@ -2377,7 +2377,7 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "アルゴリズムとプログラミング",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "screened-against-2025-restored-stem"
   },
   {
     "id": "ipa-2025-079",
@@ -2385,7 +2385,7 @@ window.QUESTIONS = [
     "number": 79,
     "field": "テクノロジ系",
     "answer": 0,
-    "explanation": "サムネイルは一覧表示などで用いる縮小画像です。",
+    "explanation": "サムネイルは画像や文書の内容を一覧で確認できるよう縮小表示したものです。多数の画像を探す際の視認性・操作性を高めるために使います。",
     "tip": "IPA公式PDFも参照して設問条件と図表を確認してください。",
     "adapted": true,
     "displayTextSource": "external-transcription-needs-ipa-pdf-review",
@@ -2404,7 +2404,7 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "インタフェース設計",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "screened-against-2025-restored-stem"
   },
   {
     "id": "ipa-2025-080",
