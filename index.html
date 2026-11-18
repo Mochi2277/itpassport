@@ -109,10 +109,10 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
  <div class="panel"><h2>学習データの管理</h2><p class="sub">履歴はブラウザ内にのみ保存されます。別の端末には同期されません。</p><button class="btn secondary" id="clear-history" type="button">学習履歴を削除する</button></div>
 </section>
 </main>
-<footer><div>表示バージョン：2026-11-18 / r05-100-v1</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
+<footer><div>表示バージョン：2026-11-18 / r05-100-v2</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
 <script src="questions.js?v=20261118-homev1"></script>
 <script src="questions_2024.js?v=20261118-r06-spacing"></script>
-<script src="questions_2023.js?v=20261118-r05-v1"></script>
+<script src="questions_2023.js?v=20261118-r05-v2"></script>
 <script>
 (()=>{'use strict';
 const base=Array.isArray(window.QUESTIONS)?window.QUESTIONS:[], imported=Array.isArray(window.QUESTIONS_2024)?window.QUESTIONS_2024:[];const imported2023=Array.isArray(window.QUESTIONS_2023)?window.QUESTIONS_2023:[];const all=[...base,...imported,...imported2023], $=id=>document.getElementById(id);
@@ -145,7 +145,7 @@ $('topic').textContent=q.topic||q.field;$('progress-inner').style.width=(100*(cu
 $('source').innerHTML=q.source?esc(q.source)+' 問'+q.number+'（'+(q.displayTextSource==='ipa-pdf-verified'?'原文照合済み':q.year==='2023'?'原文校閲中':'学習用の表現調整版')+'） · <a href="'+esc(q.sourceUrl)+'" target="_blank" rel="noopener noreferrer">原文PDF</a>':'オリジナル練習問題';
 $('question').textContent=q.displayText||q.q;
 const tableSets=Array.isArray(q.figureTables)?q.figureTables:[];$('figure-tables').replaceChildren();$('figure-tables').hidden=!tableSets.length;
-tableSets.forEach(rows=>{const table=document.createElement('table');table.className='question-source-table';rows.forEach((cells,i)=>{const tr=document.createElement('tr');cells.forEach(value=>{const td=document.createElement(i===0?'th':'td');td.textContent=value;tr.append(td)});table.append(tr)});$('figure-tables').append(table)});
+tableSets.forEach((rows,tableIndex)=>{const table=document.createElement('table');table.className='question-source-table';rows.forEach((cells,i)=>{const tr=document.createElement('tr');cells.forEach((value,col)=>{const td=document.createElement(i===0?'th':'td');td.textContent=value;if(i===0&&q.figureUnderlinedHeaders?.[tableIndex]?.includes(col))td.style.textDecoration='underline';tr.append(td)});table.append(tr)});if(q.figureTableLabels?.[tableIndex]){const label=document.createElement('p');label.className='note';label.textContent=q.figureTableLabels[tableIndex];$('figure-tables').append(label)}$('figure-tables').append(table)});
 const hasFigure=Boolean(q.figureUrl);$('figure').hidden=!hasFigure;
 if(hasFigure){$('figure-image').src=q.figureUrl;$('figure-image').alt=q.figureAlt||'問題の図表';$('figure-caption').textContent=q.figureCaption||'出典：IPA公式公開問題'}
 else $('figure-image').removeAttribute('src');
@@ -154,7 +154,7 @@ if(q.sourceUrl)$('figure-pdf').href=q.sourceUrl;
 $('choices').replaceChildren();$('feedback').hidden=true;$('next').hidden=true;
 (q.choices||[]).forEach((choice,i)=>{const b=document.createElement('button');b.type='button';b.className='choice';const kana=document.createElement('span');kana.className='kana';kana.textContent='アイウエ'[i];const value=document.createElement('span');value.textContent=choice;
 const choiceRows=Array.isArray(q.choiceTables)?q.choiceTables[i]:null;
-if(Array.isArray(choiceRows)){const t=document.createElement('table');t.className='question-source-table choice-source-table';choiceRows.forEach((cells,j)=>{const tr=document.createElement('tr');cells.forEach(cell=>{const td=document.createElement(j===0?'th':'td');td.textContent=cell;tr.append(td)});t.append(tr)});value.append(t)}
+if(Array.isArray(choiceRows)){const t=document.createElement('table');t.className='question-source-table choice-source-table';choiceRows.forEach((cells,j)=>{const tr=document.createElement('tr');cells.forEach((cell,k)=>{const td=document.createElement(j===0?'th':'td');td.textContent=cell;if(j===0&&q.choiceUnderlinedHeaders?.[i]?.includes(k))td.style.textDecoration='underline';tr.append(td)});t.append(tr)});value.append(t)}
 b.append(kana,value);b.addEventListener('click',()=>answer(i));$('choices').append(b)});
 saveCursor()}
 function answer(i){if(selected)return;selected=true;const q=pool[cursor],ok=i===q.answer;
