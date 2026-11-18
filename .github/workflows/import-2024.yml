@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'scripts/import_2024.py'
+      - 'scripts/import_2024_web.py'
       - '.github/workflows/import-2024.yml'
 permissions:
   contents: write
