@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Extract R08 IPA questions from public HTML transcription for manual QA.
 No text or answer is guessed; block publication if a question cannot be extracted.
-IPA official PDF: https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2026r05_ip_qs.pdf
+IPA official PDF: https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2026r08_ip_qs.pdf
 """
 import concurrent.futures
 import json
@@ -16,15 +16,15 @@ ROOT=Path(__file__).resolve().parents[1]
 KANA="アイウエ"
 OFFICIAL_ROWS=[
   "ア ア ウ イ エ エ イ ウ イ エ エ エ ウ ア イ ア イ ア ア イ ウ エ イ ア エ",
-  "ア イ イ ウ ア ウ ウ ウ ア エ ウ エ イ ウ ア ウ イ イ イ イ ウ ウ ア ウ ウ",
+  "ア イ イ ウ ア ウ ウ ウ ア エ ウ エ イ ウ ア ウ イ イ イ イ ウ ウ ウ ア ウ",
   "エ ア イ ウ ウ エ ウ ア ウ ア イ エ ウ ウ エ イ イ エ ウ エ ア イ エ ア エ",
   "エ ウ エ ウ エ ア ア ア エ エ エ ア ア イ ウ ウ イ ア イ イ ア イ ウ イ ウ"
 ]
 OFFICIAL_KEYS=[KANA.index(c) for row in OFFICIAL_ROWS for c in row.split()]
 assert len(OFFICIAL_KEYS)==100
 BASE="https://e-words.jp/p/e-ip-past-R08-{}.html"
-IPA_Q="https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2026r05_ip_qs.pdf"
-IPA_A="https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2026r05_ip_ans.pdf"
+IPA_Q="https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2026r08_ip_qs.pdf"
+IPA_A="https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2026r08_ip_ans.pdf"
 OUTPUT=ROOT/"questions_2026.js"
 IMAGE_ROOT=ROOT/"assets"/"questions"/"2026"
 HEADERS={"User-Agent":"Mozilla/5.0 (compatible; ExamPublisher/1.0)"}
