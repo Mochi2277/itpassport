@@ -1,3 +1,4 @@
+// 令和3年度公開問題100問、独自作成の解説案。
 window.QUESTIONS_2021 = [
   {
     "id": "ipa-2021-001",
@@ -15,15 +16,16 @@ window.QUESTIONS_2021 = [
       "データ項目を詳細に検討し，データベースの実装方法を明らかにする。"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "E-R図は顧客、製品などの管理対象（エンティティ）とその関係（リレーションシップ）を可視化し、データの意味や構造を整理します。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-1.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-002",
@@ -41,15 +43,16 @@ window.QUESTIONS_2021 = [
       "ITUは，電気通信分野の国際標準化機関である。"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "ITUは電気通信分野の国際標準化に関わる国際機関です。ISOやIECなどと対象分野が異なります。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-2.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-003",
@@ -67,15 +70,16 @@ window.QUESTIONS_2021 = [
       "ブレーンストーミング"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "ニューラルネットワークは生物の神経細胞の結び付きを数学的に模した仕組みで、機械学習やディープラーニングに使われます。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-3.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-004",
@@ -93,15 +97,16 @@ window.QUESTIONS_2021 = [
       "情報システムや業務プロセスの現状を把握し，あるべき企業の姿とのギャップを埋めるための目標を設定し，全体最適化を図ること"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "エンタープライズサーチは社内の複数のシステムや文書を横断して一元的に検索できる仕組みです。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-4.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-005",
@@ -119,15 +124,16 @@ window.QUESTIONS_2021 = [
       "ネットワークを介して，複数台のコンピュータに処理を分散させ，処理結果を共有すること"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "クラウドコンピューティングはソフトウェアや計算・記憶資源をネットワーク経由で必要に応じて利用する方式です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-5.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-006",
@@ -145,15 +151,16 @@ window.QUESTIONS_2021 = [
       "電気自動車"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "コネクテッドカーは車両をネットワークにつなぎ、走行データなどを外部サービスと連携させる自動車です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-6.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-007",
@@ -161,8 +168,8 @@ window.QUESTIONS_2021 = [
     "number": 7,
     "field": "ストラテジ系",
     "topic": "知的財産権",
-    "q": "著作権法によって保護の対象と成り得るものだけを，全て挙げたものはどれか。\n\n\r\naインターネットに公開されたフリーソフトウェア\n\r\nbデータベースの操作マニュアル\n\r\ncプログラム言語\n\r\ndプログラムのアルゴリズム",
-    "displayText": "著作権法によって保護の対象と成り得るものだけを，全て挙げたものはどれか。\n\n\r\naインターネットに公開されたフリーソフトウェア\n\r\nbデータベースの操作マニュアル\n\r\ncプログラム言語\n\r\ndプログラムのアルゴリズム",
+    "q": "著作権法によって保護の対象と成り得るものだけを，全て挙げたものはどれか。\n\na　インターネットに公開されたフリーソフトウェア\n\nb　データベースの操作マニュアル\n\nc　プログラム言語\n\nd　プログラムのアルゴリズム",
+    "displayText": "著作権法によって保護の対象と成り得るものだけを，全て挙げたものはどれか。\n\na　インターネットに公開されたフリーソフトウェア\n\nb　データベースの操作マニュアル\n\nc　プログラム言語\n\nd　プログラムのアルゴリズム",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
       "a，b",
@@ -171,15 +178,16 @@ window.QUESTIONS_2021 = [
       "c，d"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "フリーソフトウェアのプログラムや創作性のあるマニュアルは著作物になり得ます。プログラム言語やアルゴリズムそのものは著作権の対象ではありません。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-7.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-008",
@@ -197,15 +205,16 @@ window.QUESTIONS_2021 = [
       "ラガード"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "アーリーアダプターは新しい製品を早い段階で採用し、周囲の利用者にも影響を与える層です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-8.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-009",
@@ -213,8 +222,8 @@ window.QUESTIONS_2021 = [
     "number": 9,
     "field": "ストラテジ系",
     "topic": "知的財産権",
-    "q": "不適切な行為a～cのうち，不正競争防止法で規制されているものだけを全て挙げたものはどれか。\n\n\r\naキャンペーンの応募者の個人情報を，応募者に無断で他の目的のために利用する行為\n\r\nb他人のIDとパスワードを不正に入手し，それらを使用してインターネット経由でコンピュータにアクセスする行為\n\r\nc不正な利益を得ようとして，他社の商品名や社名に類似したドメイン名を使用する行為",
-    "displayText": "不適切な行為a～cのうち，不正競争防止法で規制されているものだけを全て挙げたものはどれか。\n\n\r\naキャンペーンの応募者の個人情報を，応募者に無断で他の目的のために利用する行為\n\r\nb他人のIDとパスワードを不正に入手し，それらを使用してインターネット経由でコンピュータにアクセスする行為\n\r\nc不正な利益を得ようとして，他社の商品名や社名に類似したドメイン名を使用する行為",
+    "q": "不適切な行為a～cのうち，不正競争防止法で規制されているものだけを全て挙げたものはどれか。\n\na　キャンペーンの応募者の個人情報を，応募者に無断で他の目的のために利用する行為\n\nb　他人のIDとパスワードを不正に入手し，それらを使用してインターネット経由でコンピュータにアクセスする行為\n\nc　不正な利益を得ようとして，他社の商品名や社名に類似したドメイン名を使用する行為",
+    "displayText": "不適切な行為a～cのうち，不正競争防止法で規制されているものだけを全て挙げたものはどれか。\n\na　キャンペーンの応募者の個人情報を，応募者に無断で他の目的のために利用する行為\n\nb　他人のIDとパスワードを不正に入手し，それらを使用してインターネット経由でコンピュータにアクセスする行為\n\nc　不正な利益を得ようとして，他社の商品名や社名に類似したドメイン名を使用する行為",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
       "a",
@@ -223,15 +232,16 @@ window.QUESTIONS_2021 = [
       "c"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "営業秘密の不正取得・使用などは不正競争防止法で規制されます。問題のcがその対象です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-9.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-010",
@@ -249,15 +259,16 @@ window.QUESTIONS_2021 = [
       "対象とする分野において，実現が期待されている技術を時間軸とともに示したもの"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "技術ロードマップは今後の技術開発の方向性や実現時期の見通しを時間軸に沿って整理したものです。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-10.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-011",
@@ -275,15 +286,16 @@ window.QUESTIONS_2021 = [
       "受注データの入力や更新など，PCで実施する定型的な作業に適している。"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "RPAはソフトウェアロボットによって定型的なPC操作を自動化する仕組みで、受注データの入力・転記に適しています。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-11.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-012",
@@ -291,8 +303,8 @@ window.QUESTIONS_2021 = [
     "number": 12,
     "field": "ストラテジ系",
     "topic": "労働関連・取引関連法規",
-    "q": "労働者派遣に関する記述a～cのうち，適切なものだけを全て挙げたものはどれか。\n\n\r\na派遣契約の種類によらず，派遣労働者の選任は派遣先が行う。\n\r\nb派遣労働者であった者を，派遣元との雇用期間が終了後，派遣先が雇用してもよい。\n\r\nc派遣労働者の給与を派遣先が支払う。",
-    "displayText": "労働者派遣に関する記述a～cのうち，適切なものだけを全て挙げたものはどれか。\n\n\r\na派遣契約の種類によらず，派遣労働者の選任は派遣先が行う。\n\r\nb派遣労働者であった者を，派遣元との雇用期間が終了後，派遣先が雇用してもよい。\n\r\nc派遣労働者の給与を派遣先が支払う。",
+    "q": "労働者派遣に関する記述a～cのうち，適切なものだけを全て挙げたものはどれか。\n\na　派遣契約の種類によらず，派遣労働者の選任は派遣先が行う。\n\nb　派遣労働者であった者を，派遣元との雇用期間が終了後，派遣先が雇用してもよい。\n\nc　派遣労働者の給与を派遣先が支払う。",
+    "displayText": "労働者派遣に関する記述a～cのうち，適切なものだけを全て挙げたものはどれか。\n\na　派遣契約の種類によらず，派遣労働者の選任は派遣先が行う。\n\nb　派遣労働者であった者を，派遣元との雇用期間が終了後，派遣先が雇用してもよい。\n\nc　派遣労働者の給与を派遣先が支払う。",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
       "a",
@@ -301,15 +313,16 @@ window.QUESTIONS_2021 = [
       "b，c"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "派遣労働者は派遣元と雇用契約を結び、派遣先の指揮命令で働きます。派遣元との契約終了後に派遣先が雇用すること自体は可能です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-12.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-013",
@@ -327,15 +340,16 @@ window.QUESTIONS_2021 = [
       "損害保険会社において，事故の内容や回数に基づいた等級を設定しておき，インターネット自動車保険の契約者ごとに，1年間の事故履歴に応じて等級を上下させるとともに，保険料を変更する。"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "ロボアドバイザーはAIやアルゴリズムを活用して投資提案・資産運用を支援するFinTechの例です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-13.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-014",
@@ -353,15 +367,16 @@ window.QUESTIONS_2021 = [
       "運用プロセス"
     ],
     "answer": 1,
-    "explanation": "正解は「イ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "要件定義は利用者や利害関係者が必要とするシステムの機能・条件を明確にして合意する工程です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-14.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-015",
@@ -379,15 +394,16 @@ window.QUESTIONS_2021 = [
       "B社のソフトウェアパッケージ導入担当部門"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "EUCは利用部門自身がデータ抽出や加工などを行う考え方なので、営業部門が担当するのが適切です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-15.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-016",
@@ -405,15 +421,16 @@ window.QUESTIONS_2021 = [
       "配送コストの削減と，消費者への接触頻度増加によるエリア密着性向上を狙って，同一エリア内に密度の高い店舗展開を行うこと"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "マーチャンダイジングは顧客のニーズに合わせた商品構成、仕入、価格、陳列などを考えて販売につなげる活動です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-16.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-017",
@@ -421,8 +438,8 @@ window.QUESTIONS_2021 = [
     "number": 17,
     "field": "ストラテジ系",
     "topic": "その他の法律・ガイドライン・情報倫理",
-    "q": "プロバイダが提供したサービスにおいて発生した事例a～cのうち，プロバイダ責任制限法によって，プロバイダの対応責任の対象となり得るものだけを全て挙げたものはどれか。\n\n\r\na氏名などの個人情報が電子掲示板に掲載されて，個人の権利が侵害された。\n\r\nb受信した電子メールの添付ファイルによってマルウェアに感染させられた。\n\r\nc無断で利用者IDとパスワードを使われて，ショッピングサイトにアクセスされた。",
-    "displayText": "プロバイダが提供したサービスにおいて発生した事例a～cのうち，プロバイダ責任制限法によって，プロバイダの対応責任の対象となり得るものだけを全て挙げたものはどれか。\n\n\r\na氏名などの個人情報が電子掲示板に掲載されて，個人の権利が侵害された。\n\r\nb受信した電子メールの添付ファイルによってマルウェアに感染させられた。\n\r\nc無断で利用者IDとパスワードを使われて，ショッピングサイトにアクセスされた。",
+    "q": "プロバイダが提供したサービスにおいて発生した事例a～cのうち，プロバイダ責任制限法によって，プロバイダの対応責任の対象となり得るものだけを全て挙げたものはどれか。\n\na　氏名などの個人情報が電子掲示板に掲載されて，個人の権利が侵害された。\n\nb　受信した電子メールの添付ファイルによってマルウェアに感染させられた。\n\nc　無断で利用者IDとパスワードを使われて，ショッピングサイトにアクセスされた。",
+    "displayText": "プロバイダが提供したサービスにおいて発生した事例a～cのうち，プロバイダ責任制限法によって，プロバイダの対応責任の対象となり得るものだけを全て挙げたものはどれか。\n\na　氏名などの個人情報が電子掲示板に掲載されて，個人の権利が侵害された。\n\nb　受信した電子メールの添付ファイルによってマルウェアに感染させられた。\n\nc　無断で利用者IDとパスワードを使われて，ショッピングサイトにアクセスされた。",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
       "a",
@@ -431,15 +448,16 @@ window.QUESTIONS_2021 = [
       "c"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "掲示板などでの権利侵害について、プロバイダ責任制限法は一定の条件でプロバイダの責任や発信者情報開示を定めていました。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-17.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-018",
@@ -457,15 +475,16 @@ window.QUESTIONS_2021 = [
       "見込み客訪問件数"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "見込み客への訪問件数は新規顧客獲得に向けた活動量を示す先行指標です。実際の契約件数は結果指標です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-18.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-019",
@@ -483,15 +502,16 @@ window.QUESTIONS_2021 = [
       "ブログの書き込みのような，分析されることを前提としていないデータについては，分析の目的にかかわらず，対象から除外する。"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "ビッグデータから将来の状態を予測する際は統計的手法に加え、機械学習も有効です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-19.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-020",
@@ -509,15 +529,16 @@ window.QUESTIONS_2021 = [
       "ヘルプデスクの画面に，システムの使い方についての問合せを文字で入力すると，会話形式で応答を得ることができるようになった。"
     ],
     "answer": 1,
-    "explanation": "正解は「イ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "大量の果物画像から特徴を自動抽出できるようになることは、画像認識における機械学習の例です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-20.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-021",
@@ -535,15 +556,16 @@ window.QUESTIONS_2021 = [
       "リピート顧客を，最新購買日，購買頻度，購買金額の三つの観点から分析する。"
     ],
     "answer": 1,
-    "explanation": "正解は「イ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "ABC分析は売上高や数量などの大きい順に対象をグループ分けし、管理の優先順位を決める手法です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-21.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-022",
@@ -561,15 +583,16 @@ window.QUESTIONS_2021 = [
       "システム機能を実現するために必要なパラメタを業務パッケージに設定する。"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "システム化計画の段階では候補パッケージの機能・性能・価格などを比較し、導入方針を検討します。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-22.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-023",
@@ -587,15 +610,16 @@ window.QUESTIONS_2021 = [
       "問題児"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "PPMの「問題児」は市場成長率が高い一方で市場占有率が低い製品・サービスを指します。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-23.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-024",
@@ -613,15 +637,16 @@ window.QUESTIONS_2021 = [
       "仕事の時間と私生活の時間の調和に取り組むこと"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "テレワークは情報通信技術を活用し、場所や時間に制約されず柔軟に働く形態です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-24.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-025",
@@ -639,15 +664,16 @@ window.QUESTIONS_2021 = [
       "金融庁や財務局などの官公署は，安全性が優れた暗号資産の情報提供を行っているので，官公署の職員から勧められた暗号資産を主に取引する。"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "暗号資産は価格変動や手数料などのリスクがあるため、契約条件や取引の仕組みを理解することが重要です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-25.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-026",
@@ -665,15 +691,16 @@ window.QUESTIONS_2021 = [
       "コンピテンシ"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "HRTechはAIなどのデジタル技術を人事評価、採用、育成、労務管理などに活用する取り組みです。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-26.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-027",
@@ -691,15 +718,16 @@ window.QUESTIONS_2021 = [
       "図書館の本にICタグを付け，簡単に蔵書の管理ができるようにした。"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "BYODは会社が認めた私有端末を業務で利用する方式です。社内システムへの安全なアクセスには運用ルールが必要です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-27.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-028",
@@ -707,8 +735,8 @@ window.QUESTIONS_2021 = [
     "number": 28,
     "field": "ストラテジ系",
     "topic": "会計・財務",
-    "q": "次の当期末損益計算資料から求められる経常利益は何百万円か。\n\n\r\n単位百万円\n売上高3,000\n\n売上原価1,500\n\n販売費及び一般管理費500\n\n営業外費用15\n\n特別損失300\n\n法人税300",
-    "displayText": "次の当期末損益計算資料から求められる経常利益は何百万円か。\n\n\r\n単位百万円\n売上高3,000\n\n売上原価1,500\n\n販売費及び一般管理費500\n\n営業外費用15\n\n特別損失300\n\n法人税300",
+    "q": "次の当期末損益計算資料から求められる経常利益は何百万円か。\n\n単位百万円\n売上高3,000\n\n売上原価1,500\n\n販売費及び一般管理費500\n\n営業外費用15\n\n特別損失300\n\n法人税300",
+    "displayText": "次の当期末損益計算資料から求められる経常利益は何百万円か。\n\n単位百万円\n売上高3,000\n\n売上原価1,500\n\n販売費及び一般管理費500\n\n営業外費用15\n\n特別損失300\n\n法人税300",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
       "385",
@@ -717,8 +745,8 @@ window.QUESTIONS_2021 = [
       "1000"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "経常利益は営業利益に営業外収益を加え、営業外費用を引きます。3,000－1,500－500－15＝985百万円です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
@@ -753,7 +781,8 @@ window.QUESTIONS_2021 = [
         ]
       ]
     ],
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-029",
@@ -771,15 +800,16 @@ window.QUESTIONS_2021 = [
       "（税引前当期純利益）-（法人税，住民税及び事業税）"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "粗利益（売上総利益）は売上高から売上原価を差し引いて求めます。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-29.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-030",
@@ -787,8 +817,8 @@ window.QUESTIONS_2021 = [
     "number": 30,
     "field": "ストラテジ系",
     "topic": "セキュリティ関連法規",
-    "q": "情報の取扱いに関する不適切な行為a～cのうち，不正アクセス禁止法で定められている禁止行為に該当するものだけを全て挙げたものはどれか。\n\n\r\naオフィス内で拾った手帳に記載されていた他人の利用者IDとパスワードを無断で使って，自社のサーバにネットワークを介してログインし，格納されていた人事評価情報を閲覧した。\n\r\nb同僚が席を離れたときに，同僚のPCの画面に表示されていた，自分にはアクセスする権限のない人事評価情報を閲覧した。\n\r\nc部門の保管庫に保管されていた人事評価情報が入ったUSBメモリを上司に無断で持ち出し，自分のPCで人事評価情報を閲覧した。",
-    "displayText": "情報の取扱いに関する不適切な行為a～cのうち，不正アクセス禁止法で定められている禁止行為に該当するものだけを全て挙げたものはどれか。\n\n\r\naオフィス内で拾った手帳に記載されていた他人の利用者IDとパスワードを無断で使って，自社のサーバにネットワークを介してログインし，格納されていた人事評価情報を閲覧した。\n\r\nb同僚が席を離れたときに，同僚のPCの画面に表示されていた，自分にはアクセスする権限のない人事評価情報を閲覧した。\n\r\nc部門の保管庫に保管されていた人事評価情報が入ったUSBメモリを上司に無断で持ち出し，自分のPCで人事評価情報を閲覧した。",
+    "q": "情報の取扱いに関する不適切な行為a～cのうち，不正アクセス禁止法で定められている禁止行為に該当するものだけを全て挙げたものはどれか。\n\na　オフィス内で拾った手帳に記載されていた他人の利用者IDとパスワードを無断で使って，自社のサーバにネットワークを介してログインし，格納されていた人事評価情報を閲覧した。\n\nb　同僚が席を離れたときに，同僚のPCの画面に表示されていた，自分にはアクセスする権限のない人事評価情報を閲覧した。\n\nc　部門の保管庫に保管されていた人事評価情報が入ったUSBメモリを上司に無断で持ち出し，自分のPCで人事評価情報を閲覧した。",
+    "displayText": "情報の取扱いに関する不適切な行為a～cのうち，不正アクセス禁止法で定められている禁止行為に該当するものだけを全て挙げたものはどれか。\n\na　オフィス内で拾った手帳に記載されていた他人の利用者IDとパスワードを無断で使って，自社のサーバにネットワークを介してログインし，格納されていた人事評価情報を閲覧した。\n\nb　同僚が席を離れたときに，同僚のPCの画面に表示されていた，自分にはアクセスする権限のない人事評価情報を閲覧した。\n\nc　部門の保管庫に保管されていた人事評価情報が入ったUSBメモリを上司に無断で持ち出し，自分のPCで人事評価情報を閲覧した。",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
       "a",
@@ -797,15 +827,16 @@ window.QUESTIONS_2021 = [
       "a，c"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "本人の許可なく他人のID・パスワードを用いて認証を突破する行為は不正アクセス禁止法の規制対象です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-30.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-031",
@@ -823,15 +854,16 @@ window.QUESTIONS_2021 = [
       "複数のシステムで取引履歴を分散管理する仕組み"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "APIエコノミーは企業間でAPIを公開・連携して、既存の機能を組み合わせた新たなサービスや価値を生む仕組みです。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-31.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-032",
@@ -839,8 +871,8 @@ window.QUESTIONS_2021 = [
     "number": 32,
     "field": "ストラテジ系",
     "topic": "情報セキュリティ管理",
-    "q": "a～cのうち，サイバーセキュリティ基本法に規定されているものだけを全て挙げたものはどれか。\n\n\r\naサイバーセキュリティに関して，国や地方公共団体が果たすべき責務\n\r\nbサイバーセキュリティに関して，国民が努力すべきこと\n\r\ncサイバーセキュリティに関する施策の推進についての基本理念",
-    "displayText": "a～cのうち，サイバーセキュリティ基本法に規定されているものだけを全て挙げたものはどれか。\n\n\r\naサイバーセキュリティに関して，国や地方公共団体が果たすべき責務\n\r\nbサイバーセキュリティに関して，国民が努力すべきこと\n\r\ncサイバーセキュリティに関する施策の推進についての基本理念",
+    "q": "a　～cのうち，サイバーセキュリティ基本法に規定されているものだけを全て挙げたものはどれか。\n\na　サイバーセキュリティに関して，国や地方公共団体が果たすべき責務\n\nb　サイバーセキュリティに関して，国民が努力すべきこと\n\nc　サイバーセキュリティに関する施策の推進についての基本理念",
+    "displayText": "a　～cのうち，サイバーセキュリティ基本法に規定されているものだけを全て挙げたものはどれか。\n\na　サイバーセキュリティに関して，国や地方公共団体が果たすべき責務\n\nb　サイバーセキュリティに関して，国民が努力すべきこと\n\nc　サイバーセキュリティに関する施策の推進についての基本理念",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
       "a，b",
@@ -849,15 +881,16 @@ window.QUESTIONS_2021 = [
       "b，c"
     ],
     "answer": 1,
-    "explanation": "正解は「イ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "サイバーセキュリティ基本法は国・地方公共団体などの責務や国民の努力義務、施策の基本方針を定めています。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-32.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-033",
@@ -875,15 +908,16 @@ window.QUESTIONS_2021 = [
       "見積書，納品書，請求書"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "請負契約では納品後に発注者が成果物を検収し、その後請求書に基づいて代金を支払う流れが一般的です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-33.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-034",
@@ -901,15 +935,16 @@ window.QUESTIONS_2021 = [
       "販売店の売上データを本部のサーバに集めるようにしたので，年齢別や性別の販売トレンドの分析ができるようになった。"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "SCMでは売上情報を供給側へ共有して生産・配送を需要に合わせ、在庫や納期の無駄を削減します。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-34.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-035",
@@ -927,15 +962,16 @@ window.QUESTIONS_2021 = [
       "見込み生産方式"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "かんばん方式は後工程からの要求に応じて必要な数量だけ生産・補充するジャストインタイム生産の一方式です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-35.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-036",
@@ -953,15 +989,16 @@ window.QUESTIONS_2021 = [
       "500万円"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "完成率40％に対して実費600万円なので、同じ効率なら総費用は600÷0.4＝1,500万円です。予算超過は500万円になります。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-36.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-037",
@@ -979,15 +1016,16 @@ window.QUESTIONS_2021 = [
       "リリース及び展開管理"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "リリース及び展開管理は変更済みのハードウェアやソフトウェアを実運用環境に導入・展開する活動です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-37.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-038",
@@ -995,8 +1033,8 @@ window.QUESTIONS_2021 = [
     "number": 38,
     "field": "マネジメント系",
     "topic": "システム監査",
-    "q": "システム監査の手順に関して，次の記述中のa，bに入れる字句の適切な組合せはどれか。\n\n\r\nシステム監査は， [ a ]に基づき[ b ]の手順によって実施しなければならない。\n\na b\n\nア監査計画結合テスト，システムテスト，運用テスト\n\nイ監査計画予備調査，本調査，評価・結論\n\nウ法令結合テスト，システムテスト，運用テスト\n\nエ法令予備調査，本調査，評価・結論",
-    "displayText": "システム監査の手順に関して，次の記述中のa，bに入れる字句の適切な組合せはどれか。\n\n\r\nシステム監査は， [ a ]に基づき[ b ]の手順によって実施しなければならない。\n\na b\n\nア監査計画結合テスト，システムテスト，運用テスト\n\nイ監査計画予備調査，本調査，評価・結論\n\nウ法令結合テスト，システムテスト，運用テスト\n\nエ法令予備調査，本調査，評価・結論",
+    "q": "システム監査の手順に関して，次の記述中のa，bに入れる字句の適切な組合せはどれか。\n\nシステム監査は， [ a ]に基づき[ b ]の手順によって実施しなければならない。\n\na b\n\nア監査計画結合テスト，システムテスト，運用テスト\n\nイ監査計画予備調査，本調査，評価・結論\n\nウ法令結合テスト，システムテスト，運用テスト\n\nエ法令予備調査，本調査，評価・結論",
+    "displayText": "システム監査の手順に関して，次の記述中のa，bに入れる字句の適切な組合せはどれか。\n\nシステム監査は， [ a ]に基づき[ b ]の手順によって実施しなければならない。\n\na b\n\nア監査計画結合テスト，システムテスト，運用テスト\n\nイ監査計画予備調査，本調査，評価・結論\n\nウ法令結合テスト，システムテスト，運用テスト\n\nエ法令予備調査，本調査，評価・結論",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
       "監査計画 | 結合テスト，システムテスト，運用テスト",
@@ -1005,15 +1043,16 @@ window.QUESTIONS_2021 = [
       "法令 | 予備調査，本調査，評価・結論"
     ],
     "answer": 1,
-    "explanation": "正解は「イ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "システム監査は監査計画に基づき、予備調査、本調査、評価・結論という手順で進めます。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-38.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-039",
@@ -1031,15 +1070,16 @@ window.QUESTIONS_2021 = [
       "新規に参加するメンバの人件費を見積もり，その計画を変更する。"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "新しい要員の人件費見積りと予算変更は、プロジェクトコストマネジメントの活動です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-39.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-040",
@@ -1057,15 +1097,16 @@ window.QUESTIONS_2021 = [
       "レーダチャート"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "管理図は測定値を時系列に並べ、管理限界を超える異常な変動を検知するために使います。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-40.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-041",
@@ -1083,15 +1124,16 @@ window.QUESTIONS_2021 = [
       "プロトタイピング"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "オブジェクト指向はクラスとオブジェクト、継承などを用いてソフトウェアを整理・再利用する考え方です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-41.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-042",
@@ -1109,15 +1151,16 @@ window.QUESTIONS_2021 = [
       "プロジェクト統合マネジメント"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "追加機能の実装に伴って工程や担当者・全体計画を調整するのはプロジェクト統合マネジメントです。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-42.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-043",
@@ -1135,15 +1178,16 @@ window.QUESTIONS_2021 = [
       "総合テストと運用テストの間"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "委託先が担当する結合テストの完了後、発注側が担当する総合テストに移る境界で成果物の受入れを確認します。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-43.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-044",
@@ -1161,15 +1205,16 @@ window.QUESTIONS_2021 = [
       "ワークアラウンド"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "難度の高いインシデントを専門部門などへ引き継ぐことをエスカレーションといいます。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-44.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-045",
@@ -1187,15 +1232,16 @@ window.QUESTIONS_2021 = [
       "プロジェクトマネジメントの知識を体系化している。"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "ITILはITサービスの提供と運用に関するベストプラクティスをまとめた体系です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-45.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-046",
@@ -1213,15 +1259,16 @@ window.QUESTIONS_2021 = [
       "障害の復旧時間"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "照会機能の応答時間は処理の速さに関する性能要件です。画面の項目などは機能要件に当たります。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-46.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-047",
@@ -1239,15 +1286,16 @@ window.QUESTIONS_2021 = [
       "プロジェクト品質マネジメント"
     ],
     "answer": 1,
-    "explanation": "正解は「イ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "当初定めた画面・帳票と実際の成果物の差を確認するのはスコープ（作業範囲と成果物）の管理です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-47.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-048",
@@ -1265,15 +1313,16 @@ window.QUESTIONS_2021 = [
       "リファクタリング"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "リファクタリングは外部から見える機能を変えずにコード内部の構造を改善する作業です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-48.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-049",
@@ -1281,8 +1330,8 @@ window.QUESTIONS_2021 = [
     "number": 49,
     "field": "マネジメント系",
     "topic": "内部統制",
-    "q": "ITガバナンスに関する次の記述中のaに入れる，最も適切な字句はどれか。\n\n\r\n[ a ]は，現在及び将来のITの利用についての評価とIT利用が事業の目的に合致することを確実にする役割がある。",
-    "displayText": "ITガバナンスに関する次の記述中のaに入れる，最も適切な字句はどれか。\n\n\r\n[ a ]は，現在及び将来のITの利用についての評価とIT利用が事業の目的に合致することを確実にする役割がある。",
+    "q": "ITガバナンスに関する次の記述中のaに入れる，最も適切な字句はどれか。\n\n[ a ]は，現在及び将来のITの利用についての評価とIT利用が事業の目的に合致することを確実にする役割がある。",
+    "displayText": "ITガバナンスに関する次の記述中のaに入れる，最も適切な字句はどれか。\n\n[ a ]は，現在及び将来のITの利用についての評価とIT利用が事業の目的に合致することを確実にする役割がある。",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
       "株主",
@@ -1291,15 +1340,16 @@ window.QUESTIONS_2021 = [
       "情報システム責任者"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "ITガバナンスでは経営者が現在・将来のIT活用を評価・指示・監督し、経営目標との整合を図ります。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-49.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-050",
@@ -1317,8 +1367,8 @@ window.QUESTIONS_2021 = [
       "406"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "図に示された処理と移動の並行可能な部分を重ね、作業の完了時刻を比較すると最短223秒です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
@@ -1332,7 +1382,8 @@ window.QUESTIONS_2021 = [
     "figureCaption": "問題の図（公開問題の転記資料から取得）",
     "figureFiles": [
       "assets/questions/2021/q050-1.png"
-    ]
+    ],
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-051",
@@ -1350,15 +1401,16 @@ window.QUESTIONS_2021 = [
       "分析システムの開発において，分析の精度の向上を図るために，固定された短期間のサイクルを繰り返しながら分析プログラムの機能を順次追加する。"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "アジャイル開発は短い反復を繰り返し、機能を段階的に実装・改善する方式です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-51.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-052",
@@ -1366,8 +1418,8 @@ window.QUESTIONS_2021 = [
     "number": 52,
     "field": "マネジメント系",
     "topic": "ファシリティマネジメント",
-    "q": "自社の情報システムに関して， BCP （事業継続計画）に基づいて，マネジメントの視点から行う活動a～dのうち，適切なものだけを全て挙げたものはどれか。\n\n\r\na重要データのバックアップを定期的に取得する。\n\r\nb非常時用の発電機と燃料を確保する。\n\r\nc複数の通信網を確保する。\n\r\nd復旧手順の訓練を実施する。",
-    "displayText": "自社の情報システムに関して， BCP （事業継続計画）に基づいて，マネジメントの視点から行う活動a～dのうち，適切なものだけを全て挙げたものはどれか。\n\n\r\na重要データのバックアップを定期的に取得する。\n\r\nb非常時用の発電機と燃料を確保する。\n\r\nc複数の通信網を確保する。\n\r\nd復旧手順の訓練を実施する。",
+    "q": "自社の情報システムに関して， BCP （事業継続計画）に基づいて，マネジメントの視点から行う活動a～dのうち，適切なものだけを全て挙げたものはどれか。\n\na　重要データのバックアップを定期的に取得する。\n\nb　非常時用の発電機と燃料を確保する。\n\nc　複数の通信網を確保する。\n\nd　復旧手順の訓練を実施する。",
+    "displayText": "自社の情報システムに関して， BCP （事業継続計画）に基づいて，マネジメントの視点から行う活動a～dのうち，適切なものだけを全て挙げたものはどれか。\n\na　重要データのバックアップを定期的に取得する。\n\nb　非常時用の発電機と燃料を確保する。\n\nc　複数の通信網を確保する。\n\nd　復旧手順の訓練を実施する。",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
       "a，b，c",
@@ -1376,15 +1428,16 @@ window.QUESTIONS_2021 = [
       "b，c，d"
     ],
     "answer": 1,
-    "explanation": "正解は「イ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "BCPの実効性を高めるにはバックアップ、非常用電源、訓練などの対策を組織的に計画・実施します。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-52.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-053",
@@ -1402,15 +1455,16 @@ window.QUESTIONS_2021 = [
       "SLMを効果的な活動にするために， SLAで合意するサービスレベルを容易に達成できるレベルにしておくことが重要である。"
     ],
     "answer": 1,
-    "explanation": "正解は「イ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "SLM（サービスレベル管理）はSLAで合意した目標の達成状況を測定・監視し、サービス品質を改善します。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-53.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-054",
@@ -1428,15 +1482,16 @@ window.QUESTIONS_2021 = [
       "WBSで定義した作業の内容と意味を明確に定義する。"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "WBS辞書はWBSの各作業の内容、成果物、完了条件などを詳しく記述する補助文書です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-54.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-055",
@@ -1454,15 +1509,16 @@ window.QUESTIONS_2021 = [
       "メールシステムの開発部門"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "システム監査は監査対象の業務から独立した立場で実施する必要があります。社長直轄の品質保証部門は独立性を確保しやすい例です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-55.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-056",
@@ -1480,15 +1536,16 @@ window.QUESTIONS_2021 = [
       "フィッシング"
     ],
     "answer": 1,
-    "explanation": "正解は「イ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "DNSキャッシュポイズニングはDNSの名前解決情報を不正に書き換え、利用者を偽サイトへ誘導する攻撃です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-56.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-057",
@@ -1506,15 +1563,16 @@ window.QUESTIONS_2021 = [
       "ブレードサーバ"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "ブレードサーバはCPUやメモリ等を載せた薄型のサーバ基板を筐体に複数収め、省スペースで運用する方式です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-57.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-058",
@@ -1532,15 +1590,16 @@ window.QUESTIONS_2021 = [
       "サーバルームの入り口に入退室管理簿を置いて記録させる。"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "サークル型の入退室ゲートは一度に通過できる人数を物理的に制限し、共連れを防ぐ対策になります。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-58.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-059",
@@ -1558,15 +1617,16 @@ window.QUESTIONS_2021 = [
       "Rさんは，同じ内容のメールがPさんとQさんに送信されていることを知ることはできない。"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "To・Ccの宛先は原則として受信者に見えますが、Bccの宛先はほかの受信者には通知されません。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-59.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-060",
@@ -1584,15 +1644,16 @@ window.QUESTIONS_2021 = [
       "利用者IDの入力画面へ利用者IDを入力するとパスワードの入力画面に切り替わり，パスワードを入力することによってログインできる。"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "二段階認証は認証手順を複数段階に分ける方式です。パスワードの後に秘密の質問を求める例は二段階認証ですが、二要素認証とは限りません。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-60.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-061",
@@ -1610,15 +1671,16 @@ window.QUESTIONS_2021 = [
       "RFID"
     ],
     "answer": 1,
-    "explanation": "正解は「イ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "PCI DSSはクレジットカードの会員情報を安全に管理するためのセキュリティ基準です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-61.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-062",
@@ -1636,15 +1698,16 @@ window.QUESTIONS_2021 = [
       "ロック"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "コミットはトランザクションを正常完了させ、更新を確定する操作です。関連する処理を一体として扱うことで整合性を維持します。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-62.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-063",
@@ -1662,15 +1725,16 @@ window.QUESTIONS_2021 = [
       "ブラウザとWebサーバ間の通信を暗号化するためには，PCの場合はWPA2を利用し，スマートフォンの場合はSSL/TLSを利用する。"
     ],
     "answer": 1,
-    "explanation": "正解は「イ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "SSL/TLSはブラウザとWebサーバ間の通信を暗号化し、WPA2は無線LAN区間の通信を保護します。両者は別の範囲を守ります。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-63.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-064",
@@ -1688,15 +1752,16 @@ window.QUESTIONS_2021 = [
       "レジスタ"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "レジスタはCPUの内部にある高速・小容量の記憶回路で、演算対象やアドレスなどを一時的に保持します。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-64.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-065",
@@ -1714,15 +1779,16 @@ window.QUESTIONS_2021 = [
       "データ量が多く電子メールで送れない業務で使うファイルを，会社が許可していないオンラインストレージサービスを利用して取引先に送付した。"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "シャドーITは情報システム部門や会社が把握・許可していないITサービスを業務で使うことです。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-65.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-066",
@@ -1740,15 +1806,16 @@ window.QUESTIONS_2021 = [
       "512"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "RGBの各色を3ビットで表すと、1色あたり8段階です。3色の組合せは8³＝512通りです。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-66.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-067",
@@ -1756,8 +1823,8 @@ window.QUESTIONS_2021 = [
     "number": 67,
     "field": "テクノロジ系",
     "topic": "情報セキュリティ管理",
-    "q": "ISMSにおける情報セキュリティに関する次の記述中のa，bに入れる字句の適切な組合せはどれか。\n\n\r\n情報セキュリティとは，情報の機密性，完全性及び[ a ]を維持することである。さらに，真正性，責任追跡性，否認防止， [ b ]などの特性を維持することを含める場合もある。\n\na b\n\nア可用性信頼性\n\nイ可用性保守性\n\nウ保全性信頼性\n\nエ保全性保守性",
-    "displayText": "ISMSにおける情報セキュリティに関する次の記述中のa，bに入れる字句の適切な組合せはどれか。\n\n\r\n情報セキュリティとは，情報の機密性，完全性及び[ a ]を維持することである。さらに，真正性，責任追跡性，否認防止， [ b ]などの特性を維持することを含める場合もある。\n\na b\n\nア可用性信頼性\n\nイ可用性保守性\n\nウ保全性信頼性\n\nエ保全性保守性",
+    "q": "ISMSにおける情報セキュリティに関する次の記述中のa，bに入れる字句の適切な組合せはどれか。\n\n情報セキュリティとは，情報の機密性，完全性及び[ a ]を維持することである。さらに，真正性，責任追跡性，否認防止， [ b ]などの特性を維持することを含める場合もある。\n\na b\n\nア可用性信頼性\n\nイ可用性保守性\n\nウ保全性信頼性\n\nエ保全性保守性",
+    "displayText": "ISMSにおける情報セキュリティに関する次の記述中のa，bに入れる字句の適切な組合せはどれか。\n\n情報セキュリティとは，情報の機密性，完全性及び[ a ]を維持することである。さらに，真正性，責任追跡性，否認防止， [ b ]などの特性を維持することを含める場合もある。\n\na b\n\nア可用性信頼性\n\nイ可用性保守性\n\nウ保全性信頼性\n\nエ保全性保守性",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
       "可用性 | 信頼性",
@@ -1766,15 +1833,16 @@ window.QUESTIONS_2021 = [
       "保全性 | 保守性"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "情報セキュリティの基本要素は機密性・完全性・可用性です。追加の性質として真正性や信頼性なども重視されます。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-67.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-068",
@@ -1792,15 +1860,16 @@ window.QUESTIONS_2021 = [
       "パスワードで保護されたファイルを電子メールに添付して送信した後，別の電子メールでパスワードを相手に知らせる。"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "S/MIMEを利用した暗号化は、メールを送受信する経路で盗聴されても内容を読まれないようにする仕組みです。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-68.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-069",
@@ -1808,8 +1877,8 @@ window.QUESTIONS_2021 = [
     "number": 69,
     "field": "テクノロジ系",
     "topic": "情報セキュリティ対策・情報セキュリティ実装技術",
-    "q": "バイオメトリクス認証における認証精度に関する次の記述中のa，bに入れる字句の適切な組合せはどれか。\n\n\r\nバイオメトリクス認証において，誤って本人を拒否する確率を本人拒否率といい，誤って他人を受け入れる確率を他人受入率という。また，認証の装置又はアルゴリズムが生体情報を認識できない割合を未対応率という。\n\r\n認証精度の設定において， [ a ]が低くなるように設定すると利便性が高まり， [ b ]が低くなるように設定すると安全性が高まる。\n\na b\n\nア他人受入率本人拒否率\n\nイ他人受入率未対応率\n\nウ本人拒否率他人受入率\n\nエ未対応率本人拒否率",
-    "displayText": "バイオメトリクス認証における認証精度に関する次の記述中のa，bに入れる字句の適切な組合せはどれか。\n\n\r\nバイオメトリクス認証において，誤って本人を拒否する確率を本人拒否率といい，誤って他人を受け入れる確率を他人受入率という。また，認証の装置又はアルゴリズムが生体情報を認識できない割合を未対応率という。\n\r\n認証精度の設定において， [ a ]が低くなるように設定すると利便性が高まり， [ b ]が低くなるように設定すると安全性が高まる。\n\na b\n\nア他人受入率本人拒否率\n\nイ他人受入率未対応率\n\nウ本人拒否率他人受入率\n\nエ未対応率本人拒否率",
+    "q": "バイオメトリクス認証における認証精度に関する次の記述中のa，bに入れる字句の適切な組合せはどれか。\n\nバイオメトリクス認証において，誤って本人を拒否する確率を本人拒否率といい，誤って他人を受け入れる確率を他人受入率という。また，認証の装置又はアルゴリズムが生体情報を認識できない割合を未対応率という。\n\n認証精度の設定において， [ a ]が低くなるように設定すると利便性が高まり， [ b ]が低くなるように設定すると安全性が高まる。\n\na b\n\nア他人受入率本人拒否率\n\nイ他人受入率未対応率\n\nウ本人拒否率他人受入率\n\nエ未対応率本人拒否率",
+    "displayText": "バイオメトリクス認証における認証精度に関する次の記述中のa，bに入れる字句の適切な組合せはどれか。\n\nバイオメトリクス認証において，誤って本人を拒否する確率を本人拒否率といい，誤って他人を受け入れる確率を他人受入率という。また，認証の装置又はアルゴリズムが生体情報を認識できない割合を未対応率という。\n\n認証精度の設定において， [ a ]が低くなるように設定すると利便性が高まり， [ b ]が低くなるように設定すると安全性が高まる。\n\na b\n\nア他人受入率本人拒否率\n\nイ他人受入率未対応率\n\nウ本人拒否率他人受入率\n\nエ未対応率本人拒否率",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
       "他人受入率 | 本人拒否率",
@@ -1818,15 +1887,16 @@ window.QUESTIONS_2021 = [
       "未対応率 | 本人拒否率"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "本人拒否率は正規の本人を誤って拒否する割合、他人受入率は他人を誤って認める割合です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-69.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-070",
@@ -1834,8 +1904,8 @@ window.QUESTIONS_2021 = [
     "number": 70,
     "field": "テクノロジ系",
     "topic": "データベース設計",
-    "q": "条件①～④を全て満たすとき，出版社と著者と本の関係を示すE-R図はどれか。ここで，E-R図の表記法は次のとおりとする。\n\n\r\n［表記法］\n\r\n[ a ]→[ b ] aとbが，1対多の関係であることを表す。\n\n\r\n［条件］\n\r\n①出版社は，複数の著者と契約している。\n\r\n②著者は，一つの出版社とだけ契約している。\n\r\n③著者は，複数の本を書いている。\n\r\n④ 1冊の本は，1人の著者が書いている。",
-    "displayText": "条件①～④を全て満たすとき，出版社と著者と本の関係を示すE-R図はどれか。ここで，E-R図の表記法は次のとおりとする。\n\n\r\n［表記法］\n\r\n[ a ]→[ b ] aとbが，1対多の関係であることを表す。\n\n\r\n［条件］\n\r\n①出版社は，複数の著者と契約している。\n\r\n②著者は，一つの出版社とだけ契約している。\n\r\n③著者は，複数の本を書いている。\n\r\n④ 1冊の本は，1人の著者が書いている。",
+    "q": "条件①～④を全て満たすとき，出版社と著者と本の関係を示すE-R図はどれか。ここで，E-R図の表記法は次のとおりとする。\n\n［表記法］\n\n[ a ]→[ b ] aとbが，1対多の関係であることを表す。\n\n［条件］\n\n①出版社は，複数の著者と契約している。\n\n②著者は，一つの出版社とだけ契約している。\n\n③著者は，複数の本を書いている。\n\n④ 1冊の本は，1人の著者が書いている。",
+    "displayText": "条件①～④を全て満たすとき，出版社と著者と本の関係を示すE-R図はどれか。ここで，E-R図の表記法は次のとおりとする。\n\n［表記法］\n\n[ a ]→[ b ] aとbが，1対多の関係であることを表す。\n\n［条件］\n\n①出版社は，複数の著者と契約している。\n\n②著者は，一つの出版社とだけ契約している。\n\n③著者は，複数の本を書いている。\n\n④ 1冊の本は，1人の著者が書いている。",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
       "[出版社]→[著者]→[本]",
@@ -1844,15 +1914,16 @@ window.QUESTIONS_2021 = [
       "[出版社]←[著者]←[本]"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "E-R図のようなデータモデルで実体間の関係と多重度を整理します。設問の条件では出版社→著者→本の関係が適切です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-70.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-071",
@@ -1870,15 +1941,16 @@ window.QUESTIONS_2021 = [
       "OSS"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "MVNOは携帯電話事業者の通信網を借り、自社ブランドで移動体通信サービスを提供する事業者です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-71.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-072",
@@ -1896,15 +1968,16 @@ window.QUESTIONS_2021 = [
       "センサ"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "アクチュエータは電気信号などの制御指示を受けて窓・弁・モータなどを物理的に動かす装置です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-72.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-073",
@@ -1922,15 +1995,16 @@ window.QUESTIONS_2021 = [
       "IoTデバイスへのログインパスワードを初期値から変更する。"
     ],
     "answer": 1,
-    "explanation": "正解は「イ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "耐タンパ性は機器を盗まれた場合でも内部の秘密やデータを解析・改ざんしにくくする性質です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-73.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-074",
@@ -1948,8 +2022,8 @@ window.QUESTIONS_2021 = [
       "i＋2k | k:2，2，6"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "流れ図のループの各回でiに加える数を追うと、指定の増分を実現する条件の組合せがエになります。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
@@ -1963,7 +2037,8 @@ window.QUESTIONS_2021 = [
     "figureCaption": "問題の図（公開問題の転記資料から取得）",
     "figureFiles": [
       "assets/questions/2021/q074-1.png"
-    ]
+    ],
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-075",
@@ -1971,8 +2046,8 @@ window.QUESTIONS_2021 = [
     "number": 75,
     "field": "テクノロジ系",
     "topic": "データベース方式",
-    "q": "情報システムに関する機能a～dのうち， DBMSに備わるものを全て挙げたものはどれか。\n\n\r\naアクセス権管理\n\r\nb障害回復\n\r\nc同時実行制御\n\r\ndファイアウォール",
-    "displayText": "情報システムに関する機能a～dのうち， DBMSに備わるものを全て挙げたものはどれか。\n\n\r\naアクセス権管理\n\r\nb障害回復\n\r\nc同時実行制御\n\r\ndファイアウォール",
+    "q": "情報システムに関する機能a～dのうち， DBMSに備わるものを全て挙げたものはどれか。\n\na　アクセス権管理\n\nb　障害回復\n\nc　同時実行制御\n\nd　ファイアウォール",
+    "displayText": "情報システムに関する機能a～dのうち， DBMSに備わるものを全て挙げたものはどれか。\n\na　アクセス権管理\n\nb　障害回復\n\nc　同時実行制御\n\nd　ファイアウォール",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
       "a，b，c",
@@ -1981,15 +2056,16 @@ window.QUESTIONS_2021 = [
       "c，d"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "DBMSにはアクセス権管理、障害回復、同時実行制御などが含まれます。ファイアウォールは通常ネットワーク側の機能です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-75.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-076",
@@ -2007,15 +2083,16 @@ window.QUESTIONS_2021 = [
       "ブロックチェーン"
     ],
     "answer": 1,
-    "explanation": "正解は「イ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "IoT機器とサーバで異なる鍵を用いて暗号化・復号する仕組みは、公開鍵と秘密鍵を組み合わせる公開鍵暗号方式です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-76.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-077",
@@ -2033,15 +2110,16 @@ window.QUESTIONS_2021 = [
       "A"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "監視結果に基づいて是正・改善措置を決める活動はPDCAのAct（改善）です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-77.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-078",
@@ -2059,15 +2137,16 @@ window.QUESTIONS_2021 = [
       "利用に当たり，有償サポートが提供される製品がある。"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "OSSでも有償の保守サポートを提供する製品があります。ソース公開とサポート費用は別の問題です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-78.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-079",
@@ -2085,15 +2164,16 @@ window.QUESTIONS_2021 = [
       "情報セキュリティ対策に取り組んでいることを第三者が認定する制度"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "SECURITY ACTIONは中小企業が情報セキュリティ対策に取り組むことを自己宣言する制度です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-79.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-080",
@@ -2111,15 +2191,16 @@ window.QUESTIONS_2021 = [
       "PLC"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "BLE（Bluetooth Low Energy）は近距離のIoT機器やゲートウェイ間で使われる省電力無線通信方式です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-80.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-081",
@@ -2137,15 +2218,16 @@ window.QUESTIONS_2021 = [
       "相談を受けた組織に対して，標的型サイバー攻撃の被害低減と攻撃の連鎖の遮断を支援する活動を行う。"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "J-CRATは標的型サイバー攻撃の被害低減や攻撃の連鎖遮断を支援する活動を行います。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-81.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-082",
@@ -2163,15 +2245,16 @@ window.QUESTIONS_2021 = [
       "ユビキタスコンピューティング"
     ],
     "answer": 1,
-    "explanation": "正解は「イ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "グリッドコンピューティングはネットワーク上の複数の計算機を連携させ、一体の大きな処理能力として活用する方式です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-82.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-083",
@@ -2189,15 +2272,16 @@ window.QUESTIONS_2021 = [
       "スワッピング"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "アーカイブは多数のファイルをひとまとめにして保管することです。圧縮とは異なり、必ずしも容量を減らすわけではありません。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-83.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-084",
@@ -2215,15 +2299,16 @@ window.QUESTIONS_2021 = [
       "POP3"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "POP3はメールサーバからメールを受信するためのプロトコルです。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-84.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-085",
@@ -2241,15 +2326,16 @@ window.QUESTIONS_2021 = [
       "WPA2"
     ],
     "answer": 1,
-    "explanation": "正解は「イ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "MACアドレスフィルタリングは端末のMACアドレスを基に無線LANへの接続を許可・拒否する仕組みです。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-85.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-086",
@@ -2267,15 +2353,16 @@ window.QUESTIONS_2021 = [
       "デュプレックスシステム"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "エッジコンピューティングはデータの発生場所に近い拠点で処理し、クラウドへの通信量や遅延を低減します。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-86.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-087",
@@ -2293,15 +2380,16 @@ window.QUESTIONS_2021 = [
       "プロポーショナルフォント"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "プロポーショナルフォントは文字ごとに表示幅が異なるフォントで、文字の形に合わせて間隔が調整されます。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-87.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-088",
@@ -2319,15 +2407,16 @@ window.QUESTIONS_2021 = [
       "リスク分析"
     ],
     "answer": 1,
-    "explanation": "正解は「イ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "リスクアセスメントはリスク特定から始まり、次に分析、評価という順序で進みます。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-88.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-089",
@@ -2335,8 +2424,8 @@ window.QUESTIONS_2021 = [
     "number": 89,
     "field": "テクノロジ系",
     "topic": "情報に関する理論",
-    "q": "情報の表現方法に関する次の記述中のa～cに入れる字句の組合せはどれか。\n\n\r\n情報を，連続する可変な物理量（長さ，角度，電圧など）で表したものを[ a ]データといい，離散的な数値で表したものを[ b ]データという。音楽や楽曲などの配布に利用されるCDは，情報を[ c ]データとして格納する光ディスク媒体の一つである。\n\na b c\n\nアアナログディジタルアナログ\n\nイアナログディジタルディジタル\n\nウディジタルアナログアナログ\n\nエディジタルアナログディジタル",
-    "displayText": "情報の表現方法に関する次の記述中のa～cに入れる字句の組合せはどれか。\n\n\r\n情報を，連続する可変な物理量（長さ，角度，電圧など）で表したものを[ a ]データといい，離散的な数値で表したものを[ b ]データという。音楽や楽曲などの配布に利用されるCDは，情報を[ c ]データとして格納する光ディスク媒体の一つである。\n\na b c\n\nアアナログディジタルアナログ\n\nイアナログディジタルディジタル\n\nウディジタルアナログアナログ\n\nエディジタルアナログディジタル",
+    "q": "情報の表現方法に関する次の記述中のa～cに入れる字句の組合せはどれか。\n\n情報を，連続する可変な物理量（長さ，角度，電圧など）で表したものを[ a ]データといい，離散的な数値で表したものを[ b ]データという。音楽や楽曲などの配布に利用されるCDは，情報を[ c ]データとして格納する光ディスク媒体の一つである。\n\na b c\n\nアアナログディジタルアナログ\n\nイアナログディジタルディジタル\n\nウディジタルアナログアナログ\n\nエディジタルアナログディジタル",
+    "displayText": "情報の表現方法に関する次の記述中のa～cに入れる字句の組合せはどれか。\n\n情報を，連続する可変な物理量（長さ，角度，電圧など）で表したものを[ a ]データといい，離散的な数値で表したものを[ b ]データという。音楽や楽曲などの配布に利用されるCDは，情報を[ c ]データとして格納する光ディスク媒体の一つである。\n\na b c\n\nアアナログディジタルアナログ\n\nイアナログディジタルディジタル\n\nウディジタルアナログアナログ\n\nエディジタルアナログディジタル",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
       "アナログ | ディジタル | アナログ",
@@ -2345,15 +2434,16 @@ window.QUESTIONS_2021 = [
       "ディジタル | アナログ | ディジタル"
     ],
     "answer": 1,
-    "explanation": "正解は「イ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "アナログデータは連続した値、デジタルデータは離散的な値で表します。デジタル機器では数値化して記録します。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-89.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-090",
@@ -2371,15 +2461,16 @@ window.QUESTIONS_2021 = [
       "クロックは，命令実行のタイミングを調整する。"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "クロックはCPU内部で処理を進めるためのタイミング信号で、各回路の動作を同期します。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-90.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-091",
@@ -2387,8 +2478,8 @@ window.QUESTIONS_2021 = [
     "number": 91,
     "field": "テクノロジ系",
     "topic": "情報セキュリティ管理",
-    "q": "次の作業a～dのうち，リスクマネジメントにおける，リスクアセスメントに含まれるものだけを全て挙げたものはどれか。\n\n\r\na脅威や脆弱性などを使って，リスクレベルを決定する。\n\r\nbリスクとなる要因を特定する。\n\r\ncリスクに対してどのように対応するかを決定する。\n\r\ndリスクについて対応する優先順位を決定する。",
-    "displayText": "次の作業a～dのうち，リスクマネジメントにおける，リスクアセスメントに含まれるものだけを全て挙げたものはどれか。\n\n\r\na脅威や脆弱性などを使って，リスクレベルを決定する。\n\r\nbリスクとなる要因を特定する。\n\r\ncリスクに対してどのように対応するかを決定する。\n\r\ndリスクについて対応する優先順位を決定する。",
+    "q": "次の作業a～dのうち，リスクマネジメントにおける，リスクアセスメントに含まれるものだけを全て挙げたものはどれか。\n\na　脅威や脆弱性などを使って，リスクレベルを決定する。\n\nb　リスクとなる要因を特定する。\n\nc　リスクに対してどのように対応するかを決定する。\n\nd　リスクについて対応する優先順位を決定する。",
+    "displayText": "次の作業a～dのうち，リスクマネジメントにおける，リスクアセスメントに含まれるものだけを全て挙げたものはどれか。\n\na　脅威や脆弱性などを使って，リスクレベルを決定する。\n\nb　リスクとなる要因を特定する。\n\nc　リスクに対してどのように対応するかを決定する。\n\nd　リスクについて対応する優先順位を決定する。",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
       "a，b",
@@ -2397,15 +2488,16 @@ window.QUESTIONS_2021 = [
       "c，d"
     ],
     "answer": 1,
-    "explanation": "正解は「イ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "リスクアセスメントにはリスクの特定・分析・評価が含まれます。対策の選定・実施はリスク対応です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-91.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-092",
@@ -2423,15 +2515,16 @@ window.QUESTIONS_2021 = [
       "MVNO"
     ],
     "answer": 1,
-    "explanation": "正解は「イ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "LPWAはLow Power Wide Areaの略で、IoTに適した低消費電力・広域通信方式です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-92.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-093",
@@ -2449,15 +2542,16 @@ window.QUESTIONS_2021 = [
       "ブログ用のデザインテンプレート"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "RSSリーダーはWebサイトやブログの更新情報を購読し、新着記事の概要などを表示します。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-93.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-094",
@@ -2475,15 +2569,16 @@ window.QUESTIONS_2021 = [
       "ランサムウェア"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "RATは遠隔操作を行うソフトウェアで、悪用されると攻撃者がファイル操作やコマンド実行を行えます。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-94.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-095",
@@ -2491,8 +2586,8 @@ window.QUESTIONS_2021 = [
     "number": 95,
     "field": "テクノロジ系",
     "topic": "データ操作",
-    "q": "関係データベースで管理された“商品”表，“売上”表から売上日が5月中で，かつ商品ごとの合計額が20,000円以上になっている商品だけを全て挙げたものはどれか。\n\n\r\n商品\n商品コード商品名単価（円）\n\n0001商品A 2,000\n\n0002商品B 4,000\n\n0003商品C 7,000\n\n0004商品D 10,000\n\n\r\n売上\n売上番号商品コード個数売上日配達日\n\nZ00001 0004 3 4/30 5/2\n\nZ00002 0001 3 4/30 5/3\n\nZ00005 0003 3 5/15 5/17\n\nZ00006 0001 5 5/15 5/18\n\nZ00003 0002 3 5/5 5/18\n\nZ00004 0001 4 5/10 5/20\n\nZ00007 0002 3 5/30 6/2\n\nZ00008 0003 1 6/8 6/10",
-    "displayText": "関係データベースで管理された“商品”表，“売上”表から売上日が5月中で，かつ商品ごとの合計額が20,000円以上になっている商品だけを全て挙げたものはどれか。\n\n\r\n商品\n商品コード商品名単価（円）\n\n0001商品A 2,000\n\n0002商品B 4,000\n\n0003商品C 7,000\n\n0004商品D 10,000\n\n\r\n売上\n売上番号商品コード個数売上日配達日\n\nZ00001 0004 3 4/30 5/2\n\nZ00002 0001 3 4/30 5/3\n\nZ00005 0003 3 5/15 5/17\n\nZ00006 0001 5 5/15 5/18\n\nZ00003 0002 3 5/5 5/18\n\nZ00004 0001 4 5/10 5/20\n\nZ00007 0002 3 5/30 6/2\n\nZ00008 0003 1 6/8 6/10",
+    "q": "関係データベースで管理された“商品”表，“売上”表から売上日が5月中で，かつ商品ごとの合計額が20,000円以上になっている商品だけを全て挙げたものはどれか。\n\n商品\n商品コード商品名単価（円）\n\n0001商品A 2,000\n\n0002商品B 4,000\n\n0003商品C 7,000\n\n0004商品D 10,000\n\n売上\n売上番号商品コード個数売上日配達日\n\nZ00001 0004 3 4/30 5/2\n\nZ00002 0001 3 4/30 5/3\n\nZ00005 0003 3 5/15 5/17\n\nZ00006 0001 5 5/15 5/18\n\nZ00003 0002 3 5/5 5/18\n\nZ00004 0001 4 5/10 5/20\n\nZ00007 0002 3 5/30 6/2\n\nZ00008 0003 1 6/8 6/10",
+    "displayText": "関係データベースで管理された“商品”表，“売上”表から売上日が5月中で，かつ商品ごとの合計額が20,000円以上になっている商品だけを全て挙げたものはどれか。\n\n商品\n商品コード商品名単価（円）\n\n0001商品A 2,000\n\n0002商品B 4,000\n\n0003商品C 7,000\n\n0004商品D 10,000\n\n売上\n売上番号商品コード個数売上日配達日\n\nZ00001 0004 3 4/30 5/2\n\nZ00002 0001 3 4/30 5/3\n\nZ00005 0003 3 5/15 5/17\n\nZ00006 0001 5 5/15 5/18\n\nZ00003 0002 3 5/5 5/18\n\nZ00004 0001 4 5/10 5/20\n\nZ00007 0002 3 5/30 6/2\n\nZ00008 0003 1 6/8 6/10",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
       "商品A，商品B，商品C",
@@ -2501,8 +2596,8 @@ window.QUESTIONS_2021 = [
       "商品C"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "商品ごとの売上額を売上明細から集計し、5月の売上合計が2万円以上のものを選ぶと商品Bと商品Cです。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
@@ -2603,7 +2698,8 @@ window.QUESTIONS_2021 = [
         ]
       ]
     ],
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-096",
@@ -2621,15 +2717,16 @@ window.QUESTIONS_2021 = [
       "自社の事業内容，組織の特性及び所有する情報資産の特徴を考慮して策定する。"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "情報セキュリティ方針は組織の事業内容や扱う情報資産、リスクを踏まえて策定する必要があります。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-96.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-097",
@@ -2647,15 +2744,16 @@ window.QUESTIONS_2021 = [
       "リレーショナルデータベース"
     ],
     "answer": 2,
-    "explanation": "正解は「ウ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "ブロックチェーンは複数のノードで取引履歴を共有・検証して、記録の改ざんを困難にする分散型台帳技術です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-97.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-098",
@@ -2673,15 +2771,16 @@ window.QUESTIONS_2021 = [
       "ドメイン名は，接続先を人が識別しやすい文字列で表したものであり， IPアドレスの代わりに用いる。"
     ],
     "answer": 3,
-    "explanation": "正解は「エ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "ドメイン名はIPアドレスの代わりに人が読みやすい名前を用いて通信相手を指定するための仕組みです。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-98.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-099",
@@ -2699,15 +2798,16 @@ window.QUESTIONS_2021 = [
       "リスク分析において，リスクの分析手法を分類したものであり，管理対象の資産がもつ脆弱性を客観的な数値で表す手法は，リスク保有に分類される。"
     ],
     "answer": 0,
-    "explanation": "正解は「ア」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "リスク移転は保険などにより損失の一部を他者へ移すリスク対応です。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-99.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   },
   {
     "id": "ipa-2021-100",
@@ -2725,14 +2825,15 @@ window.QUESTIONS_2021 = [
       "システムの総コストにおいて，初期費用に占めるハードウェア費用の割合が増大した。"
     ],
     "answer": 1,
-    "explanation": "正解は「イ」です。解説は校閲後に追加します。まず公式問題・正答PDFも確認してください。",
-    "tip": "IPA公式問題・正答PDFで復習してください。",
+    "explanation": "TCOは初期導入費用に加え、運用・保守・教育・管理などの継続費用も含めた総保有コストです。",
+    "tip": "IPA公式問題・正答PDFを併せて確認しましょう。",
     "source": "IPA 令和3年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf",
     "answerSourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf",
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R03-100.html",
     "adapted": true,
     "extractionStatus": "needs-pdf-review",
-    "answerVerification": "transcription-answer-key-needs-official-review"
+    "answerVerification": "transcription-answer-key-needs-official-review",
+    "explanationStatus": "original-draft"
   }
 ];
