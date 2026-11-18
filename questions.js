@@ -1,4 +1,4 @@
-/* IPA令和7年度問題の学習用要約・表現調整版。原文は公式PDF参照。 */
+/* IPA令和7年度問題。displayText は公式PDFと照合済みの表示用テキスト。 */
 window.QUESTIONS = [
   {
     "id": "ipa-2025-001",
@@ -18,7 +18,9 @@ window.QUESTIONS = [
     "tip": "IPA原文PDFと照らして確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "A社がB社に作業の一部を請負契約で委託している。作業形態a～cのうち、いわゆる偽装請負とみなされる状態だけを全て挙げたものはどれか。\n\na　B社の従業員が、A社内において、A社の責任者の指揮命令の下で、請負契約で取り決めた作業を行っている。\n\nb　B社の従業員が、A社内において、B社の責任者の指揮命令の下で、請負契約で取り決めた作業を行っている。\n\nc　B社の従業員が、B社内において、A社の責任者の指揮命令の下で、請負契約で取り決めた作業を行っている。",
+    "displayTextSource": "ipa-pdf-verified"
   },
   {
     "id": "ipa-2025-002",
@@ -38,7 +40,9 @@ window.QUESTIONS = [
     "tip": "関連用語との違いまで確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "従来の情報セキュリティマネジメントシステム規格を基礎に追加で制定されたもので、クラウドサービスに対応した情報セキュリティ管理体制を構築するためのガイドライン規格として、最も適切なものはどれか。",
+    "displayTextSource": "ipa-pdf-verified"
   },
   {
     "id": "ipa-2025-003",
@@ -58,7 +62,9 @@ window.QUESTIONS = [
     "tip": "IPA原文PDFと照らして確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "政府は、官民データ活用推進基本法に定められた“官民データ活用推進基本計画”を策定し、官民データの公開や活用の促進に取り組んでいる。次の組織体のうち、官民データを所有しているものだけを全て挙げたものはどれか。\n\na　県庁\n\nb　大学\n\nc　電力事業者\n\nd　独立行政法人",
+    "displayTextSource": "ipa-pdf-verified"
   },
   {
     "id": "ipa-2025-004",
@@ -78,7 +84,9 @@ window.QUESTIONS = [
     "tip": "関連用語との違いまで確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "投資の優先度などの経営の戦略を策定するために、経済価値、希少性、模倣困難性及び組織の四つの要素で評価することによって、自社のもつ資源を分析する手法として、最も適切なものはどれか。",
+    "displayTextSource": "ipa-pdf-verified"
   },
   {
     "id": "ipa-2025-005",
@@ -98,7 +106,9 @@ window.QUESTIONS = [
     "tip": "IPA原文PDFと照らして確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "A社ではB商品の仕入れと販売を行っている。ある期のB商品の仕入単価は期首から上昇し続け、期末が最も高くなった。当該期の売上原価を“期首棚卸高＋当期商品仕入高－期末棚卸高”で計算するとき、期末棚卸高の計算に期末の仕入単価を用いると、B商品の期末棚卸高及び売上原価は、期中の仕入単価の平均値を用いる場合に比べてどのようになるか。",
+    "displayTextSource": "ipa-pdf-verified"
   },
   {
     "id": "ipa-2025-006",
