@@ -1,3 +1,19 @@
+## 2026-11-18：令和2〜8年度の7年分（公式公開問題700問）を収録
+
+- 年度別演習：**令和8年度（2026）から令和2年度（2020年10月）まで各100問、合計700問**。別途オリジナル練習問題12問（総数712問）
+- 令和2年度分は「2020年10月」の公開問題。令和2年度春期は試験中止のため収録対象外
+- 「新規で解く」の説明を「最新年度の問題を1問目から順番に始める（令和8年度）」へ変更。新規演習・年度分野指定ともに収録されている最新年度を自動的に初期選択
+- 2020・2021・2022の各100問に問題文・選択肢4件・正答・独自解説案を追加。図画像やHTML表も可能な範囲で保存し、画像のみの選択肢も表示
+- 2022年度の問32と2020年度の問11は画像4枚を選択肢ごとに表示。2020年度問73は選択肢の表4件を個別に表示
+- データ構造検査：各年度100問・問題番号1〜100・各問4択・空欄なし。演習画面の年度別100問解答、採点、成績集計を模擬DOMで検証
+- **注意：2020〜2022年度はe-Wordsの公開問題の転記を搬送元としているため、IPA原本との全文照合・公式正答PDFとの独立した100問全件照合が未完了**。画像や表、選択肢の表示も最終校閲の対象
+- 2023・2024・2025・2026年度の未校閲箇所についても、公式原本との字句・図表照合が必要。教材の総数と完全校閲済み件数は区別してください
+
+**公式PDF（IPA）**
+- [令和2年度10月 問題](https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2020r02o_ip_qs.pdf) ／ [解答](https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2020r02o_ip_ans.pdf)
+- [令和3年度 問題](https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf) ／ [解答](https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf)
+- [令和4年度 問題](https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2022r04_ip_qs.pdf) ／ [解答](https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2022r04_ip_ans.pdf)
+
 ## 令和8年度（2026年度）公開問題100問（2026-11-18追加）
 
 - `questions_2026.js`：問1〜100、ストラテジ系35・マネジメント系20・テクノロジ系45
