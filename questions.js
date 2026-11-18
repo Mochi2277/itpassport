@@ -24,7 +24,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "労働関連・取引関連法規",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 2,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-002",
@@ -51,7 +53,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "標準化関連",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 2,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-003",
@@ -78,7 +82,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "経営・組織論",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 3,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-004",
@@ -105,7 +111,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "経営戦略手法",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 3,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-005",
@@ -132,7 +140,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "会計・財務",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 3,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-006",
@@ -159,7 +169,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "セキュリティ関連法規",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 4,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-007",
@@ -186,7 +198,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "技術開発戦略の立案・技術開発計画",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 4,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-008",
@@ -198,8 +212,8 @@ window.QUESTIONS = [
     "tip": "IPA公式PDFも参照して設問条件と図表を確認してください。",
     "adapted": true,
     "displayTextSource": "external-transcription-needs-ipa-pdf-review",
-    "q": "AIの機械学習で利用するデータの取扱いに関する記述のうち，バイアスの低減やデータの品質を確保するために考えられる対策として，適切なものだけを全て挙げたものはどれか。\n\na　学習の目的に適したデータであることを確認する。\n\nb　データの入手元や作成来歴を確認する。\n\nc　データへのアノテーションの付与は学習目的に合わせて実施する。\n\nd　人間の目でも同定が困難と考えられる画像認識用のデータは除外する。",
-    "displayText": "AIの機械学習で利用するデータの取扱いに関する記述のうち，バイアスの低減やデータの品質を確保するために考えられる対策として，適切なものだけを全て挙げたものはどれか。\n\na　学習の目的に適したデータであることを確認する。\n\nb　データの入手元作成来歴を確認する。\n\nc　データへのアノテーションの付与は学習目的に合わせて実施する。\n\nd　人間の目でも同定が困難と考えられる画像認識用のデータは除外する。",
+    "q": "AIの機械学習で利用するデータの取扱いに関する記述のうち，バイアスの低減やデータの品質を確保するために考えられる対策として，適切なものだけを全て挙げたものはどれか。\n\na　学習の目的に適したデータであることを確認する。\n\nb　データの入手元・作成来歴を確認する。\n\nc　データへのアノテーションの付与は学習目的に合わせて実施する。\n\nd　人間の目でも同定が困難と考えられる画像認識用のデータは除外する。",
+    "displayText": "AIの機械学習で利用するデータの取扱いに関する記述のうち，バイアスの低減やデータの品質を確保するために考えられる対策として，適切なものだけを全て挙げたものはどれか。\n\na　学習の目的に適したデータであることを確認する。\n\nb　データの入手元・作成来歴を確認する。\n\nc　データへのアノテーションの付与は学習目的に合わせて実施する。\n\nd　人間の目でも同定が困難と考えられる画像認識用のデータは除外する。",
     "choices": [
       "a，b",
       "a，b，c，d",
@@ -213,7 +227,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "業務分析・データ利活用",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 5,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-009",
