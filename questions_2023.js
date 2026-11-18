@@ -380,7 +380,10 @@ window.QUESTIONS_2023 = [
         ]
       ]
     ],
-    "explanationStatus": "original-draft-reviewed-against-answer"
+    "explanationStatus": "original-draft-reviewed-against-answer",
+    "figureTableLabels": [
+      "販売実績と費用"
+    ]
   },
   {
     "id": "ipa-2023-014",
@@ -978,7 +981,10 @@ window.QUESTIONS_2023 = [
         ]
       ]
     ],
-    "explanationStatus": "original-draft-reviewed-against-answer"
+    "explanationStatus": "original-draft-reviewed-against-answer",
+    "figureTableLabels": [
+      "6週間の生産計画と在庫（空欄部分は元の問題でも非表示）"
+    ]
   },
   {
     "id": "ipa-2023-034",
@@ -1695,7 +1701,7 @@ window.QUESTIONS_2023 = [
     "displayText": "ISMSクラウドセキュリティ認証に関する記述として，適切なものはどれか。",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
-      "PaaS ， SaaSが対象であり， IaaSは対象ではない。",
+      "PaaS， SaaSが対象であり， IaaSは対象ではない。",
       "クラウドサービス固有の管理策が適切に導入，実施されていることを認証するものである。",
       "クラウドサービスを提供している組織が対象であり，クラウドサービスを利用する組織は対象ではない。",
       "クラウドサービスで保管されている個人情報について，適切な保護措置を講じる体制を整備し，運用していることを評価して，プライバシーマークの使用を認める制度である。"
@@ -2000,8 +2006,8 @@ window.QUESTIONS_2023 = [
     "number": 63,
     "field": "テクノロジ系",
     "topic": "システムの構成",
-    "q": "容量が500 GバイトのHDDを2台使用して， RAID0 ， RAID1を構成したとき，実際に利用可能な記憶容量の組合せとして，適切なものはどれか。",
-    "displayText": "容量が500 GバイトのHDDを2台使用して， RAID0 ， RAID1を構成したとき，実際に利用可能な記憶容量の組合せとして，適切なものはどれか。",
+    "q": "容量が500GバイトのHDDを2台使用して， RAID0， RAID1を構成したとき，実際に利用可能な記憶容量の組合せとして，適切なものはどれか。",
+    "displayText": "容量が500GバイトのHDDを2台使用して， RAID0， RAID1を構成したとき，実際に利用可能な記憶容量の組合せとして，適切なものはどれか。",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
       "1Tバイト | 1Tバイト",
@@ -2436,7 +2442,10 @@ window.QUESTIONS_2023 = [
       ]
     ],
     "tableCorrection": "IPA公式PDF問76の混同行列に照合済み",
-    "explanationStatus": "original-draft-reviewed-against-answer"
+    "explanationStatus": "original-draft-reviewed-against-answer",
+    "figureTableLabels": [
+      "単位：枚"
+    ]
   },
   {
     "id": "ipa-2023-077",
@@ -2491,7 +2500,10 @@ window.QUESTIONS_2023 = [
         ]
       ]
     ],
-    "explanationStatus": "original-draft-reviewed-against-answer"
+    "explanationStatus": "original-draft-reviewed-against-answer",
+    "figureTableLabels": [
+      "単位：点"
+    ]
   },
   {
     "id": "ipa-2023-078",
@@ -2903,7 +2915,7 @@ window.QUESTIONS_2023 = [
     "displayText": "電子メールに関する記述のうち，適切なものはどれか。",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
-      "電子メールのプロトコルには，受信にSMTP ，送信にPOP3が使われる。",
+      "電子メールのプロトコルには，受信にSMTP，送信にPOP3が使われる。",
       "メーリングリストによる電子メールを受信すると，その宛先には全ての登録メンバーのメールアドレスが記述されている。",
       "メールアドレスの「@」の左側部分に記述されているドメイン名に基づいて，電子メールが転送される。",
       "メール転送サービスを利用すると，自分名義の複数のメールアドレス宛に届いた電子メールを一つのメールボックスに保存することができる。"
