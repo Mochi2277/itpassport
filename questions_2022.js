@@ -805,21 +805,28 @@ window.QUESTIONS_2022 = [
     "figureTables": [
       [
         [
-          "単位 百万円"
+          "項目",
+          "金額（百万円）"
         ],
         [
-          "資産の部",
-          "負債の部"
+          "流動資産",
+          "3,000"
         ],
         [
-          "流動資産 3,000 固定資産 4,500",
-          "流動負債 1,500 固定負債 4,000"
+          "固定資産",
+          "4,500"
         ],
         [
-          "純資産の部"
+          "流動負債",
+          "1,500"
         ],
         [
-          "株主資本 2,000"
+          "固定負債",
+          "4,000"
+        ],
+        [
+          "株主資本",
+          "2,000"
         ]
       ]
     ],
@@ -827,7 +834,8 @@ window.QUESTIONS_2022 = [
     "figureTableLabels": [
       "流動比率を求める貸借対照表"
     ],
-    "explanationStatus": "original-draft"
+    "explanationStatus": "original-draft",
+    "figureTableReformatStatus": "normalized-column-layout-needs-final-official-pdf-visual-confirmation"
   },
   {
     "id": "ipa-2022-029",
@@ -1446,11 +1454,8 @@ window.QUESTIONS_2022 = [
     "figureTables": [
       [
         [
-          "単位 kステップ/ 人月"
-        ],
-        [
           "工程",
-          "生産性"
+          "生産性（kステップ／人月）"
         ],
         [
           "設計",
@@ -1466,7 +1471,8 @@ window.QUESTIONS_2022 = [
     "figureTableLabels": [
       "設計・製造の生産性"
     ],
-    "explanationStatus": "original-draft"
+    "explanationStatus": "original-draft",
+    "figureTableReformatStatus": "normalized-column-layout-needs-final-official-pdf-visual-confirmation"
   },
   {
     "id": "ipa-2022-051",
