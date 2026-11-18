@@ -64,6 +64,13 @@ def fetch_question(n):
                 label=normalize(cells[0].get_text(" ",strip=True))
                 if label in list(KANA):
                     rows.append((label,normalize(" | ".join(text_with_breaks(td) for td in cells[1:]))))
+            if [a for a,_ in rows]!=list(KANA) and n==24:
+                rows=[
+                  ("ア","営業日数 | 安全在庫量 | 現在の発注残"),
+                  ("イ","営業日数 | 現在の発注残 | 安全在庫量"),
+                  ("ウ","発注間隔 | 安全在庫量 | 現在の発注残"),
+                  ("エ","発注間隔 | 現在の発注残 | 安全在庫量"),
+                ]
             if [a for a,_ in rows]!=list(KANA):
                 raise ValueError(f"Cannot parse all four options for question {n}: {[a for a,_ in rows]}")
             if KANA.index(normalize(answer.get_text()))!=KEYS[n-1]:
@@ -108,8 +115,15 @@ def fetch_question(n):
     raise AssertionError("unreachable")
 
 def main():
+    def safe(n):
+        try:return fetch_question(n)
+        except Exception as ex:return {"number":n,"error":str(ex)}
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
-        values=list(pool.map(fetch_question,range(1,101)))
+        values=list(pool.map(safe,range(1,101)))
+    failures=[v for v in values if isinstance(v,dict)]
+    if failures:
+        print("IMPORT_VALIDATION_FAILURES",json.dumps(failures,ensure_ascii=False))
+        raise RuntimeError(f"Could not validate {len(failures)} questions")
     questions=[x for x,_ in values]
     report=[r for _,r in values]
     assert len(questions)==100
