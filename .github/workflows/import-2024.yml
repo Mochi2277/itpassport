@@ -25,12 +25,12 @@ jobs:
           python - <<'PY'
           import requests, re
           from html.parser import HTMLParser
-          u='https://e-words.jp/p/e-ip-past-R06.html'
+          u='https://e-words.jp/p/e-ip-past-R06-1.html'
           r=requests.get(u,timeout=50)
           print('FALLBACK_HTTP',r.status_code,'SIZE',len(r.content),'CTYPE',r.headers.get('Content-Type'))
-          for needle in ['問1','問 1','マーケティングオートメーション']:
+          for needle in ['マーケティングオートメーション','正解を見る','問1']:
             i=r.text.find(needle)
-            print('NEEDLE',needle,i,repr(r.text[max(i-300,0):i+550]))
+            print('NEEDLE',needle,i,repr(r.text[max(i-500,0):i+2300]))
           PY
       - name: Read official IPA PDFs and generate validated question data
         run: python scripts/import_2024.py
