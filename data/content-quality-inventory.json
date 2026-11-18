@@ -1,77 +1,10 @@
 {
   "total": 700,
   "issueCounts": {
-    "explanation-recheck-after-stem-restoration": 98,
-    "ipa-original-text-not-certified": 700,
-    "short-explanation": 5
+    "explanation-recheck-after-stem-restoration": 93,
+    "ipa-original-text-not-certified": 700
   },
-  "issuesRequiringAttention": [
-    {
-      "year": 2025,
-      "number": 58,
-      "id": "ipa-2025-058",
-      "flags": [
-        "short-explanation",
-        "explanation-recheck-after-stem-restoration",
-        "ipa-original-text-not-certified"
-      ],
-      "hasFigure": false,
-      "hasTable": false,
-      "explanationPresent": true
-    },
-    {
-      "year": 2025,
-      "number": 67,
-      "id": "ipa-2025-067",
-      "flags": [
-        "short-explanation",
-        "explanation-recheck-after-stem-restoration",
-        "ipa-original-text-not-certified"
-      ],
-      "hasFigure": false,
-      "hasTable": false,
-      "explanationPresent": true
-    },
-    {
-      "year": 2025,
-      "number": 72,
-      "id": "ipa-2025-072",
-      "flags": [
-        "short-explanation",
-        "explanation-recheck-after-stem-restoration",
-        "ipa-original-text-not-certified"
-      ],
-      "hasFigure": false,
-      "hasTable": false,
-      "explanationPresent": true
-    },
-    {
-      "year": 2025,
-      "number": 78,
-      "id": "ipa-2025-078",
-      "flags": [
-        "short-explanation",
-        "explanation-recheck-after-stem-restoration",
-        "ipa-original-text-not-certified"
-      ],
-      "hasFigure": false,
-      "hasTable": false,
-      "explanationPresent": true
-    },
-    {
-      "year": 2025,
-      "number": 79,
-      "id": "ipa-2025-079",
-      "flags": [
-        "short-explanation",
-        "explanation-recheck-after-stem-restoration",
-        "ipa-original-text-not-certified"
-      ],
-      "hasFigure": false,
-      "hasTable": false,
-      "explanationPresent": true
-    }
-  ],
+  "issuesRequiringAttention": [],
   "yearCounts": {
     "2020": 100,
     "2021": 100,
