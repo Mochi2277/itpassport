@@ -1138,9 +1138,14 @@ window.QUESTIONS_2024 = [
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R06.html",
     "extractionStatus": "needs-pdf-review",
     "figureRequired": true,
-    "figureCaption": "この問題の図は公式PDFで確認してください。",
-    "visualReviewStatus": "image-unavailable",
-    "explanationStatus": "original-draft-pending-editorial-review"
+    "figureCaption": "公開問題の転記資料に掲載されている図（IPA原本との最終照合待ち）",
+    "visualReviewStatus": "figure-recovered-needs-ipa-verification",
+    "explanationStatus": "original-draft-pending-editorial-review",
+    "figureUrl": "assets/questions/2024/q041-1.png",
+    "figureFiles": [
+      "assets/questions/2024/q041-1.png"
+    ],
+    "figureAlt": "令和6年度問41の図"
   },
   {
     "id": "ipa-2024-042",
@@ -1796,9 +1801,14 @@ window.QUESTIONS_2024 = [
       ]
     ],
     "figureRequired": true,
-    "figureCaption": "この問題の図は公式PDFで確認してください。",
-    "visualReviewStatus": "image-unavailable",
-    "explanationStatus": "original-draft-pending-editorial-review"
+    "figureCaption": "公開問題の転記資料に掲載されている図（IPA原本との最終照合待ち）",
+    "visualReviewStatus": "figure-recovered-needs-ipa-verification",
+    "explanationStatus": "original-draft-pending-editorial-review",
+    "figureUrl": "assets/questions/2024/q060-1.png",
+    "figureFiles": [
+      "assets/questions/2024/q060-1.png"
+    ],
+    "figureAlt": "令和6年度問60の図"
   },
   {
     "id": "ipa-2024-061",
@@ -2015,9 +2025,14 @@ window.QUESTIONS_2024 = [
     "textTransportSource": "https://e-words.jp/p/e-ip-past-R06.html",
     "extractionStatus": "needs-pdf-review",
     "figureRequired": true,
-    "figureCaption": "この問題の図は公式PDFで確認してください。",
-    "visualReviewStatus": "image-unavailable",
-    "explanationStatus": "original-draft-pending-editorial-review"
+    "figureCaption": "公開問題の転記資料に掲載されている図（IPA原本との最終照合待ち）",
+    "visualReviewStatus": "figure-recovered-needs-ipa-verification",
+    "explanationStatus": "original-draft-pending-editorial-review",
+    "figureUrl": "assets/questions/2024/q067-1.png",
+    "figureFiles": [
+      "assets/questions/2024/q067-1.png"
+    ],
+    "figureAlt": "令和6年度問67の図"
   },
   {
     "id": "ipa-2024-068",
