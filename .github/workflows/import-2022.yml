@@ -29,5 +29,7 @@ jobs:
           git add questions_2022.js data/2022-import-report.json assets/questions/2022/
           if ! git diff --cached --quiet; then
             git commit -m "Import 2022 IT Passport 100 questions for editorial verification"
+            git fetch origin main
+            git rebase origin/main
             git push origin HEAD:main
           fi
