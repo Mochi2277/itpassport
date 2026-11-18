@@ -1,4 +1,3 @@
-// 令和3年度公開問題100問、独自作成の解説案。
 window.QUESTIONS_2021 = [
   {
     "id": "ipa-2021-001",
@@ -735,8 +734,8 @@ window.QUESTIONS_2021 = [
     "number": 28,
     "field": "ストラテジ系",
     "topic": "会計・財務",
-    "q": "次の当期末損益計算資料から求められる経常利益は何百万円か。\n\n単位百万円\n売上高3,000\n\n売上原価1,500\n\n販売費及び一般管理費500\n\n営業外費用15\n\n特別損失300\n\n法人税300",
-    "displayText": "次の当期末損益計算資料から求められる経常利益は何百万円か。\n\n単位百万円\n売上高3,000\n\n売上原価1,500\n\n販売費及び一般管理費500\n\n営業外費用15\n\n特別損失300\n\n法人税300",
+    "q": "次の当期末損益計算資料から求められる経常利益は何百万円か。",
+    "displayText": "次の当期末損益計算資料から求められる経常利益は何百万円か。",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
       "385",
@@ -782,7 +781,10 @@ window.QUESTIONS_2021 = [
       ]
     ],
     "answerVerification": "transcription-answer-key-needs-official-review",
-    "explanationStatus": "original-draft"
+    "explanationStatus": "original-draft",
+    "figureTableLabels": [
+      "損益計算資料（単位：百万円）"
+    ]
   },
   {
     "id": "ipa-2021-029",
@@ -2586,8 +2588,8 @@ window.QUESTIONS_2021 = [
     "number": 95,
     "field": "テクノロジ系",
     "topic": "データ操作",
-    "q": "関係データベースで管理された“商品”表，“売上”表から売上日が5月中で，かつ商品ごとの合計額が20,000円以上になっている商品だけを全て挙げたものはどれか。\n\n商品\n商品コード商品名単価（円）\n\n0001商品A 2,000\n\n0002商品B 4,000\n\n0003商品C 7,000\n\n0004商品D 10,000\n\n売上\n売上番号商品コード個数売上日配達日\n\nZ00001 0004 3 4/30 5/2\n\nZ00002 0001 3 4/30 5/3\n\nZ00005 0003 3 5/15 5/17\n\nZ00006 0001 5 5/15 5/18\n\nZ00003 0002 3 5/5 5/18\n\nZ00004 0001 4 5/10 5/20\n\nZ00007 0002 3 5/30 6/2\n\nZ00008 0003 1 6/8 6/10",
-    "displayText": "関係データベースで管理された“商品”表，“売上”表から売上日が5月中で，かつ商品ごとの合計額が20,000円以上になっている商品だけを全て挙げたものはどれか。\n\n商品\n商品コード商品名単価（円）\n\n0001商品A 2,000\n\n0002商品B 4,000\n\n0003商品C 7,000\n\n0004商品D 10,000\n\n売上\n売上番号商品コード個数売上日配達日\n\nZ00001 0004 3 4/30 5/2\n\nZ00002 0001 3 4/30 5/3\n\nZ00005 0003 3 5/15 5/17\n\nZ00006 0001 5 5/15 5/18\n\nZ00003 0002 3 5/5 5/18\n\nZ00004 0001 4 5/10 5/20\n\nZ00007 0002 3 5/30 6/2\n\nZ00008 0003 1 6/8 6/10",
+    "q": "関係データベースで管理された“商品”表，“売上”表から売上日が5月中で，かつ商品ごとの合計額が20,000円以上になっている商品だけを全て挙げたものはどれか。",
+    "displayText": "関係データベースで管理された“商品”表，“売上”表から売上日が5月中で，かつ商品ごとの合計額が20,000円以上になっている商品だけを全て挙げたものはどれか。",
     "displayTextSource": "external-transcription-needs-pdf-review",
     "choices": [
       "商品A，商品B，商品C",
@@ -2699,7 +2701,11 @@ window.QUESTIONS_2021 = [
       ]
     ],
     "answerVerification": "transcription-answer-key-needs-official-review",
-    "explanationStatus": "original-draft"
+    "explanationStatus": "original-draft",
+    "figureTableLabels": [
+      "商品表",
+      "売上表"
+    ]
   },
   {
     "id": "ipa-2021-096",
