@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
   push:
     paths:
+      - 'questions*.js'
       - 'scripts/audit_content_quality.py'
       - '.github/workflows/content-quality-audit.yml'
 permissions:
