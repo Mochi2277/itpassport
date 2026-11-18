@@ -91,6 +91,16 @@ def fetch(n):
                         break
             if [x[0] for x in choices] != list(KANA):
                 raise ValueError("Cannot extract 4 options, got "+str([x[0] for x in choices])+"; tableHTML="+str(opts)[:500])
+            if n==32:
+                # IPA original: all four options are visual process diagrams.
+                # The SVG versions were manually reconstructed by inspecting the
+                # official PDF; provide them as visible option diagrams.
+                choices=list(zip(list(KANA), [
+                    "工程を一方向に順番に進める図",
+                    "工程図と製作の間で手戻りする図",
+                    "全工程を終えて最初に戻る図",
+                    "製作図・工程図・製作を並行して進める図",
+                ]))
             if any(not value.strip() for _,value in choices):raise ValueError("Empty choice")
             question=with_breaks(prompt)
             if len(question)<12:raise ValueError("Question too short")
@@ -114,6 +124,10 @@ def fetch(n):
                  "source":"IPA 令和4年度 ITパスポート試験 公開問題","sourceUrl":IPA_Q,
                  "answerSourceUrl":IPA_A,"textTransportSource":url,
                  "adapted":True,"extractionStatus":"needs-pdf-review"}
+            if n==32:
+                obj["choiceFigures"]=[f"assets/questions/2022/q032-choice-{i}.svg" for i in range(1,5)]
+                obj["choiceFigureCaption"]="原本の図を基にした学習用再作図です。細部はIPA公式PDFでご確認ください。"
+                obj["extractionStatus"]="redrawn-from-official-pdf"
             if extra_tables:obj["figureTables"]=extra_tables
             obj["answerVerification"]="transcription-answer-key-needs-official-review"
             if imgs:obj["figureRequired"]=True;obj["_imageSources"]=imgs
