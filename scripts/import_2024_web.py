@@ -59,10 +59,11 @@ def fetch_question(n):
                 raise ValueError(f"Missing primary page structure for question {n}")
             rows=[]
             for tr in option_table.find_all("tr"):
-                th=tr.find("th")
-                td=tr.find("td")
-                if th and td and normalize(th.get_text()) in KANA and len(normalize(th.get_text()))==1:
-                    rows.append((normalize(th.get_text()),text_with_breaks(td)))
+                cells=tr.find_all(["th","td"],recursive=False)
+                if len(cells)<2: continue
+                label=normalize(cells[0].get_text(" ",strip=True))
+                if label in list(KANA):
+                    rows.append((label,normalize(" | ".join(text_with_breaks(td) for td in cells[1:]))))
             if [a for a,_ in rows]!=list(KANA):
                 raise ValueError(f"Cannot parse all four options for question {n}: {[a for a,_ in rows]}")
             if KANA.index(normalize(answer.get_text()))!=KEYS[n-1]:
