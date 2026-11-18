@@ -1,0 +1,38 @@
+name: Import IPA 2021 public exam questions
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/import_2021_web.py'
+      - '.github/workflows/import-2021.yml'
+permissions:
+  contents: write
+concurrency:
+  group: itpassport-historical-import
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install parser
+        run: pip install 'beautifulsoup4>=4.12,<5' 'requests>=2.32,<3'
+      - name: Extract 2021 exam and verify 100 complete questions
+        run: python scripts/import_2021_web.py
+      - name: Commit validated exam dataset
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add questions_2021.js data/2021-import-report.json assets/questions/2021/
+          if ! git diff --cached --quiet; then
+            git commit -m "Import 2021 IT Passport 100-question dataset"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
