@@ -12,7 +12,7 @@ header{background:#fff;border-bottom:1px solid #e0e9ed}
 .brand{background:transparent;border:0;color:#163f4e;padding:4px 0;font-size:21px;font-weight:700;text-align:left}.brand span{color:#07878b}
 .navlink{border:1px solid #d5e3e7;background:white;color:#226675;padding:9px 13px;border-radius:10px;font-size:13px}
 .wrap{padding:30px 18px 55px}.hero{padding:35px;background:linear-gradient(115deg,#17677b,#2c8d90);color:white;border-radius:20px}.hero h1{font-size:clamp(27px,4vw,39px);margin:0 0 12px;line-height:1.4}.hero p{font-size:14px;line-height:1.85;margin:0;color:#e6f6f6}
-.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin-top:24px}.card,.panel{background:white;border:1px solid #dce7ed;border-radius:17px;padding:24px}.card{text-align:left;color:inherit;min-height:145px;transition:border-color .15s,transform .15s}.card:hover:not(:disabled){border-color:#4ab5af;transform:translateY(-1px)}.card:disabled{opacity:.55;cursor:not-allowed}.card h2,.panel h2{font-size:19px;margin:8px 0 12px}.card p{font-size:13px;line-height:1.7;margin:0;color:#607c89}.icon{font-size:25px}.sub{color:#66818c;font-size:13px;line-height:1.8}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin-top:24px}.card,.panel{background:white;border:1px solid #dce7ed;border-radius:17px;padding:24px}.card-wide{grid-column:1 / -1;min-height:118px}.card{text-align:left;color:inherit;min-height:145px;transition:border-color .15s,transform .15s}.card:hover:not(:disabled){border-color:#4ab5af;transform:translateY(-1px)}.card:disabled{opacity:.55;cursor:not-allowed}.card h2,.panel h2{font-size:19px;margin:8px 0 12px}.card p{font-size:13px;line-height:1.7;margin:0;color:#607c89}.icon{font-size:25px}.sub{color:#66818c;font-size:13px;line-height:1.8}
 .section-title{margin:25px 0 12px}.stats-mini{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:20px 0}.metric{background:white;border:1px solid #dfebee;border-radius:13px;padding:19px}.metric b{display:block;font-size:26px;color:#15818a;margin-top:9px}
 .btn{border:0;padding:12px 17px;border-radius:10px;font-weight:700}.primary{background:#147f85;color:white}.secondary{background:#eaf2f5;color:#356574}.outline{background:#fff;border:1px solid #d3e5e9;color:#226b76}
 .row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.gap{display:flex;gap:10px;flex-wrap:wrap}.chips{display:flex;gap:9px;flex-wrap:wrap;margin:18px 0}.chip{background:white;border:1px solid #d5e3e9;color:#446b7a;border-radius:22px;padding:9px 14px}.chip.active{background:#dff4f2;border-color:#b4dfd9;color:#047e80}
@@ -40,7 +40,7 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
   <button type="button" class="card" id="start-resume"><span class="icon">▶️</span><h2>続きから解く</h2><p id="resume-description">前回の学習位置から再開する</p></button>
   <button type="button" class="card" id="start-custom"><span class="icon">📅</span><h2>年度・分野を指定して解く</h2><p>年度・分野・出題順を自由に組み合わせて演習</p></button>
   <button type="button" class="card" id="start-wrong"><span class="icon">🔁</span><h2>間違えた問題を復習</h2><p>苦手な問題を解き直す</p></button>
-  <button type="button" class="card" id="start-stats"><span class="icon">📊</span><h2>成績確認・アドバイス</h2><p>分野別正答率とおすすめの復習方法を見る</p></button>
+  <button type="button" class="card card-wide" id="start-stats"><span class="icon">📊</span><h2>成績確認・アドバイス</h2><p>分野別正答率とおすすめの復習方法を見る</p></button>
  </div>
  <p class="note">※ 現在の公式問題収録年度は令和7年度です。原文と完全一致しない表現調整版を含みます。</p>
 </section>
@@ -71,7 +71,7 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
  <div class="panel"><h2>学習データの管理</h2><p class="sub">履歴はブラウザ内にのみ保存されます。別の端末には同期されません。</p><button class="btn secondary" id="clear-history" type="button">学習履歴を削除する</button></div>
 </section>
 </main>
-<footer><div>表示バージョン：2026-11-18 / home-v2</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
+<footer><div>表示バージョン：2026-11-18 / home-v3</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
 <script src="questions.js?v=20261118-homev1"></script>
 <script>
 (()=>{'use strict';
