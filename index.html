@@ -110,9 +110,9 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
  <div class="panel"><h2>学習データの管理</h2><p class="sub">履歴はブラウザ内にのみ保存されます。別の端末には同期されません。</p><button class="btn secondary" id="clear-history" type="button">学習履歴を削除する</button></div>
 </section>
 </main>
-<footer><div>表示バージョン：2026-11-18 / r02-r03-100-v3</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
+<footer><div>表示バージョン：2026-11-18 / audit-figures-v1</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
 <script src="questions.js?v=20261118-homev1"></script>
-<script src="questions_2024.js?v=20261118-r06-spacing"></script>
+<script src="questions_2024.js?v=20261118-r06-figures-v2"></script>
 <script src="questions_2023.js?v=20261118-r05-v3"></script>
 <script src="questions_2026.js?v=20261118-r08-v1"></script>
 <script src="questions_2022.js?v=20261118-r04-v2"></script>
@@ -148,7 +148,7 @@ function saveCursor(){if(session){session.cursor=cursor;write(SESSION,session)}}
 function renderQuestion(){selected=false;const q=pool[cursor];if(!q)return;
 $('position').textContent='問題 '+(cursor+1)+' / '+pool.length+(q.number?'　（'+('令和'+(Number(q.year)-2018)+'年度')+' 問'+q.number+'）':'');
 $('topic').textContent=q.topic||q.field;$('progress-inner').style.width=(100*(cursor+1)/pool.length)+'%';
-$('source').innerHTML=q.source?esc(q.source)+' 問'+q.number+'（'+(q.displayTextSource==='ipa-pdf-verified'?'原文照合済み':(['2020','2021','2022','2023','2026'].includes(q.year))?'原文校閲中':'学習用の表現調整版')+'） · <a href="'+esc(q.sourceUrl)+'" target="_blank" rel="noopener noreferrer">原文PDF</a>':'オリジナル練習問題';
+$('source').innerHTML=q.source?esc(q.source)+' 問'+q.number+'（'+(q.displayTextSource==='ipa-pdf-verified'?'原文照合済み':q.year==='オリジナル'?'独自問題':'原文校閲中')+'） · <a href="'+esc(q.sourceUrl)+'" target="_blank" rel="noopener noreferrer">原文PDF</a>':'オリジナル練習問題';
 $('question').textContent=q.displayText||q.q;
 const tableSets=Array.isArray(q.figureTables)?q.figureTables:[];$('figure-tables').replaceChildren();$('figure-tables').hidden=!tableSets.length;
 tableSets.forEach((rows,tableIndex)=>{const table=document.createElement('table');table.className='question-source-table';rows.forEach((cells,i)=>{const tr=document.createElement('tr');cells.forEach((value,col)=>{const td=document.createElement(i===0?'th':'td');td.textContent=value;if(i===0&&q.figureUnderlinedHeaders?.[tableIndex]?.includes(col))td.style.textDecoration='underline';tr.append(td)});table.append(tr)});if(q.figureTableLabels?.[tableIndex]){const label=document.createElement('p');label.className='note';label.textContent=q.figureTableLabels[tableIndex];$('figure-tables').append(label)}$('figure-tables').append(table)});
