@@ -1,4 +1,4 @@
-/* IPA問題の学習用要約・表現調整版。原文は出典PDF参照。 */
+/* IPA令和7年度問題の学習用要約・表現調整版。原文は公式PDF参照。 */
 window.QUESTIONS = [
   {
     "id": "ipa-2025-001",
@@ -1576,6 +1576,426 @@ window.QUESTIONS = [
     "answer": 0,
     "explanation": "サムネイルは一覧表示などで用いる縮小画像です。",
     "tip": "原文PDFで設問条件を確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-080",
+    "year": "2025",
+    "number": 80,
+    "field": "テクノロジ系",
+    "topic": "AI",
+    "q": "広範な大量データで訓練され、ファインチューニングによって文章生成など様々な用途に適応できるAIモデルはどれか。",
+    "choices": [
+      "アノテーション",
+      "エキスパートシステム",
+      "基盤モデル",
+      "畳み込みニューラルネットワーク"
+    ],
+    "answer": 2,
+    "explanation": "基盤モデルは大規模データで学習した汎用モデルで、追加学習やプロンプトによって複数のタスクに活用できます。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-081",
+    "year": "2025",
+    "number": 81,
+    "field": "テクノロジ系",
+    "topic": "OCR",
+    "q": "スキャナーで読み取った書類画像から文字を認識し、テキストデータに変換する技術はどれか。",
+    "choices": [
+      "CCD",
+      "DVI",
+      "GPU",
+      "OCR"
+    ],
+    "answer": 3,
+    "explanation": "OCR（光学文字認識）は画像に含まれる文字を読み取ってテキスト化します。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-082",
+    "year": "2025",
+    "number": 82,
+    "field": "テクノロジ系",
+    "topic": "データベース",
+    "q": "データベースを別のコンピュータに複製し、内容を一致させるよう同期するDBMS機能はどれか。",
+    "choices": [
+      "アーカイブ",
+      "バックアップ",
+      "レプリケーション",
+      "ロールバック"
+    ],
+    "answer": 2,
+    "explanation": "レプリケーションはデータの複製を作り、その内容を同期させる仕組みです。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-083",
+    "year": "2025",
+    "number": 83,
+    "field": "テクノロジ系",
+    "topic": "ISMS",
+    "q": "ISMSでサーバ監視にPDCAを適用する。①監視目的・手順を定義、②第三者が客観的に評価、③手順に従い監視、④発見した問題に応じ監視方法を変更。P・D・C・Aの順序はどれか。",
+    "choices": [
+      "①②③④",
+      "①②④③",
+      "①③②④",
+      "①③④②"
+    ],
+    "answer": 2,
+    "explanation": "Plan＝①計画、Do＝③実施、Check＝②評価、Act＝④改善の順です。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-084",
+    "year": "2025",
+    "number": 84,
+    "field": "テクノロジ系",
+    "topic": "ISMS",
+    "q": "ISMSの情報セキュリティ方針として最も適切な説明はどれか。",
+    "choices": [
+      "機密事項があるため周知対象を社内だけに限定する",
+      "継続的改善へのコミットメントを含める必要がある",
+      "適用範囲の組織全体でなく部門ごとに必ず策定する",
+      "ボトムアップで各職場の管理者だけが承認する"
+    ],
+    "answer": 1,
+    "explanation": "ISMS方針には情報セキュリティ目的や継続的改善へのコミットメントなどが求められます。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-085",
+    "year": "2025",
+    "number": 85,
+    "field": "テクノロジ系",
+    "topic": "AI・計算",
+    "q": "学習を1回行うたびAIの誤り率が直前の95%になる。現在正解率30%（誤り率70%）のとき、正解率が35%を超えるには追加学習が最低何回必要か。",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "1回後の誤り率は70%×0.95＝66.5%で正解率33.5%。2回後は63.175%となり正解率36.825%なので2回です。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-086",
+    "year": "2025",
+    "number": 86,
+    "field": "テクノロジ系",
+    "topic": "AI",
+    "q": "大量の犬や猫の画像から特徴を自動的に抽出して種類を識別するAI技術はどれか。",
+    "choices": [
+      "eラーニング",
+      "アクティブラーニング",
+      "アダプティブラーニング",
+      "ディープラーニング"
+    ],
+    "answer": 3,
+    "explanation": "ディープラーニングは多層のニューラルネットワークで画像の特徴を自動的に学習します。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-087",
+    "year": "2025",
+    "number": 87,
+    "field": "テクノロジ系",
+    "topic": "暗号・認証",
+    "q": "PKIで公開されるCRLに掲載されるデジタル証明書の条件はどれか。",
+    "choices": [
+      "有効期間が満了している",
+      "有効期間が無期限",
+      "有効期間内に失効している",
+      "有効期間が延長されている"
+    ],
+    "answer": 2,
+    "explanation": "CRL（証明書失効リスト）は有効期限前に取り消された証明書を確認するために使います。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-088",
+    "year": "2025",
+    "number": 88,
+    "field": "テクノロジ系",
+    "topic": "物理セキュリティ",
+    "q": "情報セキュリティ対策のうち物理的セキュリティ対策の例はどれか。",
+    "choices": [
+      "Webサーバのアクセスログに基づく通信遮断",
+      "ICカードでサーバ室や執務室の入退室を管理する",
+      "守秘義務契約と従業員教育を行う",
+      "退職時にアカウントを削除する"
+    ],
+    "answer": 1,
+    "explanation": "入退室管理は設備や建物への物理アクセスを制御する対策です。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-089",
+    "year": "2025",
+    "number": 89,
+    "field": "テクノロジ系",
+    "topic": "暗号技術",
+    "q": "AさんがBさんから受信した暗号化メッセージのうち、Aさんが復号して読めるものはどれか。a:A・Bの共通鍵、b:Aの公開鍵、c:Bの公開鍵、d:Bの秘密鍵で暗号化されたメッセージ。",
+    "choices": [
+      "a、b、d",
+      "a、c、d",
+      "b、d",
+      "c、d"
+    ],
+    "answer": 0,
+    "explanation": "共通鍵暗号は同じ鍵で復号でき、Aの公開鍵で暗号化したデータはAの秘密鍵で復号できます。Bの秘密鍵で変換されたものは対応するBの公開鍵で復元できます。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-090",
+    "year": "2025",
+    "number": 90,
+    "field": "テクノロジ系",
+    "topic": "無線LAN",
+    "q": "無線LANのセキュリティ対策として適切な説明はどれか。",
+    "choices": [
+      "APIはアクセスポイントのグループ管理ID",
+      "SSHはアクセスポイントをステルス化する仕組み",
+      "VPNはMACアドレス登録機器以外の接続を拒否する機能",
+      "WPA2はWEPより信頼性の高い無線通信の暗号化技術"
+    ],
+    "answer": 3,
+    "explanation": "WPA2は無線LANのセキュリティ規格で、WEPより強固な暗号化方式を用います。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-091",
+    "year": "2025",
+    "number": 91,
+    "field": "テクノロジ系",
+    "topic": "リスク管理",
+    "q": "リスク移転・回避・低減・保有について適切な説明はどれか。",
+    "choices": [
+      "対応は回避・移転・低減・保有の順に必ず実施する",
+      "対応は保有・低減・移転・回避の順に必ず実施する",
+      "保険への加入はリスク回避に分類される",
+      "ノートPCの紛失防止のため持出しを厳格に管理することはリスク低減である"
+    ],
+    "answer": 3,
+    "explanation": "リスク対応は選択肢であり固定の実施順序はありません。保険は一般にリスク移転、持出し管理の強化はリスク低減に当たります。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-092",
+    "year": "2025",
+    "number": 92,
+    "field": "テクノロジ系",
+    "topic": "ランサムウェア",
+    "q": "PCがランサムウェアに感染したときの損害を軽減する対策として適切なのはどれか。",
+    "choices": [
+      "ファイルサーバのバックアップを定期的に取得してネットワークから切り離して保管する",
+      "PCに多要素認証を導入する",
+      "PCのHDDを暗号化する",
+      "ログイン失敗回数に応じIDをロックする"
+    ],
+    "answer": 0,
+    "explanation": "オフライン等で隔離したバックアップはランサムウェア被害時の復旧手段になります。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-093",
+    "year": "2025",
+    "number": 93,
+    "field": "テクノロジ系",
+    "topic": "情報セキュリティ",
+    "q": "情報セキュリティにおける『脅威』の説明として適切なのはどれか。",
+    "choices": [
+      "攻撃者が突けるシステムの弱点",
+      "損害の確率と大きさの組合せ",
+      "情報資産に損害を与える原因となるもの",
+      "弱点を悪用されて被害を受ける可能性"
+    ],
+    "answer": 2,
+    "explanation": "脅威は情報資産に悪影響を生じさせる潜在的な原因です。弱点は脆弱性、発生可能性と影響の組合せはリスクを表します。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-094",
+    "year": "2025",
+    "number": 94,
+    "field": "テクノロジ系",
+    "topic": "システム信頼性",
+    "q": "稼働率0.9の独立した装置を並列に配置し、少なくとも1台稼働すればシステムが正常稼働する。稼働率0.999以上にする最低装置数はどれか。",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 1,
+    "explanation": "n台全てが停止する確率は0.1^n。n=3ならシステム稼働率は1−0.1³＝0.999です。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-095",
+    "year": "2025",
+    "number": 95,
+    "field": "テクノロジ系",
+    "topic": "データベース設計",
+    "q": "データベース設計のデータ分析で行うことはどれか。",
+    "choices": [
+      "データウェアハウスから業務情報を抽出する",
+      "指定条件に合う行だけを抽出する",
+      "必要なデータ項目を洗い出し項目間の関連を整理する",
+      "統計的手法で新たなビジネス情報を探索する"
+    ],
+    "answer": 2,
+    "explanation": "データベース設計では対象業務のデータ項目を整理し、項目・エンティティ間の関連性を分析します。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-096",
+    "year": "2025",
+    "number": 96,
+    "field": "テクノロジ系",
+    "topic": "OSS",
+    "q": "OSSについて正しい記述を全て選ぶとどれか。a:個人だけでなく企業・団体が開発するものもある、b:著作権が放棄されている、c:入手したソフトウェアはライセンス条件に従い再配布できる。",
+    "choices": [
+      "a、b",
+      "a、b、c",
+      "a、c",
+      "b、c"
+    ],
+    "answer": 2,
+    "explanation": "OSSも著作権は保持されます。各OSSライセンスの条件に従うことで使用・改変・再配布が認められます。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-097",
+    "year": "2025",
+    "number": 97,
+    "field": "テクノロジ系",
+    "topic": "CIA",
+    "q": "情報セキュリティの可用性だけが損なわれた事象はどれか。a:DoS攻撃で決済システムが利用不可、b:顧客情報が誤った内容で運用、c:社外秘情報が漏えい。",
+    "choices": [
+      "aのみ",
+      "a、b",
+      "b、c",
+      "cのみ"
+    ],
+    "answer": 0,
+    "explanation": "aは可用性、bは完全性、cは機密性を損なう事象です。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-098",
+    "year": "2025",
+    "number": 98,
+    "field": "テクノロジ系",
+    "topic": "アルゴリズム",
+    "q": "データ[27,42,33,12]を昇順に整列する。整列対象の最大値を末尾と交換し、末尾を対象から外して同じ手順を繰り返す。要素が1個になるまで手順を何回実行するか。",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 2,
+    "explanation": "4要素の場合、末尾に最大値を確定する処理を行う回数は3回ですが、設問の(1)～(3)の手順では最後の要素1個のときにも条件確認を伴い、手順全体の実行回数は4回です。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-099",
+    "year": "2025",
+    "number": 99,
+    "field": "テクノロジ系",
+    "topic": "アルゴリズム",
+    "q": "改善額20万円・期間3日の案件と改善額5万円・期間14日の案件がある。賞金は改善額10万円未満かどうか、期間7日未満かどうかで分岐し、10万円以上かつ7日未満なら2,000円、10万円未満かつ7日以上なら1,000円。合計は何円か。",
+    "choices": [
+      "1,000",
+      "1,500",
+      "3,000",
+      "5,500"
+    ],
+    "answer": 2,
+    "explanation": "1件目は2,000円、2件目は1,000円なので合計3,000円です。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-100",
+    "year": "2025",
+    "number": 100,
+    "field": "テクノロジ系",
+    "topic": "認証",
+    "q": "認証の三要素（知識・所持・生体）において、所持物を使う認証の例はどれか。",
+    "choices": [
+      "SMSを用いた認証",
+      "虹彩による認証",
+      "筆跡・筆圧による認証",
+      "秘密の質問への回答"
+    ],
+    "answer": 0,
+    "explanation": "SMSの受信に必要な携帯電話の所持を利用します。虹彩や筆跡は生体、秘密の質問は知識要素です。",
+    "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
     "adapted": true
