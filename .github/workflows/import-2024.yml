@@ -19,27 +19,15 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install PDF reader
-        run: pip install 'pymupdf>=1.24,<2' 'requests>=2.32,<3'
-      - name: Inspect fallback source structure
-        run: |
-          python - <<'PY'
-          import requests, re
-          from html.parser import HTMLParser
-          u='https://e-words.jp/p/e-ip-past-R06-1.html'
-          r=requests.get(u,timeout=50)
-          print('FALLBACK_HTTP',r.status_code,'SIZE',len(r.content),'CTYPE',r.headers.get('Content-Type'))
-          for needle in ['<h1','<main','past-q','qtext','id="question"']:
-            i=r.text.find(needle)
-            print('NEEDLE',needle,i,repr(r.text[max(i-150,0):i+1800]))
-          PY
-      - name: Read official IPA PDFs and generate validated question data
-        run: echo 'diagnostics only'
+        run: pip install 'beautifulsoup4>=4.12,<5' 'requests>=2.32,<3'
+      - name: Import IPA problem transcription and verify all 100 official answer keys
+        run: python scripts/import_2024_web.py
       - name: Commit imported questions
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add questions_2024.js data/2024-import-report.json assets/questions/2024/
+          git add questions_2024.js data/2024-import-report.json
           if ! git diff --cached --quiet; then
-            git commit -m "Import 100 IPA 2024 questions from official PDF (automatic extraction)"
+            git commit -m "Import 100 IPA 2024 questions (transcription; IPA answer-verified)"
             git push origin HEAD:main
           fi
