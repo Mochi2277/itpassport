@@ -1021,6 +1021,286 @@ window.QUESTIONS = [
     "adapted": true
   },
   {
+    "id": "ipa-2025-052",
+    "year": "2025",
+    "number": 52,
+    "field": "マネジメント系",
+    "topic": "システム監査",
+    "q": "外部委託した会計システムの成果物検収で、品質管理手続を守っているかをシステム監査する適任者はどれか。",
+    "choices": [
+      "開発に関与していない発注元の管理部門リーダー",
+      "発注元のプロジェクトマネージャ",
+      "受託先の開発リーダー",
+      "受託先の品質管理責任者"
+    ],
+    "answer": 0,
+    "explanation": "監査では監査対象の開発・検収業務から独立した立場が求められます。",
+    "tip": "理解できたら関連用語も確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-053",
+    "year": "2025",
+    "number": 53,
+    "field": "マネジメント系",
+    "topic": "内部統制",
+    "q": "内部統制の基本的要素「ITへの対応」に関する説明として適切なものはどれか。",
+    "choices": [
+      "ITを使えばヒューマンエラーを全て防げる",
+      "目標を達成できるならITの新規導入・更新を必ずしも強いるものではない",
+      "全ての業務をIT化すれば大幅な修正が容易になる",
+      "IT依存が高まると内部統制の目的は達成困難になる"
+    ],
+    "answer": 1,
+    "explanation": "内部統制におけるITへの対応は目標達成に向けた適切な利用・統制を意味し、導入自体を義務付けるものではありません。",
+    "tip": "理解できたら関連用語も確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-054",
+    "year": "2025",
+    "number": 54,
+    "field": "マネジメント系",
+    "topic": "業務改善",
+    "q": "1,000件の電話対応で、AI導入前の総時間はグループAが60%、Bが40%。導入後Aの時間を半減しBは不変。全体の所要時間は何%短縮するか。",
+    "choices": [
+      "30%",
+      "40%",
+      "50%",
+      "60%"
+    ],
+    "answer": 0,
+    "explanation": "Aが占める60%の時間を半分にできるため、削減率は60%×50%=30%です。",
+    "tip": "理解できたら関連用語も確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-055",
+    "year": "2025",
+    "number": 55,
+    "field": "マネジメント系",
+    "topic": "人的資源管理",
+    "q": "プロジェクト開始時の人員計画でパフォーマンス向上のために適切なのはどれか。a:不足スキルの研修を計画、b:スキルより人員確保を常に優先、c:役割と責任を開始後に決定。",
+    "choices": [
+      "aのみ",
+      "a、b、c",
+      "a、c",
+      "cのみ"
+    ],
+    "answer": 0,
+    "explanation": "必要なスキルや役割を事前に整理することが重要です。必要スキルが不足する場合は育成や採用を検討します。",
+    "tip": "理解できたら関連用語も確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-056",
+    "year": "2025",
+    "number": 56,
+    "field": "テクノロジ系",
+    "topic": "無線通信",
+    "q": "Bluetoothの省電力仕様で、IoT機器に利用され、機器間の距離の測定にも活用されるものはどれか。",
+    "choices": [
+      "BLE",
+      "IrDA",
+      "NFC",
+      "PLC"
+    ],
+    "answer": 0,
+    "explanation": "BLE（Bluetooth Low Energy）は低消費電力の近距離無線通信技術です。",
+    "tip": "理解できたら関連用語も確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-057",
+    "year": "2025",
+    "number": 57,
+    "field": "テクノロジ系",
+    "topic": "ネットワーク",
+    "q": "HTTPプロキシサーバの機能として適切なのはどれか。",
+    "choices": [
+      "クライアントへグローバルIPを割り当てる",
+      "クライアントに代わってWebサーバへ接続し通信を中継する",
+      "ドメイン名をIPアドレスへ変換する",
+      "検索順位を高めるためWebコンテンツを書き換える"
+    ],
+    "answer": 1,
+    "explanation": "プロキシは代理として通信を中継します。IPアドレス配布はDHCP、名前解決はDNSです。",
+    "tip": "理解できたら関連用語も確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-058",
+    "year": "2025",
+    "number": 58,
+    "field": "テクノロジ系",
+    "topic": "ネットワーク",
+    "q": "DNSの説明として適切なのはどれか。",
+    "choices": [
+      "IPアドレスを自動配布する",
+      "Web通信を暗号化する",
+      "ホスト名・ドメイン名とIPアドレスを対応付ける",
+      "ホスト名とMACアドレスを対応付ける"
+    ],
+    "answer": 2,
+    "explanation": "DNSは名前解決を提供する仕組みです。",
+    "tip": "理解できたら関連用語も確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-059",
+    "year": "2025",
+    "number": 59,
+    "field": "テクノロジ系",
+    "topic": "情報セキュリティ",
+    "q": "ISMSの内部監査の説明として適切なのはどれか。",
+    "choices": [
+      "規格や組織の監査基準への適合性に加えてISMSの有効性も評価する",
+      "組織独自の要求事項だけを監査基準にする",
+      "過去の監査結果を考慮しない",
+      "不定期の抜き打ちだけで行う"
+    ],
+    "answer": 0,
+    "explanation": "内部監査では適合性と有効性を確認し、監査計画には過去の監査結果や重要性を考慮します。",
+    "tip": "理解できたら関連用語も確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-060",
+    "year": "2025",
+    "number": 60,
+    "field": "テクノロジ系",
+    "topic": "ネットワーク",
+    "q": "TCP/IPネットワークでのFTPの役割はどれか。",
+    "choices": [
+      "正確な時刻を取得する",
+      "電子メールを転送する",
+      "IPアドレスを自動割り当てする",
+      "ファイルをコンピュータ間で転送する"
+    ],
+    "answer": 3,
+    "explanation": "FTPはFile Transfer Protocolの略で、ファイル転送に使用します。",
+    "tip": "理解できたら関連用語も確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-061",
+    "year": "2025",
+    "number": 61,
+    "field": "テクノロジ系",
+    "topic": "データベース",
+    "q": "DBMSのトランザクションの説明として適切なのはどれか。",
+    "choices": [
+      "DBの内容を別DBへ複製する",
+      "操作を順次記録する",
+      "一連の処理が全て成功したら確定し途中で失敗すれば元に戻す",
+      "索引を作成して検索を高速化する"
+    ],
+    "answer": 2,
+    "explanation": "トランザクションは一連の処理を一つの単位として扱い、コミット・ロールバックで整合性を確保します。",
+    "tip": "理解できたら関連用語も確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-062",
+    "year": "2025",
+    "number": 62,
+    "field": "テクノロジ系",
+    "topic": "OS",
+    "q": "OSの仮想記憶方式は、コンピュータのどの装置のどの容量に制約されない、どのようなアドレス空間を提供するものか。",
+    "choices": [
+      "主記憶／物理的／論理的",
+      "主記憶／論理的／物理的",
+      "補助記憶／物理的／論理的",
+      "補助記憶／論理的／物理的"
+    ],
+    "answer": 0,
+    "explanation": "仮想記憶は主記憶の物理容量に依存しない論理的なアドレス空間を提供します。",
+    "tip": "理解できたら関連用語も確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-063",
+    "year": "2025",
+    "number": 63,
+    "field": "テクノロジ系",
+    "topic": "統計",
+    "q": "名義・順序・間隔・比例の4尺度のうち、間隔尺度の例はどれか。",
+    "choices": [
+      "学年",
+      "血液型",
+      "時刻",
+      "睡眠時間"
+    ],
+    "answer": 2,
+    "explanation": "時刻は差に意味がある一方、午前0時が時間の絶対的ゼロではありません。睡眠時間は比例尺度です。",
+    "tip": "理解できたら関連用語も確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-064",
+    "year": "2025",
+    "number": 64,
+    "field": "テクノロジ系",
+    "topic": "Web技術",
+    "q": "Webサイトで見かけるRSSの説明として適切なのはどれか。",
+    "choices": [
+      "Webレイアウトの規格",
+      "Webページの見出し・リンク・要約などを配信するフォーマット",
+      "オンラインブックマーク共有サービス",
+      "Web通信の暗号化プロトコル"
+    ],
+    "answer": 1,
+    "explanation": "RSSはWebサイトの更新情報や記事の概要を配信するための形式です。",
+    "tip": "理解できたら関連用語も確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-065",
+    "year": "2025",
+    "number": 65,
+    "field": "テクノロジ系",
+    "topic": "データベース",
+    "q": "DBMSで検索を高速化する目的で必要に応じて設定・利用する情報はどれか。",
+    "choices": [
+      "インデックス",
+      "外部キー",
+      "主キー",
+      "スキーマ"
+    ],
+    "answer": 0,
+    "explanation": "インデックス（索引）は検索対象のデータ位置を効率的に特定し、検索性能向上に役立ちます。",
+    "tip": "理解できたら関連用語も確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
     "id": "demo-01",
     "year": "オリジナル",
     "field": "ストラテジ系",
