@@ -54,6 +54,11 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
   #quiz .rakuten-sidebar{margin-top:4px}
 }
 @media(max-width:420px){#quiz .rakuten-sidebar .rakuten-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.question-tables{overflow-x:auto;margin:12px 0 20px}
+.question-source-table{border-collapse:collapse;min-width:max-content;max-width:100%;margin:8px 0 15px;font-size:13px;line-height:1.65}
+.question-source-table th,.question-source-table td{border:1px solid #cadde3;padding:8px 11px;text-align:left;vertical-align:top;white-space:pre-wrap}
+.question-source-table th{background:#eef6f7}
 </style></head><body>
 <header><div class="nav"><button type="button" id="brand" class="brand">📘 ITパスポート <span>過去問学習室</span></button><button type="button" class="navlink" id="navstats">成績・アドバイス</button></div></header>
 <main class="wrap">
@@ -84,7 +89,7 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
  <div class="row" style="margin-top:18px"><small id="position"></small><small id="topic"></small></div>
  <div class="progress"><div id="progress-inner" class="progress-inner"></div></div>
  <div id="source" class="note"></div>
- <div id="question" class="question"></div>
+ <div id="question" class="question"></div><div id="figure-tables" class="question-tables" hidden></div>
  <div id="figure" class="figure" hidden><img id="figure-image" alt=""><p id="figure-caption" class="note"></p></div>
  <div id="figure-note" class="note" hidden>※ この問題の図表は未収録です。必要に応じて<a id="figure-pdf" href="#" target="_blank" rel="noopener noreferrer">公式PDFを参照</a>してください。</div>
  <div style="font-weight:700;margin:15px 0 8px">解答を選択してください</div><div id="choices"></div><div id="feedback" class="feedback" hidden></div>
@@ -137,6 +142,8 @@ $('position').textContent='問題 '+(cursor+1)+' / '+pool.length+(q.number?'　�
 $('topic').textContent=q.topic||q.field;$('progress-inner').style.width=(100*(cursor+1)/pool.length)+'%';
 $('source').innerHTML=q.source?esc(q.source)+' 問'+q.number+'（'+(q.displayTextSource==='ipa-pdf-verified'?'原文照合済み':'学習用の表現調整版')+'） · <a href="'+esc(q.sourceUrl)+'" target="_blank" rel="noopener noreferrer">原文PDF</a>':'オリジナル練習問題';
 $('question').textContent=q.displayText||q.q;
+const tableSets=Array.isArray(q.figureTables)?q.figureTables:[];$('figure-tables').replaceChildren();$('figure-tables').hidden=!tableSets.length;
+tableSets.forEach(rows=>{const table=document.createElement('table');table.className='question-source-table';rows.forEach((cells,i)=>{const tr=document.createElement('tr');cells.forEach(value=>{const td=document.createElement(i===0?'th':'td');td.textContent=value;tr.append(td)});table.append(tr)});$('figure-tables').append(table)});
 const hasFigure=Boolean(q.figureUrl);$('figure').hidden=!hasFigure;
 if(hasFigure){$('figure-image').src=q.figureUrl;$('figure-image').alt=q.figureAlt||'問題の図表';$('figure-caption').textContent=q.figureCaption||'出典：IPA公式公開問題'}
 else $('figure-image').removeAttribute('src');
