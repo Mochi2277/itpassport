@@ -3103,7 +3103,7 @@ window.QUESTIONS = [
     "number": 97,
     "field": "テクノロジ系",
     "answer": 0,
-    "explanation": "aは可用性、bは完全性、cは機密性を損なう事象です。",
+    "explanation": "可用性は必要なときにシステムや情報を利用できる性質です。aはDoS攻撃で電子決済システムを利用できなくなっており可用性の損失です。bは顧客情報の誤りで完全性の損失、cは秘密情報の漏えいで機密性の損失に該当します。したがってaだけが正解です。",
     "tip": "IPA公式PDFも参照して設問条件と図表を確認してください。",
     "adapted": true,
     "displayTextSource": "external-transcription-needs-ipa-pdf-review",
