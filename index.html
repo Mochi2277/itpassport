@@ -67,7 +67,7 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
  <div class="hero"><h1>ITパスポート 過去問学習室</h1><p>公式公開問題をベースに、毎日少しずつ学習。<br>学習履歴はこの端末に保存されます。</p></div>
  <div class="stats-mini"><div class="metric"><small>累計解答</small><b id="home-attempts">0</b></div><div class="metric"><small>正答率</small><b id="home-accuracy">—</b></div><div class="metric"><small>収録問題</small><b id="home-total">—</b></div></div>
  <div class="cards">
-  <button type="button" class="card" id="start-new"><span class="icon">✏️</span><h2>新規で解く</h2><p>令和7年度を1問目から順番に始める</p></button>
+  <button type="button" class="card" id="start-new"><span class="icon">✏️</span><h2>新規で解く</h2><p id="start-new-description">最新年度の問題を1問目から順番に始める</p></button>
   <button type="button" class="card" id="start-resume"><span class="icon">▶️</span><h2>続きから解く</h2><p id="resume-description">前回の学習位置から再開する</p></button>
   <button type="button" class="card" id="start-custom"><span class="icon">📅</span><h2>年度・分野を指定して解く</h2><p>年度・分野・出題順を自由に組み合わせて演習</p></button>
   <button type="button" class="card" id="start-wrong"><span class="icon">🔁</span><h2>間違えた問題を復習</h2><p>苦手な問題を解き直す</p></button>
@@ -109,7 +109,7 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
  <div class="panel"><h2>学習データの管理</h2><p class="sub">履歴はブラウザ内にのみ保存されます。別の端末には同期されません。</p><button class="btn secondary" id="clear-history" type="button">学習履歴を削除する</button></div>
 </section>
 </main>
-<footer><div>表示バージョン：2026-11-18 / r08-100-v1</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
+<footer><div>表示バージョン：2026-11-18 / latest-year-v1</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
 <script src="questions.js?v=20261118-homev1"></script>
 <script src="questions_2024.js?v=20261118-r06-spacing"></script>
 <script src="questions_2023.js?v=20261118-r05-v3"></script>
@@ -117,6 +117,7 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
 <script>
 (()=>{'use strict';
 const base=Array.isArray(window.QUESTIONS)?window.QUESTIONS:[], imported=Array.isArray(window.QUESTIONS_2024)?window.QUESTIONS_2024:[];const imported2023=Array.isArray(window.QUESTIONS_2023)?window.QUESTIONS_2023:[];const imported2026=Array.isArray(window.QUESTIONS_2026)?window.QUESTIONS_2026:[];const all=[...base,...imported,...imported2023,...imported2026], $=id=>document.getElementById(id);
+const latestYear=String(Math.max(...all.map(q=>Number(q.year)).filter(Number.isFinite)));
 const HIST='ip-study-progress-v1',SESSION='ip-study-session-v1';
 const fields=['ストラテジ系','マネジメント系','テクノロジ系'];
 const figuresToCheck=new Set([8,16,22,26,34,41,45,48,54,62,66,72,76,78,85,89,94,98,99]);
@@ -133,7 +134,7 @@ function homeStats(){const n=attempts();$('home-attempts').textContent=n;$('home
 const valid=session&&Array.isArray(session.ids)&&session.ids.some(id=>all.some(q=>q.id===id));$('start-resume').disabled=!valid;
 $('resume-description').textContent=valid?'前回の演習 '+(Math.min(session.cursor||0,session.ids.length-1)+1)+' / '+session.ids.length+' 問目から再開':'まだ続きはありません。新規で開始してください。';
 $('start-wrong').disabled=!wrongIds().size;$('review-from-stats').disabled=!wrongIds().size}
-function start(options){const {year='2025',field='すべて',kind='order'}=options;
+function start(options){const {year=latestYear,field='すべて',kind='order'}=options;
 let selectedPool=all.filter(q=>(year==='すべて'||q.year===year)&&(field==='すべて'||q.field===field)&&(kind!=='wrong'||wrongIds().has(q.id)));
 if(kind==='random'){for(let i=selectedPool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[selectedPool[i],selectedPool[j]]=[selectedPool[j],selectedPool[i]]}}
 if(!selectedPool.length){alert('この条件に該当する問題がありません。');return}
@@ -165,7 +166,7 @@ $('feedback').hidden=false;$('feedback').innerHTML='<b>'+(ok?'✓ 正解！':'�
 $('next').textContent=cursor===pool.length-1?'演習を終了する':'次の問題 →';$('next').hidden=false;
 if(session){session.cursor=Math.min(cursor+1,pool.length-1);write(SESSION,session)}}
 function next(){if(cursor>=pool.length-1){session=null;try{localStorage.removeItem(SESSION)}catch(e){}show('stats');return}cursor++;renderQuestion()}
-function setup(){$('setup-title').textContent='年度・分野を指定して解く';$('setup-description').textContent='年度・分野・出題順を選んでください。';$('setup-year').value='2025';$('setup-field').value='すべて';$('setup-order').value='order';updateSetupCount();show('setup')}
+function setup(){$('setup-title').textContent='年度・分野を指定して解く';$('setup-description').textContent='年度・分野・出題順を選んでください。';$('setup-year').value=latestYear;$('setup-field').value='すべて';$('setup-order').value='order';updateSetupCount();show('setup')}
 function updateSetupCount(){const y=$('setup-year').value,f=$('setup-field').value;$('setup-count').textContent='対象：'+all.filter(q=>q.year===y&&(f==='すべて'||q.field===f)).length+'問'}
 function renderStats(){const n=attempts();$('stats-attempts').textContent=n;$('stats-accuracy').textContent=rate(n,correct());$('stats-unique').textContent=Object.keys(saved).filter(id=>(saved[id]?.attempts||0)>0).length;
 $('field-stats').replaceChildren();const summary=[];
@@ -177,7 +178,7 @@ $('advice').textContent=msg;$('review-from-stats').disabled=!wrongIds().size}
 $('brand').onclick=()=>show('home');$('navstats').onclick=()=>show('stats');
 document.querySelectorAll('[data-home]').forEach(b=>b.onclick=()=>show('home'));
 $('go-home-stats').onclick=()=>show('home');$('quiz-stats').onclick=()=>show('stats');$('start-stats').onclick=()=>show('stats');
-$('start-new').onclick=()=>start({year:'2025',field:'すべて',kind:'order'});$('start-resume').onclick=resume;
+$('start-new').onclick=()=>start({year:latestYear,field:'すべて',kind:'order'});$('start-resume').onclick=resume;
 $('start-custom').onclick=setup;
 $('start-wrong').onclick=()=>start({year:'すべて',field:'すべて',kind:'wrong'});
 $('review-from-stats').onclick=()=>start({year:'すべて',field:'すべて',kind:'wrong'});
@@ -188,6 +189,7 @@ $('clear-history').onclick=()=>{if(confirm('この端末の学習履歴と「続
 if(imported.filter(q=>q.year==='2024').length===100){const option=document.createElement('option');option.value='2024';option.textContent='令和6年度（2024年）';$('setup-year').append(option)}
 if(imported2023.filter(q=>q.year==='2023').length===100){const option=document.createElement('option');option.value='2023';option.textContent='令和5年度（2023年）';$('setup-year').append(option)}
 if(imported2026.filter(q=>q.year==='2026').length===100){const option=document.createElement('option');option.value='2026';option.textContent='令和8年度（2026年）';$('setup-year').prepend(option)}
+$('start-new-description').textContent='最新年度の問題を1問目から順番に始める（令和'+(Number(latestYear)-2018)+'年度）';$('setup-year').value=latestYear;
 homeStats();show('home');
 })();
 </script></body></html>
