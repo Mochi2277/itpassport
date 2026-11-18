@@ -906,16 +906,18 @@ window.QUESTIONS_2023 = [
     "figureTables": [
       [
         [
-          "週",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6"
+          "区分",
+          "項目",
+          "1週",
+          "2週",
+          "3週",
+          "4週",
+          "5週",
+          "6週"
         ],
         [
-          "製品Aの生産個数",
+          "製品A",
+          "生産個数",
           "0",
           "40",
           "40",
@@ -924,7 +926,7 @@ window.QUESTIONS_2023 = [
           "40"
         ],
         [
-          "部 品 a",
+          "部品a",
           "所要数量",
           "0",
           "80",
@@ -934,6 +936,7 @@ window.QUESTIONS_2023 = [
           "80"
         ],
         [
+          "部品a",
           "手持在庫数量",
           "250",
           "",
@@ -943,6 +946,7 @@ window.QUESTIONS_2023 = [
           ""
         ],
         [
+          "部品a",
           "発注数量",
           "",
           "",
@@ -952,7 +956,7 @@ window.QUESTIONS_2023 = [
           ""
         ],
         [
-          "部 品 b",
+          "部品b",
           "所要数量",
           "0",
           "",
@@ -962,6 +966,7 @@ window.QUESTIONS_2023 = [
           ""
         ],
         [
+          "部品b",
           "手持在庫数量",
           "150",
           "",
@@ -971,6 +976,7 @@ window.QUESTIONS_2023 = [
           ""
         ],
         [
+          "部品b",
           "発注数量",
           "",
           "",
@@ -984,7 +990,8 @@ window.QUESTIONS_2023 = [
     "explanationStatus": "original-draft-reviewed-against-answer",
     "figureTableLabels": [
       "6週間の生産計画と在庫（空欄部分は元の問題でも非表示）"
-    ]
+    ],
+    "figureTableReformatStatus": "normalized-column-layout-needs-final-official-pdf-visual-confirmation"
   },
   {
     "id": "ipa-2023-034",
