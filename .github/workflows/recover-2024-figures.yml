@@ -1,0 +1,31 @@
+name: Recover missing 2024 exam illustrations
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/recover_2024_figures.py'
+      - '.github/workflows/recover-2024-figures.yml'
+permissions:
+  contents: write
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install 'beautifulsoup4>=4.12,<5' 'requests>=2.32,<3'
+      - run: python scripts/recover_2024_figures.py
+      - name: Publish source figures
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add questions_2024.js data/2024-image-recovery.json assets/questions/2024/
+          if ! git diff --cached --quiet; then
+            git commit -m "Recover source figures in R06 questions"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
