@@ -1,4 +1,4 @@
-/* Source: IPA 2025 public questions; transcription/layout review is ongoing. */
+/* IPA令和7年度の学習用表現調整問題。displayTextSource=readability-format は原文の改行位置の再現ではありません。 */
 window.QUESTIONS = [
   {
     "id": "ipa-2025-001",
@@ -128,7 +128,9 @@ window.QUESTIONS = [
     "tip": "IPA原文PDFと照らして確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "広告宣伝メールを送る際に、特定電子メール法の規制対象となり得る行為はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-007",
@@ -148,7 +150,9 @@ window.QUESTIONS = [
     "tip": "関連用語との違いまで確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "新しい概念やアイディアの実証を目的とする、開発の前段階における検証を表す用語はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-008",
@@ -168,7 +172,9 @@ window.QUESTIONS = [
     "tip": "IPA原文PDFと照らして確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "AIの学習データの偏りを減らし品質を確保するために適切な取組はどれか。\n\na　学習目的への適合確認、\n\nb　入手元や作成履歴の確認、\n\nc　目的に沿うアノテーション、\n\nd　人にも判定困難な画像認識データの除外。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-009",
@@ -188,7 +194,9 @@ window.QUESTIONS = [
     "tip": "IPA原文PDFと照らして確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "ハッカソンの説明として最も適切なものはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-010",
@@ -208,7 +216,9 @@ window.QUESTIONS = [
     "tip": "IPA原文PDFと照らして確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "生成AIが事実と異なる、もっともらしい回答を出力してしまう現象はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-011",
@@ -228,7 +238,9 @@ window.QUESTIONS = [
     "tip": "IPA原文PDFと照らして確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "FMS（Flexible Manufacturing System）の説明として最も適切なのはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-012",
@@ -248,7 +260,9 @@ window.QUESTIONS = [
     "tip": "IPA原文PDFと照らして確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "商標法におけるサービスマークを説明したものはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-013",
@@ -268,7 +282,9 @@ window.QUESTIONS = [
     "tip": "関連用語との違いまで確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "新しいITソリューションの導入可否を判断するため、提供者に活用事例や技術情報の提供を依頼する文書はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-014",
@@ -288,7 +304,9 @@ window.QUESTIONS = [
     "tip": "IPA原文PDFと照らして確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "事業情報・経営情報と知財情報を統合分析し、将来展望などを経営戦略に反映する活動はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-015",
@@ -308,7 +326,9 @@ window.QUESTIONS = [
     "tip": "関連用語との違いまで確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "意思決定の迅速化や独立採算を目指し、一企業内に事業領域ごとの独立した組織を設ける形態はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-016",
@@ -328,7 +348,9 @@ window.QUESTIONS = [
     "tip": "IPA原文PDFと照らして確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "他人の電子メールのID・パスワードを扱う行為のうち不正アクセス禁止法の規制対象となるものはどれか。\n\na　正当な理由なく第三者に提供、\n\nb　当該IDとパスワードを無効にするマルウェアを作成、\n\nc　無断使用してメールを閲覧。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-017",
@@ -348,7 +370,9 @@ window.QUESTIONS = [
     "tip": "IPA原文PDFと照らして確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "プロセスマイニングの説明として適切なものはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-018",
@@ -368,7 +392,9 @@ window.QUESTIONS = [
     "tip": "IPA原文PDFと照らして確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "IT分野のアクセシビリティに関する説明として適切なのはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-019",
@@ -388,7 +414,9 @@ window.QUESTIONS = [
     "tip": "IPA原文PDFと照らして確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "ARとVRの活用例のうち、VRに当たるものはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-020",
@@ -408,7 +436,9 @@ window.QUESTIONS = [
     "tip": "IPA原文PDFと照らして確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "ソフトウェアライフサイクルの企画段階で、構想立案のためベンダーから収集する情報として最も適切なものはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-021",
@@ -428,7 +458,9 @@ window.QUESTIONS = [
     "tip": "関連用語との違いまで確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "基本的な機能やサービスは無償で提供し、追加の機能やサービスを有償で提供するビジネスモデルはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-022",
@@ -448,7 +480,9 @@ window.QUESTIONS = [
     "tip": "IPA原文PDFと照らして確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "営業担当者10人の月次見込み・実績を集計してグラフ化する業務に最も適した技術・ツールはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-023",
@@ -468,7 +502,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確かめましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "コーポレートガバナンスの強化に有効な施策はどれか。\n\na　株式公開買付けによる買収、\n\nb　執行役員制度で経営と執行を分離、\n\nc　独立性の高い社外取締役を選任。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-024",
@@ -488,7 +524,9 @@ window.QUESTIONS = [
     "tip": "関連用語との違いまで確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "ホワイトカラーの定型的な事務作業をソフトウェアロボットで自動化するものはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-025",
@@ -508,7 +546,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確かめましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "ブロックチェーンを活用した事例として最も適切なのはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-026",
@@ -528,7 +568,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確かめましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "4月初めの売掛金はゼロ。\n\n4月に売上計上した800万円と500万円は回収済み。\n\n5月に売上計上した1,300万円と1,000万円は未回収。\n\n5月に受注した400万円は未売上。\n\n5月31日時点の売掛金は何万円か。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-027",
@@ -548,7 +590,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確かめましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "業務と情報システムの現状（As-Is）と理想像（To-Be）の差分を特定し、改善の移行計画を策定する手法はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-028",
@@ -568,7 +612,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確かめましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "生成AIについて最も適切な説明はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-029",
@@ -588,7 +634,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確かめましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "企業のミッション・ビジョン・バリューのうち「ビジョン」を表すものはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-030",
@@ -608,7 +656,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確かめましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "著作権法による保護の対象になるものと対象にならないものの適切な組合せはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-031",
@@ -628,7 +678,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確かめましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "ERPシステムを表す説明はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-032",
@@ -648,7 +700,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確かめましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "交通機関の移動履歴、Web検索履歴、SNS投稿など個人の活動を記録する技術・記録はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-033",
@@ -668,7 +722,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確かめましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "自動運転レベル3（条件付運転自動化）の説明として適切なのはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-034",
@@ -688,7 +744,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確かめましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "ある商品を5,000個販売し、売上6,000万円・利益400万円を得た。\n\n1個当たりの変動費は7,000円。\n\n利益を1,000万円以上にするには、あと何個以上売る必要があるか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-035",
@@ -708,7 +766,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確かめましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "マーケティング戦略の策定で、自社製品の競合との差別化ポイントを明確化するプロセスはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-036",
@@ -728,7 +788,9 @@ window.QUESTIONS = [
     "tip": "関連用語を整理して復習しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "合意したITサービス提供時間に対し、顧客が実際に利用できた時間の割合を表すものはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-037",
@@ -748,7 +810,9 @@ window.QUESTIONS = [
     "tip": "関連用語を整理して復習しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "ITサービス提供者と顧客間で合意するサービス品質の合意書aと、その遵守状況を管理する活動bの組合せはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-038",
@@ -768,7 +832,9 @@ window.QUESTIONS = [
     "tip": "関連用語を整理して復習しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "情報セキュリティ監査の説明として最も適切なのはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-039",
@@ -788,7 +854,9 @@ window.QUESTIONS = [
     "tip": "関連用語を整理して復習しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "アジャイル開発は、ウォーターフォール開発の何を改善し、何ができるようにする手法か。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-040",
@@ -808,7 +876,9 @@ window.QUESTIONS = [
     "tip": "関連用語を整理して復習しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "変更管理委員会を設けたプロジェクトで変更要求が生じた場合、適切な対応はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-041",
@@ -828,7 +898,9 @@ window.QUESTIONS = [
     "tip": "関連用語を整理して復習しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "システム開発プロジェクトのスケジュール作成に使用する技法はどれか。\n\na　DFD、\n\nb　回帰分析、\n\nc　クリティカルパス法、\n\nd　プレシデンスダイアグラム法。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-042",
@@ -848,7 +920,9 @@ window.QUESTIONS = [
     "tip": "関連用語を整理して復習しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "床下に配線などを通す空間を設け、取り外し可能な床パネルを並べる設備はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-043",
@@ -868,7 +942,9 @@ window.QUESTIONS = [
     "tip": "関連用語を整理して復習しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "営業部門の出張旅費精算に関し、日常的に実施する組織内けん制として最も適切なものはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-044",
@@ -888,7 +964,9 @@ window.QUESTIONS = [
     "tip": "関連用語を整理して復習しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "システム開発の早期段階で利用者の要求を目に見える形で確認するため試作品を作成するモデルはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-045",
@@ -908,7 +986,9 @@ window.QUESTIONS = [
     "tip": "関連用語を整理して復習しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "予算2,000万円、40日で100本を作成する計画。\n\n20日経過時に40本完成しコスト1,000万円。\n\n予定どおり均等に作業するとき、進捗率とコスト率の組合せはどれか。\n\n進捗＝完成本数÷予定本数、コスト率＝実際費用÷完成分の計画費用。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-046",
@@ -928,7 +1008,9 @@ window.QUESTIONS = [
     "tip": "関連用語を整理して復習しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "開発済みのソフトウェアを本番環境にインストールする手順を定め実施する工程はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-047",
@@ -948,7 +1030,9 @@ window.QUESTIONS = [
     "tip": "関連用語を整理して復習しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "銀行ATMのパネル操作において使用性を考慮すべきインターフェースはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-048",
@@ -968,7 +1052,9 @@ window.QUESTIONS = [
     "tip": "関連用語を整理して復習しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "顧客から受託した開発プロジェクトのスコープの対象はどれか。\n\na　プロジェクトで作成する成果物、\n\nb　市販のスケジュール管理ツール、\n\nc　顧客が要求事項を記した文書。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-049",
@@ -988,7 +1074,9 @@ window.QUESTIONS = [
     "tip": "関連用語を整理して復習しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "クラウドサービスの電話オペレータ受付が9〜18時でFAQも公開中。\n\nチャットボットを導入してサービスレベルを向上させる効果として適切なのはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-050",
@@ -1008,7 +1096,9 @@ window.QUESTIONS = [
     "tip": "関連用語を整理して復習しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "チャットボットの説明として適切なのはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-051",
@@ -1028,7 +1118,9 @@ window.QUESTIONS = [
     "tip": "関連用語を整理して復習しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "社内開発・運用している経理システムの内部監査を行う場合、システム監査人として適切なのはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-052",
@@ -1048,7 +1140,9 @@ window.QUESTIONS = [
     "tip": "理解できたら関連用語も確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "外部委託した会計システムの成果物検収で、品質管理手続を守っているかをシステム監査する適任者はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-053",
@@ -1068,7 +1162,9 @@ window.QUESTIONS = [
     "tip": "理解できたら関連用語も確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "内部統制の基本的要素「ITへの対応」に関する説明として適切なものはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-054",
@@ -1088,7 +1184,9 @@ window.QUESTIONS = [
     "tip": "理解できたら関連用語も確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "1,000件の電話対応で、AI導入前の総時間はグループAが60%、Bが40%。\n\n導入後Aの時間を半減しBは不変。\n\n全体の所要時間は何%短縮するか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-055",
@@ -1108,7 +1206,9 @@ window.QUESTIONS = [
     "tip": "理解できたら関連用語も確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "プロジェクト開始時の人員計画でパフォーマンス向上のために適切なのはどれか。\n\na　不足スキルの研修を計画、\n\nb　スキルより人員確保を常に優先、\n\nc　役割と責任を開始後に決定。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-056",
@@ -1128,7 +1228,9 @@ window.QUESTIONS = [
     "tip": "理解できたら関連用語も確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "Bluetoothの省電力仕様で、IoT機器に利用され、機器間の距離の測定にも活用されるものはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-057",
@@ -1148,7 +1250,9 @@ window.QUESTIONS = [
     "tip": "理解できたら関連用語も確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "HTTPプロキシサーバの機能として適切なのはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-058",
@@ -1168,7 +1272,9 @@ window.QUESTIONS = [
     "tip": "理解できたら関連用語も確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "DNSの説明として適切なのはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-059",
@@ -1188,7 +1294,9 @@ window.QUESTIONS = [
     "tip": "理解できたら関連用語も確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "ISMSの内部監査の説明として適切なのはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-060",
@@ -1208,7 +1316,9 @@ window.QUESTIONS = [
     "tip": "理解できたら関連用語も確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "TCP/IPネットワークでのFTPの役割はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-061",
@@ -1228,7 +1338,9 @@ window.QUESTIONS = [
     "tip": "理解できたら関連用語も確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "DBMSのトランザクションの説明として適切なのはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-062",
@@ -1248,7 +1360,9 @@ window.QUESTIONS = [
     "tip": "理解できたら関連用語も確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "OSの仮想記憶方式は、コンピュータのどの装置のどの容量に制約されない、どのようなアドレス空間を提供するものか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-063",
@@ -1268,7 +1382,9 @@ window.QUESTIONS = [
     "tip": "理解できたら関連用語も確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "名義・順序・間隔・比例の4尺度のうち、間隔尺度の例はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-064",
@@ -1288,7 +1404,9 @@ window.QUESTIONS = [
     "tip": "理解できたら関連用語も確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "Webサイトで見かけるRSSの説明として適切なのはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-065",
@@ -1308,7 +1426,9 @@ window.QUESTIONS = [
     "tip": "理解できたら関連用語も確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "DBMSで検索を高速化する目的で必要に応じて設定・利用する情報はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-066",
@@ -1328,7 +1448,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "ログイン記録：人事部の従業員10004は08:50に失敗後08:53に成功、システム部の10002は08:55と09:32に成功、人事部10005は09:39に失敗、営業部10011は10:00に失敗後10:05に成功。\n\n『失敗経験がある、又は09:00より前に成功した』従業員の部署名を全て選ぶとどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-067",
@@ -1348,7 +1470,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "3次元画像処理を高速化し、動画を滑らかに描画するためのハードウェアはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-068",
@@ -1368,7 +1492,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "CSIRTが行う活動として適切なのはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-069",
@@ -1388,7 +1514,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "バイオメトリクス認証で他人受入率を低く抑えようとすると何が高くなり、本人拒否率を低く抑えようとすると何が高くなるか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-070",
@@ -1408,7 +1536,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "脆弱性を修正するセキュリティパッチの適用が特に有効な攻撃はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-071",
@@ -1428,7 +1558,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "電波の周波数と到達性に関し、障害物の裏側まで回り込みやすいのは周波数が高い・低いのどちらか。\n\n国内携帯電話のプラチナバンド700〜900の単位は何か。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-072",
@@ -1448,7 +1580,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "伝わりやすいデザインの4原則『近接・a・反復・b』で、aは意図したルールに従い配置、bは強弱や大小の違いを明確にすること。 正しい組合せはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-073",
@@ -1468,7 +1602,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "Webサービスへの攻撃で、\n\na　パッチ提供前の脆弱性を突く、\n\nb　複数端末から大量のパケットを送りサービス停止、\n\nc　あり得るパスワードを順番に試行する。 名称の組合せはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-074",
@@ -1488,7 +1624,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "デジタルフォレンジックスの説明として適切なのはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-075",
@@ -1508,7 +1646,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "記憶素子として半導体メモリを用いるものはどれか。\n\na　CD-ROM、\n\nb　DVD-RAM、\n\nc　RAM、\n\nd　SSD、e:USBメモリ。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-076",
@@ -1528,7 +1668,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "B1に税率10%、B4～B6に税抜価格が入力されている。\n\nC4の税込価格計算式をC5・C6にコピーするときの適切な式はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-077",
@@ -1548,7 +1690,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "ネットワークやホストを監視し、不正アクセスや不審な通信を発見して報告する仕組みはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-078",
@@ -1568,7 +1712,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "1から7までの整数を順に調べ、3で割り切れる数だけ合計して出力すると結果はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-079",
@@ -1588,7 +1734,9 @@ window.QUESTIONS = [
     "tip": "原文PDFで設問条件を確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "サムネイルの説明として適切なのはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-080",
@@ -1608,7 +1756,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "広範な大量データで訓練され、ファインチューニングによって文章生成など様々な用途に適応できるAIモデルはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-081",
@@ -1628,7 +1778,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "スキャナーで読み取った書類画像から文字を認識し、テキストデータに変換する技術はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-082",
@@ -1648,7 +1800,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "データベースを別のコンピュータに複製し、内容を一致させるよう同期するDBMS機能はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-083",
@@ -1668,7 +1822,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "ISMSでサーバ監視にPDCAを適用する。\n\n①監視目的・手順を定義、\n②第三者が客観的に評価、\n③手順に従い監視、\n④発見した問題に応じ監視方法を変更。 P・D・C・Aの順序はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-084",
@@ -1688,7 +1844,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "ISMSの情報セキュリティ方針として最も適切な説明はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-085",
@@ -1708,7 +1866,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "学習を1回行うたびAIの誤り率が直前の95%になる。\n\n現在正解率30%（誤り率70%）のとき、正解率が35%を超えるには追加学習が最低何回必要か。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-086",
@@ -1728,7 +1888,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "大量の犬や猫の画像から特徴を自動的に抽出して種類を識別するAI技術はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-087",
@@ -1748,7 +1910,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "PKIで公開されるCRLに掲載されるデジタル証明書の条件はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-088",
@@ -1768,7 +1932,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "情報セキュリティ対策のうち物理的セキュリティ対策の例はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-089",
@@ -1788,7 +1954,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "AさんがBさんから受信した暗号化メッセージのうち、Aさんが復号して読めるものはどれか。\n\na　A・Bの共通鍵、\n\nb　Aの公開鍵、\n\nc　Bの公開鍵、\n\nd　Bの秘密鍵で暗号化されたメッセージ。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-090",
@@ -1808,7 +1976,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "無線LANのセキュリティ対策として適切な説明はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-091",
@@ -1828,7 +1998,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "リスク移転・回避・低減・保有について適切な説明はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-092",
@@ -1848,7 +2020,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "PCがランサムウェアに感染したときの損害を軽減する対策として適切なのはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-093",
@@ -1868,7 +2042,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "情報セキュリティにおける『脅威』の説明として適切なのはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-094",
@@ -1888,7 +2064,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "稼働率0.9の独立した装置を並列に配置し、少なくとも1台稼働すればシステムが正常稼働する。\n\n稼働率0.999以上にする最低装置数はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-095",
@@ -1908,7 +2086,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "データベース設計のデータ分析で行うことはどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-096",
@@ -1928,7 +2108,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "OSSについて正しい記述を全て選ぶとどれか。\n\na　個人だけでなく企業・団体が開発するものもある、\n\nb　著作権が放棄されている、\n\nc　入手したソフトウェアはライセンス条件に従い再配布できる。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-097",
@@ -1948,7 +2130,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "情報セキュリティの可用性だけが損なわれた事象はどれか。\n\na　DoS攻撃で決済システムが利用不可、\n\nb　顧客情報が誤った内容で運用、\n\nc　社外秘情報が漏えい。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-098",
@@ -1968,7 +2152,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "データ[27,42,33,12]を昇順に整列する。\n\n整列対象の最大値を末尾と交換し、末尾を対象から外して同じ手順を繰り返す。\n\n要素が1個になるまで手順を何回実行するか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-099",
@@ -1988,7 +2174,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "改善額20万円・期間3日の案件と改善額5万円・期間14日の案件がある。\n\n賞金は改善額10万円未満かどうか、期間7日未満かどうかで分岐し、10万円以上かつ7日未満なら2,000円、10万円未満かつ7日以上なら1,000円。 合計は何円か。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "ipa-2025-100",
@@ -2008,7 +2196,9 @@ window.QUESTIONS = [
     "tip": "解説と公式の問題条件を照らし合わせましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
-    "adapted": true
+    "adapted": true,
+    "displayText": "認証の三要素（知識・所持・生体）において、所持物を使う認証の例はどれか。",
+    "displayTextSource": "readability-format"
   },
   {
     "id": "demo-01",
