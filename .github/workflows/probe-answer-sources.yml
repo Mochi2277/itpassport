@@ -1,0 +1,20 @@
+name: Probe historical answer sources
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/probe_old_answer_sources.py
+      - .github/workflows/probe-answer-sources.yml
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install 'beautifulsoup4>=4.12,<5' 'requests>=2.32,<3'
+      - run: python scripts/probe_old_answer_sources.py
