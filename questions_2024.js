@@ -209,7 +209,8 @@ window.QUESTIONS_2024 = [
     "figureTables": [
       [
         [
-          "単位 百万円"
+          "科目",
+          "金額（百万円）"
         ],
         [
           "売上高",
@@ -245,7 +246,8 @@ window.QUESTIONS_2024 = [
         ]
       ]
     ],
-    "explanationStatus": "original-draft-pending-editorial-review"
+    "explanationStatus": "original-draft-pending-editorial-review",
+    "figureTableReformatStatus": "normalized-column-layout-needs-final-official-pdf-visual-confirmation"
   },
   {
     "id": "ipa-2024-009",
