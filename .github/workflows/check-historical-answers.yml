@@ -1,0 +1,34 @@
+name: Cross-check historical answers from independent source
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/check_2020_2023_secondary_keys.py'
+      - '.github/workflows/check-historical-answers.yml'
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install 'beautifulsoup4>=4.12,<5' 'requests>=2.32,<3'
+      - name: Check 100 answers per older year against separate public reference
+        run: python scripts/check_2020_2023_secondary_keys.py
+      - name: Save comparison report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/2020-2023-independent-answer-audit.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record historical 400-answer independent reference comparison"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
