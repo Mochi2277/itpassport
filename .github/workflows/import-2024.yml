@@ -20,6 +20,18 @@ jobs:
           python-version: '3.12'
       - name: Install PDF reader
         run: pip install 'pymupdf>=1.24,<2' 'requests>=2.32,<3'
+      - name: Inspect fallback source structure
+        run: |
+          python - <<'PY'
+          import requests, re
+          from html.parser import HTMLParser
+          u='https://e-words.jp/p/e-ip-past-R06.html'
+          r=requests.get(u,timeout=50)
+          print('FALLBACK_HTTP',r.status_code,'SIZE',len(r.content),'CTYPE',r.headers.get('Content-Type'))
+          for needle in ['問1','問 1','マーケティングオートメーション']:
+            i=r.text.find(needle)
+            print('NEEDLE',needle,i,repr(r.text[max(i-300,0):i+550]))
+          PY
       - name: Read official IPA PDFs and generate validated question data
         run: python scripts/import_2024.py
       - name: Commit imported questions
