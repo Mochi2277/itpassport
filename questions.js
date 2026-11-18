@@ -1,4 +1,4 @@
-/* IPA公開問題を元に一部短縮・表現調整した学習用問題です。 */
+/* IPA問題の学習用要約・表現調整版。原文は出典PDF参照。 */
 window.QUESTIONS = [
   {
     "id": "ipa-2025-001",
@@ -1296,6 +1296,286 @@ window.QUESTIONS = [
     "answer": 0,
     "explanation": "インデックス（索引）は検索対象のデータ位置を効率的に特定し、検索性能向上に役立ちます。",
     "tip": "理解できたら関連用語も確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-066",
+    "year": "2025",
+    "number": 66,
+    "field": "テクノロジ系",
+    "topic": "SQL・データベース",
+    "q": "ログイン記録：人事部の従業員10004は08:50に失敗後08:53に成功、システム部の10002は08:55と09:32に成功、人事部10005は09:39に失敗、営業部10011は10:00に失敗後10:05に成功。『失敗経験がある、又は09:00より前に成功した』従業員の部署名を全て選ぶとどれか。",
+    "choices": [
+      "営業部、システム部",
+      "営業部、システム部、人事部",
+      "営業部、人事部",
+      "システム部、人事部"
+    ],
+    "answer": 1,
+    "explanation": "営業部は10011、人事部は10004・10005、システム部は10002が条件を満たします。重複を除いた全3部署です。",
+    "tip": "原文PDFで設問条件を確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-067",
+    "year": "2025",
+    "number": 67,
+    "field": "テクノロジ系",
+    "topic": "ハードウェア",
+    "q": "3次元画像処理を高速化し、動画を滑らかに描画するためのハードウェアはどれか。",
+    "choices": [
+      "CGI",
+      "GPU",
+      "GUI",
+      "UPS"
+    ],
+    "answer": 1,
+    "explanation": "GPUは画像処理に適した並列演算装置です。",
+    "tip": "原文PDFで設問条件を確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-068",
+    "year": "2025",
+    "number": 68,
+    "field": "テクノロジ系",
+    "topic": "セキュリティ対応",
+    "q": "CSIRTが行う活動として適切なのはどれか。",
+    "choices": [
+      "定期的なOSパッチ適用だけを行う",
+      "自然災害の事業継続計画を策定する",
+      "情報セキュリティ事故の影響範囲を調査し被害拡大防止を支援する",
+      "サーバ室の入退室記録を監査する"
+    ],
+    "answer": 2,
+    "explanation": "CSIRTはセキュリティインシデントへの対応を担う組織で、調査・封じ込め・復旧を支援します。",
+    "tip": "原文PDFで設問条件を確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-069",
+    "year": "2025",
+    "number": 69,
+    "field": "テクノロジ系",
+    "topic": "認証",
+    "q": "バイオメトリクス認証で他人受入率を低く抑えようとすると何が高くなり、本人拒否率を低く抑えようとすると何が高くなるか。",
+    "choices": [
+      "安全性／可用性",
+      "安全性／利便性",
+      "利便性／安全性",
+      "利便性／可用性"
+    ],
+    "answer": 1,
+    "explanation": "判定を厳しくすると他人の誤受入れは減って安全性が高まりますが、本人も拒否されやすくなります。判定を緩めると利便性は高まります。",
+    "tip": "原文PDFで設問条件を確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-070",
+    "year": "2025",
+    "number": 70,
+    "field": "テクノロジ系",
+    "topic": "脆弱性",
+    "q": "脆弱性を修正するセキュリティパッチの適用が特に有効な攻撃はどれか。",
+    "choices": [
+      "総当たり攻撃",
+      "ソーシャルエンジニアリング",
+      "パスワードリスト攻撃",
+      "バッファオーバーフロー"
+    ],
+    "answer": 3,
+    "explanation": "バッファオーバーフローはソフトウェア実装の弱点を突くため、修正パッチが重要です。",
+    "tip": "原文PDFで設問条件を確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-071",
+    "year": "2025",
+    "number": 71,
+    "field": "テクノロジ系",
+    "topic": "無線通信",
+    "q": "電波の周波数と到達性に関し、障害物の裏側まで回り込みやすいのは周波数が高い・低いのどちらか。国内携帯電話のプラチナバンド700〜900の単位は何か。",
+    "choices": [
+      "高い／GHz",
+      "高い／MHz",
+      "低い／GHz",
+      "低い／MHz"
+    ],
+    "answer": 3,
+    "explanation": "周波数が低いほど回折しやすい傾向があります。700～900MHz帯はプラチナバンドと呼ばれます。",
+    "tip": "原文PDFで設問条件を確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-072",
+    "year": "2025",
+    "number": 72,
+    "field": "テクノロジ系",
+    "topic": "デザイン",
+    "q": "伝わりやすいデザインの4原則『近接・a・反復・b』で、aは意図したルールに従い配置、bは強弱や大小の違いを明確にすること。正しい組合せはどれか。",
+    "choices": [
+      "整列／価値",
+      "整列／対比",
+      "操作／価値",
+      "操作／対比"
+    ],
+    "answer": 1,
+    "explanation": "4原則は近接・整列・反復・対比です。",
+    "tip": "原文PDFで設問条件を確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-073",
+    "year": "2025",
+    "number": 73,
+    "field": "テクノロジ系",
+    "topic": "サイバー攻撃",
+    "q": "Webサービスへの攻撃で、a:パッチ提供前の脆弱性を突く、b:複数端末から大量のパケットを送りサービス停止、c:あり得るパスワードを順番に試行する。名称の組合せはどれか。",
+    "choices": [
+      "DDoS／ゼロデイ／ブルートフォース",
+      "DDoS／ブルートフォース／ゼロデイ",
+      "ゼロデイ／DDoS／ブルートフォース",
+      "ゼロデイ／ブルートフォース／DDoS"
+    ],
+    "answer": 2,
+    "explanation": "aはゼロデイ攻撃、bはDDoS攻撃、cはブルートフォース攻撃です。",
+    "tip": "原文PDFで設問条件を確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-074",
+    "year": "2025",
+    "number": 74,
+    "field": "テクノロジ系",
+    "topic": "フォレンジック",
+    "q": "デジタルフォレンジックスの説明として適切なのはどれか。",
+    "choices": [
+      "事件や訴訟時に削除されたメールなどを復元し証拠を収集・保全する",
+      "実際に攻撃して脆弱性を確認する",
+      "回線を暗号化する",
+      "ファイルのハッシュ値を秘密鍵で暗号化する"
+    ],
+    "answer": 0,
+    "explanation": "デジタルフォレンジックスはデジタル証拠を適切に収集・保全・分析する活動です。",
+    "tip": "原文PDFで設問条件を確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-075",
+    "year": "2025",
+    "number": 75,
+    "field": "テクノロジ系",
+    "topic": "記憶装置",
+    "q": "記憶素子として半導体メモリを用いるものはどれか。a:CD-ROM、b:DVD-RAM、c:RAM、d:SSD、e:USBメモリ。",
+    "choices": [
+      "a、b、c",
+      "a、b、e",
+      "c、d、e",
+      "c、e"
+    ],
+    "answer": 2,
+    "explanation": "RAM、SSD、USBメモリは半導体メモリを用います。CD-ROMとDVD-RAMは光ディスクです。",
+    "tip": "原文PDFで設問条件を確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-076",
+    "year": "2025",
+    "number": 76,
+    "field": "テクノロジ系",
+    "topic": "表計算",
+    "q": "B1に税率10%、B4～B6に税抜価格が入力されている。C4の税込価格計算式をC5・C6にコピーするときの適切な式はどれか。",
+    "choices": [
+      "B$4*(1+B$1)",
+      "B$4*(1+B1)",
+      "B4*(1+B$1)",
+      "B4*(1+B1)"
+    ],
+    "answer": 2,
+    "explanation": "商品の行番号はコピー時に変化させる相対参照B4、税率の行番号は固定する複合参照B$1を使います。",
+    "tip": "原文PDFで設問条件を確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-077",
+    "year": "2025",
+    "number": 77,
+    "field": "テクノロジ系",
+    "topic": "セキュリティ",
+    "q": "ネットワークやホストを監視し、不正アクセスや不審な通信を発見して報告する仕組みはどれか。",
+    "choices": [
+      "DMZ",
+      "IDS",
+      "アンチパスバック",
+      "ボット"
+    ],
+    "answer": 1,
+    "explanation": "IDS（侵入検知システム）は不審な通信などを監視・検知して通知します。",
+    "tip": "原文PDFで設問条件を確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-078",
+    "year": "2025",
+    "number": 78,
+    "field": "テクノロジ系",
+    "topic": "アルゴリズム",
+    "q": "1から7までの整数を順に調べ、3で割り切れる数だけ合計して出力すると結果はどれか。",
+    "choices": [
+      "2",
+      "3",
+      "7",
+      "9"
+    ],
+    "answer": 3,
+    "explanation": "3と6が条件に当てはまるので3＋6＝9です。",
+    "tip": "原文PDFで設問条件を確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-079",
+    "year": "2025",
+    "number": 79,
+    "field": "テクノロジ系",
+    "topic": "マルチメディア",
+    "q": "サムネイルの説明として適切なのはどれか。",
+    "choices": [
+      "画像や文書の内容を縮小して表示したもの",
+      "処理を表す小さなアイコン",
+      "ネット上で使う分身のキャラクター",
+      "複数のファイルを一つにまとめたもの"
+    ],
+    "answer": 0,
+    "explanation": "サムネイルは一覧表示などで用いる縮小画像です。",
+    "tip": "原文PDFで設問条件を確認しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
     "adapted": true
