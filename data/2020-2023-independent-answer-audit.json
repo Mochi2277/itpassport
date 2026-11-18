@@ -1,0 +1,39 @@
+{
+  "summary": {
+    "years": 4,
+    "compared": 400,
+    "agreed": 400,
+    "mismatches": 0,
+    "officialIPAAnswerPDFVerified": 0
+  },
+  "years": {
+    "2020": {
+      "compared": 100,
+      "agreed": 100,
+      "mismatches": [],
+      "secondarySource": "https://it-passport.navi-index.com/past-questions/IT%E3%83%91%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88%E8%A9%A6%E9%A8%93%20%E4%BB%A4%E5%92%8C2%E5%B9%B4%E5%BA%A6%2010%E6%9C%88%E5%88%86/",
+      "verificationLevel": "independent-secondary-website-not-official-PDF"
+    },
+    "2021": {
+      "compared": 100,
+      "agreed": 100,
+      "mismatches": [],
+      "secondarySource": "https://it-passport.navi-index.com/past-questions/IT%E3%83%91%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88%E8%A9%A6%E9%A8%93%20%E4%BB%A4%E5%92%8C3%E5%B9%B4%E5%BA%A6%E5%88%86/",
+      "verificationLevel": "independent-secondary-website-not-official-PDF"
+    },
+    "2022": {
+      "compared": 100,
+      "agreed": 100,
+      "mismatches": [],
+      "secondarySource": "https://it-passport.navi-index.com/past-questions/IT%E3%83%91%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88%E8%A9%A6%E9%A8%93%20%E4%BB%A4%E5%92%8C4%E5%B9%B4%E5%BA%A6%E5%88%86/",
+      "verificationLevel": "independent-secondary-website-not-official-PDF"
+    },
+    "2023": {
+      "compared": 100,
+      "agreed": 100,
+      "mismatches": [],
+      "secondarySource": "https://it-passport.navi-index.com/past-questions/IT%E3%83%91%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88%E8%A9%A6%E9%A8%93%20%E4%BB%A4%E5%92%8C5%E5%B9%B4%E5%BA%A6%E5%88%86/",
+      "verificationLevel": "independent-secondary-website-not-official-PDF"
+    }
+  }
+}
