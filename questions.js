@@ -1,4 +1,4 @@
-/* IPA掲載問題は画面向けの要約・表現調整版。出典PDFを参照してください。 */
+/* IPA掲載問題は画面向けの要約・表現調整版。原文は出典PDF参照。 */
 window.QUESTIONS = [
   {
     "id": "ipa-2025-001",
@@ -441,6 +441,26 @@ window.QUESTIONS = [
     "adapted": true
   },
   {
+    "id": "ipa-2025-023",
+    "year": "2025",
+    "number": 23,
+    "field": "ストラテジ系",
+    "topic": "コーポレートガバナンス",
+    "q": "コーポレートガバナンスの強化に有効な施策はどれか。a:株式公開買付けによる買収、b:執行役員制度で経営と執行を分離、c:独立性の高い社外取締役を選任。",
+    "choices": [
+      "a、b",
+      "a、b、c",
+      "b、c",
+      "cのみ"
+    ],
+    "answer": 2,
+    "explanation": "経営の監督と執行の分離、独立した社外取締役による監督が統治の強化につながります。TOB自体はガバナンス施策を意味しません。",
+    "tip": "原文PDFで設問条件を確かめましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
     "id": "ipa-2025-024",
     "year": "2025",
     "number": 24,
@@ -456,6 +476,226 @@ window.QUESTIONS = [
     "answer": 3,
     "explanation": "RPA（Robotic Process Automation）は画面操作や転記など定型的なオフィス業務の自動化に使われます。",
     "tip": "関連用語との違いまで確認しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-025",
+    "year": "2025",
+    "number": 25,
+    "field": "ストラテジ系",
+    "topic": "ブロックチェーン",
+    "q": "ブロックチェーンを活用した事例として最も適切なのはどれか。",
+    "choices": [
+      "取引の改ざんや不整合を防ぐ目的でデジタル社債を発行する",
+      "先物取引所の注文応答を高速化する",
+      "航空券の予約変更を出発直前まで可能にする",
+      "画像や音声をデータベースに保存して検索可能にする"
+    ],
+    "answer": 0,
+    "explanation": "ブロックチェーンは取引記録を連鎖させて共有し改ざんに強い台帳を構成します。単なる高速化や検索は固有の用途ではありません。",
+    "tip": "原文PDFで設問条件を確かめましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-026",
+    "year": "2025",
+    "number": 26,
+    "field": "ストラテジ系",
+    "topic": "会計",
+    "q": "4月初めの売掛金はゼロ。4月に売上計上した800万円と500万円は回収済み。5月に売上計上した1,300万円と1,000万円は未回収。5月に受注した400万円は未売上。5月31日時点の売掛金は何万円か。",
+    "choices": [
+      "1,000",
+      "1,400",
+      "2,300",
+      "2,700"
+    ],
+    "answer": 2,
+    "explanation": "売掛金は売上計上済みで未回収の債権です。1,300＋1,000＝2,300万円。受注だけでまだ売上計上されていない400万円は含めません。",
+    "tip": "原文PDFで設問条件を確かめましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-027",
+    "year": "2025",
+    "number": 27,
+    "field": "ストラテジ系",
+    "topic": "システム戦略",
+    "q": "業務と情報システムの現状（As-Is）と理想像（To-Be）の差分を特定し、改善の移行計画を策定する手法はどれか。",
+    "choices": [
+      "BI",
+      "EA",
+      "MOT",
+      "SOA"
+    ],
+    "answer": 1,
+    "explanation": "EA（Enterprise Architecture）は企業全体の業務・情報・アプリケーション・技術の構造を整理し、目標像へ移行するための手法です。",
+    "tip": "原文PDFで設問条件を確かめましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-028",
+    "year": "2025",
+    "number": 28,
+    "field": "ストラテジ系",
+    "topic": "生成AI",
+    "q": "生成AIについて最も適切な説明はどれか。",
+    "choices": [
+      "学習なしで新規コンテンツを生成する",
+      "過去データの相関に基づき将来の値を予測するだけの技術",
+      "決められたシナリオで動くソフトウェアロボット",
+      "自然言語の指示を受け、学習データに基づいて新しいコンテンツを生成する"
+    ],
+    "answer": 3,
+    "explanation": "生成AIは学習済みモデルを用いて文章・画像などを生成します。予測専用モデルや固定手順で動くRPAとは異なります。",
+    "tip": "原文PDFで設問条件を確かめましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-029",
+    "year": "2025",
+    "number": 29,
+    "field": "ストラテジ系",
+    "topic": "経営戦略",
+    "q": "企業のミッション・ビジョン・バリューのうち「ビジョン」を表すものはどれか。",
+    "choices": [
+      "企業の存在意義や使命",
+      "使命を踏まえた将来のありたい姿",
+      "重要な業績評価指標",
+      "戦略実現の重要成功要因"
+    ],
+    "answer": 1,
+    "explanation": "ビジョンは企業が将来到達したい姿です。ミッションは存在意義、バリューは価値観・行動指針に関わります。",
+    "tip": "原文PDFで設問条件を確かめましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-030",
+    "year": "2025",
+    "number": 30,
+    "field": "ストラテジ系",
+    "topic": "知的財産",
+    "q": "著作権法による保護の対象になるものと対象にならないものの適切な組合せはどれか。",
+    "choices": [
+      "アルゴリズム／操作マニュアル",
+      "アルゴリズム／通信プロトコル",
+      "ソースプログラム／操作マニュアル",
+      "ソースプログラム／通信プロトコル"
+    ],
+    "answer": 3,
+    "explanation": "ソースプログラムは創作性があれば著作物として保護されますが、通信プロトコルなどの規約そのものは著作権の保護対象ではありません。",
+    "tip": "原文PDFで設問条件を確かめましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-031",
+    "year": "2025",
+    "number": 31,
+    "field": "ストラテジ系",
+    "topic": "ERP",
+    "q": "ERPシステムを表す説明はどれか。",
+    "choices": [
+      "営業ノウハウを共有して営業活動を支援する",
+      "経理・人事・生産・販売などの基幹情報を一元管理して経営資源の最適配分を支援する",
+      "企業間で生産・調達・販売情報を共有する",
+      "個々の顧客情報を管理し顧客満足を高める"
+    ],
+    "answer": 1,
+    "explanation": "ERP（Enterprise Resource Planning）は組織内の基幹業務データを統合して資源計画を最適化します。",
+    "tip": "原文PDFで設問条件を確かめましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-032",
+    "year": "2025",
+    "number": 32,
+    "field": "ストラテジ系",
+    "topic": "データ利活用",
+    "q": "交通機関の移動履歴、Web検索履歴、SNS投稿など個人の活動を記録する技術・記録はどれか。",
+    "choices": [
+      "アクティビティ",
+      "トランザクション",
+      "ライフログ",
+      "レコードキーピング"
+    ],
+    "answer": 2,
+    "explanation": "ライフログは行動や活動の履歴をデジタルデータとして継続的に記録することです。",
+    "tip": "原文PDFで設問条件を確かめましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-033",
+    "year": "2025",
+    "number": 33,
+    "field": "ストラテジ系",
+    "topic": "自動運転",
+    "q": "自動運転レベル3（条件付運転自動化）の説明として適切なのはどれか。",
+    "choices": [
+      "一定条件ではシステムが運転し、継続が困難な場合は人間が運転を引き継ぐ",
+      "運転操作機器が不要で運行地域だけ制限される",
+      "主体は人間で高速道路などで一部を支援する",
+      "主体は人間で自動ブレーキだけを支援する"
+    ],
+    "answer": 0,
+    "explanation": "レベル3は限定された運行条件下でシステムが運転を担いますが、システムから求められた場合は人間が介入する必要があります。",
+    "tip": "原文PDFで設問条件を確かめましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-034",
+    "year": "2025",
+    "number": 34,
+    "field": "ストラテジ系",
+    "topic": "損益分岐点",
+    "q": "ある商品を5,000個販売し、売上6,000万円・利益400万円を得た。1個当たりの変動費は7,000円。利益を1,000万円以上にするには、あと何個以上売る必要があるか。",
+    "choices": [
+      "500個",
+      "1,200個",
+      "6,200個",
+      "7,500個"
+    ],
+    "answer": 1,
+    "explanation": "単価は12,000円、限界利益は1個5,000円。現在の固定費は2,100万円。目標利益1,000万円には6,200個必要で、現在の5,000個からあと1,200個です。",
+    "tip": "原文PDFで設問条件を確かめましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-035",
+    "year": "2025",
+    "number": 35,
+    "field": "ストラテジ系",
+    "topic": "マーケティング",
+    "q": "マーケティング戦略の策定で、自社製品の競合との差別化ポイントを明確化するプロセスはどれか。",
+    "choices": [
+      "セグメンテーション",
+      "ターゲティング",
+      "プロモーション",
+      "ポジショニング"
+    ],
+    "answer": 3,
+    "explanation": "ポジショニングでは顧客の認識の中で自社製品をどのように差別化し位置付けるかを定めます。",
+    "tip": "原文PDFで設問条件を確かめましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
     "adapted": true
