@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract undefined IPA questions from public HTML transcription for manual QA.
+"""Extract R03 IPA questions from public HTML transcription for manual QA.
 No text or answer is guessed; block publication if a question cannot be extracted.
 IPA official PDF: https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf
 """
@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup, NavigableString
 
 ROOT=Path(__file__).resolve().parents[1]
 KANA="アイウエ"
-BASE="https://e-words.jp/p/e-ip-past-undefined-{}.html"
+BASE="https://e-words.jp/p/e-ip-past-R03-{}.html"
 IPA_Q="https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_qs.pdf"
 IPA_A="https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2021r03_ip_ans.pdf"
 OUTPUT=ROOT/"questions_2021.js"
