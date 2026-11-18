@@ -103,11 +103,12 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
  <div class="panel"><h2>学習データの管理</h2><p class="sub">履歴はブラウザ内にのみ保存されます。別の端末には同期されません。</p><button class="btn secondary" id="clear-history" type="button">学習履歴を削除する</button></div>
 </section>
 </main>
-<footer><div>表示バージョン：2026-11-18 / home-v5</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
+<footer><div>表示バージョン：2026-11-18 / r06-ready-v1</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
 <script src="questions.js?v=20261118-homev1"></script>
+<script src="questions_2024.js?v=20261118-r06-1"></script>
 <script>
 (()=>{'use strict';
-const all=Array.isArray(window.QUESTIONS)?window.QUESTIONS:[], $=id=>document.getElementById(id);
+const base=Array.isArray(window.QUESTIONS)?window.QUESTIONS:[], imported=Array.isArray(window.QUESTIONS_2024)?window.QUESTIONS_2024:[];const all=[...base,...imported], $=id=>document.getElementById(id);
 const HIST='ip-study-progress-v1',SESSION='ip-study-session-v1';
 const fields=['ストラテジ系','マネジメント系','テクノロジ系'];
 const figuresToCheck=new Set([8,16,22,26,34,41,45,48,54,62,66,72,76,78,85,89,94,98,99]);
@@ -132,7 +133,7 @@ pool=selectedPool;cursor=0;selected=false;mode=kind;session={ids:pool.map(q=>q.i
 function resume(){if(!session||!Array.isArray(session.ids))return;pool=session.ids.map(id=>all.find(q=>q.id===id)).filter(Boolean);if(!pool.length)return;cursor=Math.min(Math.max(0,session.cursor||0),pool.length-1);mode=session.kind||'order';show('quiz');renderQuestion()}
 function saveCursor(){if(session){session.cursor=cursor;write(SESSION,session)}}
 function renderQuestion(){selected=false;const q=pool[cursor];if(!q)return;
-$('position').textContent='問題 '+(cursor+1)+' / '+pool.length+(q.number?'　（令和7年度 問'+q.number+'）':'');
+$('position').textContent='問題 '+(cursor+1)+' / '+pool.length+(q.number?'　（'+(q.year==='2024'?'令和6年度':'令和7年度')+' 問'+q.number+'）':'');
 $('topic').textContent=q.topic||q.field;$('progress-inner').style.width=(100*(cursor+1)/pool.length)+'%';
 $('source').innerHTML=q.source?esc(q.source)+' 問'+q.number+'（'+(q.displayTextSource==='ipa-pdf-verified'?'原文照合済み':'学習用の表現調整版')+'） · <a href="'+esc(q.sourceUrl)+'" target="_blank" rel="noopener noreferrer">原文PDF</a>':'オリジナル練習問題';
 $('question').textContent=q.displayText||q.q;
@@ -171,6 +172,7 @@ $('setup-year').onchange=updateSetupCount;$('setup-field').onchange=updateSetupC
 $('setup-go').onclick=()=>start({year:$('setup-year').value,field:$('setup-field').value,kind:$('setup-order').value});
 $('next').onclick=next;$('restart').onclick=()=>{if(confirm('この演習を最初から始めますか？（これまでの成績は保持します）')){cursor=0;renderQuestion()}};
 $('clear-history').onclick=()=>{if(confirm('この端末の学習履歴と「続きから」を削除しますか？')){saved={};session=null;try{localStorage.removeItem(HIST);localStorage.removeItem(SESSION)}catch(e){}renderStats();homeStats()}};
+if(imported.filter(q=>q.year==='2024').length===100){const option=document.createElement('option');option.value='2024';option.textContent='令和6年度（2024年）';$('setup-year').append(option)}
 homeStats();show('home');
 })();
 </script></body></html>
