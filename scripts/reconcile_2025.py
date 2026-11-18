@@ -18,6 +18,9 @@ def main():
     current=get(target,"window.QUESTIONS = ")
     source=get(stage,"window.QUESTIONS_2025 = ")
     originals=[q for q in current if q.get("year")=="2025"]
+    if len(originals)==100 and all(q.get("displayTextSource")=="external-transcription-needs-ipa-pdf-review" for q in originals):
+        print("SKIP: R07 already restored and edited; preserve the existing published dataset")
+        return
     custom=[q for q in current if q.get("year")!="2025"]
     if len(originals)!=100 or len(source)!=100 or len(custom)!=12:
         raise RuntimeError(f"Unexpected counts old={len(originals)}, source={len(source)}, custom={len(custom)}")
