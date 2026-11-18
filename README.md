@@ -28,6 +28,12 @@ Cloudflare Dashboardから Workers & Pages → Create → Pages → Connect to G
 - [令和7年度 正答PDF](https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_ans.pdf)
 - [IPA公開問題一覧](https://www.ipa.go.jp/shiken/mondai-kaiotu/)
 
+## 原文・図表の表示（2026-11-18）
+
+2025年度問題の演習画面にはIPAが配布する**原本PDFそのもの**をiframeで参照する表示を追加しました。表、図、プログラム、問題文の正確な表記は公式PDFで確認できます。初期表示のページ番号は、確認済みの一部の問を除き概算です。前後ページ移動／ページ番号入力／別タブでの閲覧が可能です。回答ボタンの文面は従来どおり表現調整版であり、原文と同一とは限りません。ブラウザやIPA側の埋め込み制限で表示できない場合は別タブリンクを使ってください。
+
+**未完了**: IPA原文の全100問について問題文・各選択肢をテキストデータとして忠実に再収録すること、図表を個別画像として実装すること、全問の該当PDFページ番号を確定すること。
+
 ## 問題の追加
 
 `questions.js` の `window.QUESTIONS` 配列に問題オブジェクトを追加してください。
