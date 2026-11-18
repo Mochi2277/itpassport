@@ -1,61 +1,145 @@
 <!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="ITパスポートの無料問題演習サイト。IPA公開問題とオリジナル問題で、分野別演習・復習・学習履歴を利用できます。">
-<title>ITパスポート学習室｜無料で過去問演習</title>
+<meta name="description" content="ITパスポート過去問学習室。年度別・分野別の過去問演習、学習の続き、成績と苦手分野の復習。">
+<title>ITパスポート 過去問学習室｜無料問題演習</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap');
-:root{font-family:"BIZ UDPGothic","BIZ UD Pゴシック",sans-serif;color:#1c3b48;background:#f5f9fb}*{box-sizing:border-box}body{margin:0}header{background:white;border-bottom:1px solid #e3ebef}.nav,.wrap{max-width:1100px;margin:auto}.nav{padding:19px 24px;display:flex;align-items:center;justify-content:space-between}.logo{font-size:21px;font-weight:850}.logo span{color:#16818b}small,.muted{color:#66818d}.wrap{padding:32px 20px 60px}.hero{background:linear-gradient(120deg,#10677b,#178b8d);border-radius:21px;padding:34px 38px;color:white}.hero h1{margin:9px 0;font-size:clamp(26px,4vw,37px)}.hero p{color:#e1f4f4;line-height:1.7;margin:0}.pill{border-radius:20px;background:#ffffff26;padding:6px 12px;font-size:12px;font-weight:bold}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:20px 0 28px}.stat,.panel{border:1px solid #e2eaef;background:white;border-radius:16px}.stat{padding:19px}.stat strong{display:block;font-size:27px;color:#167789;margin-top:5px}.columns{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:22px}.panel{padding:24px;margin-bottom:20px}.panel h2{margin:0 0 16px;font-size:20px}.row{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.filters{display:flex;flex-wrap:wrap;gap:8px;margin:15px 0}.chip{background:white;color:#50707d;border:1px solid #d8e4e9;border-radius:25px;padding:9px 14px;font-weight:650}.chip.active{background:#d9f3f1;color:#087875;border-color:#b2dbd6}.chip,button{cursor:pointer;font:inherit}button,select{font-family:inherit}select{border:1px solid #d5e0e5;border-radius:9px;padding:9px;background:white;color:#375b68}.progress{height:7px;background:#eaf0f3;overflow:hidden;border-radius:9px;margin:16px 0 20px}.progress>div{height:100%;width:0;background:#21a39b}.question{font-size:18px;line-height:2;font-weight:700;white-space:pre-wrap;overflow-wrap:anywhere;margin:19px 0}.choice{display:flex;align-items:center;gap:12px;width:100%;padding:14px;text-align:left;border:1.5px solid #dce7ec;border-radius:12px;background:white;margin:9px 0;color:#264c5a;line-height:1.6}.choice:hover:not(:disabled){background:#f4fbfa;border-color:#4aa8a4}.choice.correct{background:#ecfaf2;border-color:#47ae89}.choice.wrong{background:#fff2f2;border-color:#df9191}.choice:disabled{cursor:default}.circle{background:#edf3f6;border-radius:7px;min-width:28px;height:28px;display:grid;place-items:center;font-weight:750}.feedback{background:#edf9f8;border:1px solid #d4eae6;padding:17px;border-radius:12px;line-height:1.8;margin:15px 0}.feedback p{margin:8px 0}.actions{margin-top:20px;display:flex;gap:9px}.primary,.secondary{border:0;border-radius:10px;padding:12px 16px;font-weight:750}.primary{background:#167f84;color:white}.secondary{background:#eaf2f6;color:#466673}a{color:#087e87}.ad{border:1px dashed #b8cbd2;background:#fafcfd;border-radius:12px;padding:18px;text-align:center;font-size:13px}.footnote{font-size:12px;color:#738792;line-height:1.7}footer{border-top:1px solid #e0eaf0;padding:24px;text-align:center;color:#6d8390;font-size:12px;line-height:1.8}#empty{display:none}@media(max-width:760px){.columns{grid-template-columns:1fr}.hero{padding:26px}.stat{padding:14px}.stat strong{font-size:22px}.panel{padding:18px}.wrap{padding:20px 13px}.nav{padding:17px}.nav small{display:none}}
-.source-box{margin:13px 0 20px;border:1px solid #d8e7eb;border-radius:13px;overflow:hidden;background:#f7fbfc}.source-head{padding:12px 14px;display:flex;align-items:center;gap:8px;justify-content:space-between;flex-wrap:wrap}.source-note{padding:0 14px 10px;font-size:12px;color:#587780;line-height:1.7}.source-frame{display:block;border:0;width:100%;height:min(77vh,800px);background:white}.source-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:8px 14px 12px}.source-actions button{border:1px solid #c6dde2;border-radius:8px;background:white;padding:7px 10px;color:#24576a}.source-actions input{width:65px;font:inherit;padding:7px;border:1px solid #cadde0;border-radius:7px}details.source-details summary{cursor:pointer;font-weight:700;color:#147f86;padding:12px 14px}details.source-details[open] summary{border-top:1px solid #d8e7eb}.source-plain{padding:0 14px 14px}.source-plain .question{font-size:16px} @media(max-width:760px){.source-frame{height:65vh;min-height:360px}}
-[hidden]{display:none!important}</style></head>
-<body><header><div class="nav"><div class="logo">📘 ITパスポート<span>学習室</span></div><small>無料で、今日から1問ずつ。</small></div></header>
-<main class="wrap"><div class="hero"><span class="pill">📖 完全無料・登録不要</span><h1>1日5分から、<br>ITパスポート合格へ。</h1><p>IPA公式公開問題＋オリジナル問題を解いて実力アップ。<br>学習履歴はこの端末に自動保存されます。</p></div>
-<div class="stats"><div class="stat"><small>解答数</small><strong id="answered">0</strong></div><div class="stat"><small>正答率</small><strong id="accuracy">—</strong></div><div class="stat"><small>収録問題数</small><strong id="total">—</strong></div></div>
-<div class="columns"><div><section class="panel"><div class="row"><h2>問題演習</h2><select id="mode" aria-label="出題モード"><option value="order">順番に解く</option><option value="random">ランダム出題</option><option value="wrong">間違えた問題を復習</option></select></div>
-<div class="row"><label for="year">問題の種類</label><select id="year"><option value="2025">IPA令和7年度</option><option value="すべて">すべて</option><option value="オリジナル">オリジナル練習問題</option></select></div>
-<div class="filters" id="filters"><button class="chip active" data-field="すべて">全分野</button><button class="chip" data-field="ストラテジ系">ストラテジ系</button><button class="chip" data-field="マネジメント系">マネジメント系</button><button class="chip" data-field="テクノロジ系">テクノロジ系</button></div>
-<div id="exercise"><div class="row"><small id="position"></small><small id="topic"></small></div><div class="progress"><div id="bar"></div></div><div id="source" class="footnote"></div>
-<div class="question" id="question"></div>
-<div id="figure-view" class="source-box" hidden>
- <div class="source-head"><b>設問の図表</b><a id="figure-original" target="_blank" rel="noopener noreferrer">公式問題PDFで確認</a></div>
- <img id="question-figure" alt="" style="display:block;max-width:100%;height:auto;margin:auto">
- <div id="figure-caption" class="source-note"></div>
-</div>
-<div id="reference-link" class="source-note" hidden>※ この設問の表・図・擬似言語はまだサイト内に再現できていません。<a id="pdf-direct" target="_blank" rel="noopener noreferrer">原文の図表を確認する</a></div>
-<div style="font-weight:700;margin:15px 0 7px" id="answer-heading">解答を選択してください</div>
-<div id="choices"></div><div id="feedback" hidden></div><div class="actions"><button class="primary" id="next" hidden>次の問題 →</button><button class="secondary" id="reset">最初から</button></div></div><div id="empty" class="feedback">この条件に合う問題がありません。分野や出題モードを変更してください。</div>
-<p class="footnote">問題文と選択肢は学習用に一部要約・表現調整しています。原文の正確な表記・図表・計算条件は、必要に応じてIPA公式PDFでも確認してください。図表は検証できたものから個別に掲載します。</p></section>
-<section class="panel"><h2>学習のポイント</h2><p class="muted">解説を確認しながら進めましょう。間違えた問題は復習モードで再挑戦できます。</p><button class="secondary" id="clear">この端末の履歴を削除</button></section></div>
-<aside><section class="panel"><h2>📚 おすすめ教材</h2><p class="muted">苦手分野を体系的に学ぶには参考書もおすすめです。</p><div class="ad"><b>PR・広告掲載予定</b><p>楽天アフィリエイトのリンクは未設定です。</p><a target="_blank" rel="noopener noreferrer" href="https://books.rakuten.co.jp/">楽天ブックスを見る</a></div><p class="footnote">現在のリンクは成果報酬リンクではありません。</p></section>
-<section class="panel"><h2>📌 出典・公式情報</h2><p><a target="_blank" rel="noopener noreferrer" href="https://www3.jitec.ipa.go.jp/JitesCbt/">ITパスポート試験公式サイト</a></p><p><a target="_blank" rel="noopener noreferrer" href="https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf">令和7年度 公開問題PDF</a></p><p><a target="_blank" rel="noopener noreferrer" href="https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_ans.pdf">令和7年度 解答例PDF</a></p></section></aside></div></main>
-<footer><span style="font-size:11px;color:#6d8390">表示バージョン：2026-11-18 / 1119</span><br>ITパスポート学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>公式公開問題の出典：©2025 独立行政法人情報処理推進機構（IPA）。掲載問題は一部表現を調整しています。</footer>
-<script src="questions.js?v=20261118-1119"></script><script>
-(()=>{'use strict';const all=window.QUESTIONS||[],$=id=>document.getElementById(id),KEY='ip-study-progress-v1';let saved={};try{saved=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}let field='すべて',pool=[],cursor=0,selected=false;
-const OFFICIAL_PDF='https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf';
-const needsFigureReview=new Set([8,16,22,26,34,41,45,48,54,62,66,72,76,78,85,89,94,98,99]);
-const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function store(){try{localStorage.setItem(KEY,JSON.stringify(saved))}catch(e){}}
-function stats(){const v=Object.values(saved),n=v.reduce((a,x)=>a+(x.attempts||0),0),c=v.reduce((a,x)=>a+(x.correct||0),0);$('answered').textContent=n;$('accuracy').textContent=n?Math.round(c/n*100)+'%':'—';$('total').textContent=all.length}
-function rebuild(){pool=all.filter(q=>($('year').value==='すべて'||q.year===$('year').value)&&(field==='すべて'||field===q.field)&&($('mode').value!=='wrong'||saved[q.id]?.wrong>0));if($('mode').value==='random'){for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]]}}cursor=0;render()}
-function render(){
-selected=false;const q=pool[cursor];
-$('exercise').style.display=q?'block':'none';$('empty').style.display=q?'none':'block';
-if(!q)return;
-$('position').textContent='問題 '+(cursor+1)+' / '+pool.length;
-$('topic').textContent=q.topic;
-$('bar').style.width=(100*(cursor+1)/pool.length)+'%';
-$('source').innerHTML=q.source?esc(q.source)+' 問'+q.number+'（学習用の表現調整版） · <a target="_blank" rel="noopener noreferrer" href="'+esc(q.sourceUrl)+'">原文PDF</a>':'オリジナル練習問題';
+:root{font-family:"BIZ UDPGothic","BIZ UD Pゴシック",sans-serif;color:#1b3f4b;background:#f4f8fa}
+*{box-sizing:border-box}body{margin:0}button,select{font:inherit}button{cursor:pointer}
+[hidden]{display:none!important}a{color:#087d83}
+header{background:#fff;border-bottom:1px solid #e0e9ed}
+.nav,.wrap{max-width:1100px;margin:auto}.nav{padding:17px 22px;display:flex;align-items:center;justify-content:space-between}
+.brand{background:transparent;border:0;color:#163f4e;padding:4px 0;font-size:21px;font-weight:700;text-align:left}.brand span{color:#07878b}
+.navlink{border:1px solid #d5e3e7;background:white;color:#226675;padding:9px 13px;border-radius:10px;font-size:13px}
+.wrap{padding:30px 18px 55px}.hero{padding:35px;background:linear-gradient(115deg,#17677b,#2c8d90);color:white;border-radius:20px}.hero h1{font-size:clamp(27px,4vw,39px);margin:0 0 12px;line-height:1.4}.hero p{font-size:14px;line-height:1.85;margin:0;color:#e6f6f6}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin-top:24px}.card,.panel{background:white;border:1px solid #dce7ed;border-radius:17px;padding:24px}.card{text-align:left;color:inherit;min-height:145px;transition:border-color .15s,transform .15s}.card:hover:not(:disabled){border-color:#4ab5af;transform:translateY(-1px)}.card:disabled{opacity:.55;cursor:not-allowed}.card h2,.panel h2{font-size:19px;margin:8px 0 12px}.card p{font-size:13px;line-height:1.7;margin:0;color:#607c89}.icon{font-size:25px}.sub{color:#66818c;font-size:13px;line-height:1.8}
+.section-title{margin:25px 0 12px}.stats-mini{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:20px 0}.metric{background:white;border:1px solid #dfebee;border-radius:13px;padding:19px}.metric b{display:block;font-size:26px;color:#15818a;margin-top:9px}
+.btn{border:0;padding:12px 17px;border-radius:10px;font-weight:700}.primary{background:#147f85;color:white}.secondary{background:#eaf2f5;color:#356574}.outline{background:#fff;border:1px solid #d3e5e9;color:#226b76}
+.row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.gap{display:flex;gap:10px;flex-wrap:wrap}.chips{display:flex;gap:9px;flex-wrap:wrap;margin:18px 0}.chip{background:white;border:1px solid #d5e3e9;color:#446b7a;border-radius:22px;padding:9px 14px}.chip.active{background:#dff4f2;border-color:#b4dfd9;color:#047e80}
+select{border:1px solid #d1e0e7;background:white;color:#315d70;border-radius:9px;padding:9px;max-width:100%}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 250px;gap:20px}.panel{margin-bottom:18px}
+.back{display:inline-flex;gap:8px;align-items:center;margin-bottom:20px;background:transparent;border:0;color:#247889;padding:3px 0}
+.progress{background:#e7eff2;height:7px;border-radius:8px;overflow:hidden;margin:15px 0 20px}.progress-inner{height:100%;width:0;background:#2d9e97}
+.question{font-size:18px;font-weight:700;line-height:2;white-space:pre-wrap;overflow-wrap:anywhere;margin:20px 0}
+.choice{display:flex;width:100%;gap:11px;align-items:flex-start;padding:14px;border-radius:11px;border:1.5px solid #dce7ea;background:white;text-align:left;color:#294b5c;line-height:1.75;margin:9px 0}.choice:hover:not(:disabled){background:#f2fbfa;border-color:#58b8ad}.choice:disabled{cursor:default}.choice.correct{background:#eaf9f0;border-color:#5aba91}.choice.wrong{background:#fff0f0;border-color:#e8a0a0}
+.kana{min-width:29px;background:#eaf1f4;text-align:center;border-radius:6px;padding:3px;font-weight:700}
+.feedback{margin:15px 0;background:#eef9f8;border:1px solid #cfe8e5;border-radius:11px;padding:15px;line-height:1.85}.feedback p{margin:8px 0}
+.figure{padding:14px;border:1px solid #d9e9ec;border-radius:12px;margin:12px 0}.figure img{display:block;max-width:100%;height:auto;margin:auto}.note{font-size:12px;color:#728894;line-height:1.85}.divider{height:1px;background:#e2ebee;margin:18px 0}
+.bar{height:10px;border-radius:9px;background:#edf3f5;overflow:hidden}.bar span{display:block;height:100%;background:#29a49a}.statrow{border-bottom:1px solid #e2ecef;padding:12px 0}.statrow:last-child{border:0}
+.ad{border:1px dashed #b6cbd2;border-radius:12px;padding:16px;font-size:13px;text-align:center;background:#fcfdfd}
+footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12px;color:#6e8792;line-height:1.9}
+@media(max-width:730px){.wrap{padding:16px 12px 50px}.hero{padding:25px}.cards{grid-template-columns:1fr}.card{min-height:110px}.layout{grid-template-columns:1fr}.panel{padding:18px}.metric{padding:13px}.metric b{font-size:20px}.brand{font-size:18px}.question{font-size:17px}.nav{padding:13px}}
+</style></head><body>
+<header><div class="nav"><button type="button" id="brand" class="brand">📘 ITパスポート <span>過去問学習室</span></button><button type="button" class="navlink" id="navstats">成績・アドバイス</button></div></header>
+<main class="wrap">
+<section id="home">
+ <div class="hero"><h1>ITパスポート 過去問学習室</h1><p>公式公開問題をベースに、毎日少しずつ学習。<br>学習履歴はこの端末に保存されます。</p></div>
+ <div class="stats-mini"><div class="metric"><small>累計解答</small><b id="home-attempts">0</b></div><div class="metric"><small>正答率</small><b id="home-accuracy">—</b></div><div class="metric"><small>収録問題</small><b id="home-total">—</b></div></div>
+ <div class="cards">
+  <button type="button" class="card" id="start-new"><span class="icon">✏️</span><h2>新規で解く</h2><p>令和7年度を1問目から順番に始める</p></button>
+  <button type="button" class="card" id="start-resume"><span class="icon">▶️</span><h2>続きから解く</h2><p id="resume-description">前回の学習位置から再開する</p></button>
+  <button type="button" class="card" id="start-year"><span class="icon">📅</span><h2>年度別に解く</h2><p>年度を選んで問題に挑戦する</p></button>
+  <button type="button" class="card" id="start-field"><span class="icon">📚</span><h2>分野別に解く</h2><p>ストラテジ・マネジメント・テクノロジを選ぶ</p></button>
+  <button type="button" class="card" id="start-wrong"><span class="icon">🔁</span><h2>間違えた問題を復習</h2><p>苦手な問題を解き直す</p></button>
+  <button type="button" class="card" id="start-stats"><span class="icon">📊</span><h2>成績確認・アドバイス</h2><p>分野別正答率とおすすめの復習方法を見る</p></button>
+ </div>
+ <p class="note">※ 現在の公式問題収録年度は令和7年度です。原文と完全一致しない表現調整版を含みます。</p>
+</section>
+<section id="setup" hidden><button type="button" class="back" data-home>← トップへ戻る</button><div class="panel"><h2 id="setup-title">演習の条件を選択</h2><p id="setup-description" class="sub">演習の種類を選んでください。</p>
+ <div style="margin:17px 0"><label for="setup-year">年度</label><div style="margin-top:7px"><select id="setup-year"><option value="2025">令和7年度（2025年）</option></select></div></div>
+ <div style="margin:17px 0"><label for="setup-field">分野</label><div style="margin-top:7px"><select id="setup-field"><option value="すべて">全分野</option><option value="ストラテジ系">ストラテジ系</option><option value="マネジメント系">マネジメント系</option><option value="テクノロジ系">テクノロジ系</option></select></div></div>
+ <div style="margin:17px 0"><label for="setup-order">出題順</label><div style="margin-top:7px"><select id="setup-order"><option value="order">問番号順</option><option value="random">ランダム</option></select></div></div>
+ <p id="setup-count" class="sub"></p><button type="button" class="btn primary" id="setup-go">演習を始める →</button></div></section>
+<section id="quiz" hidden><button type="button" class="back" data-home>← トップへ戻る</button>
+ <div class="layout"><div><div class="panel">
+ <div class="row"><h2 style="margin:0">問題演習</h2><button type="button" class="btn outline" id="quiz-stats">成績を見る</button></div>
+ <div class="row" style="margin-top:18px"><small id="position"></small><small id="topic"></small></div>
+ <div class="progress"><div id="progress-inner" class="progress-inner"></div></div>
+ <div id="source" class="note"></div>
+ <div id="question" class="question"></div>
+ <div id="figure" class="figure" hidden><img id="figure-image" alt=""><p id="figure-caption" class="note"></p></div>
+ <div id="figure-note" class="note" hidden>※ この問題の図表は未収録です。必要に応じて<a id="figure-pdf" href="#" target="_blank" rel="noopener noreferrer">公式PDFを参照</a>してください。</div>
+ <div style="font-weight:700;margin:15px 0 8px">解答を選択してください</div><div id="choices"></div><div id="feedback" class="feedback" hidden></div>
+ <div class="gap" style="margin-top:22px"><button type="button" id="next" class="btn primary" hidden>次の問題 →</button><button type="button" id="restart" class="btn secondary">この演習を最初から</button></div>
+ </div><div class="panel"><h2>学習のポイント</h2><p class="sub">解説を読んで復習しましょう。学習した場所は自動保存されます。</p></div></div>
+ <aside><div class="panel"><h2>📚 おすすめ教材</h2><p class="sub">関連書籍は楽天ブックスから探せます。</p><div class="ad">PR・広告掲載予定<p>楽天アフィリエイトリンクは未設定です。</p><a href="https://books.rakuten.co.jp/" target="_blank" rel="noopener noreferrer">楽天ブックスを見る</a></div></div>
+ <div class="panel"><h2>📌 出典・公式情報</h2><p><a target="_blank" rel="noopener noreferrer" href="https://www3.jitec.ipa.go.jp/JitesCbt/">ITパスポート試験公式サイト</a></p><p><a target="_blank" rel="noopener noreferrer" href="https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf">令和7年度 公開問題PDF</a></p></div></aside></div>
+</section>
+<section id="stats" hidden><button type="button" class="back" data-home>← トップへ戻る</button><h1 style="font-size:25px">成績確認・アドバイス</h1><p class="sub">この端末に保存された学習履歴に基づきます。合格可能性を保証するものではありません。</p>
+ <div class="stats-mini"><div class="metric"><small>累計解答</small><b id="stats-attempts">0</b></div><div class="metric"><small>正答率</small><b id="stats-accuracy">—</b></div><div class="metric"><small>解いた問題数</small><b id="stats-unique">0</b></div></div>
+ <div class="panel"><h2>分野別の正答率</h2><div id="field-stats"></div></div>
+ <div class="panel"><h2>学習アドバイス</h2><div id="advice" class="sub"></div><div class="gap" style="margin-top:18px"><button class="btn primary" type="button" id="review-from-stats">苦手問題を復習する</button><button class="btn secondary" type="button" id="go-home-stats">トップへ</button></div></div>
+ <div class="panel"><h2>学習データの管理</h2><p class="sub">履歴はブラウザ内にのみ保存されます。別の端末には同期されません。</p><button class="btn secondary" id="clear-history" type="button">学習履歴を削除する</button></div>
+</section>
+</main>
+<footer><div>表示バージョン：2026-11-18 / home-v1</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
+<script src="questions.js?v=20261118-homev1"></script>
+<script>
+(()=>{'use strict';
+const all=Array.isArray(window.QUESTIONS)?window.QUESTIONS:[], $=id=>document.getElementById(id);
+const HIST='ip-study-progress-v1',SESSION='ip-study-session-v1';
+const fields=['ストラテジ系','マネジメント系','テクノロジ系'];
+const figuresToCheck=new Set([8,16,22,26,34,41,45,48,54,62,66,72,76,78,85,89,94,98,99]);
+let saved=read(HIST,{}),session=read(SESSION,null),pool=[],cursor=0,selected=false,mode='order';
+const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c]));
+function read(key,fallback){try{const v=JSON.parse(localStorage.getItem(key)||'null');return v??fallback}catch(e){return fallback}}
+function write(key,v){try{localStorage.setItem(key,JSON.stringify(v))}catch(e){}}
+function show(name){['home','setup','quiz','stats'].forEach(id=>$(id).hidden=id!==name);if(name==='home')homeStats();if(name==='stats')renderStats();window.scrollTo?.(0,0)}
+function attempts(){return Object.values(saved).reduce((sum,v)=>sum+(v.attempts||0),0)}
+function correct(){return Object.values(saved).reduce((sum,v)=>sum+(v.correct||0),0)}
+function wrongIds(){return new Set(all.filter(q=>(saved[q.id]?.wrong||0)>0).map(q=>q.id))}
+function rate(n,c){return n?Math.round(100*c/n)+'%':'—'}
+function homeStats(){const n=attempts();$('home-attempts').textContent=n;$('home-accuracy').textContent=rate(n,correct());$('home-total').textContent=all.length;
+const valid=session&&Array.isArray(session.ids)&&session.ids.some(id=>all.some(q=>q.id===id));$('start-resume').disabled=!valid;
+$('resume-description').textContent=valid?'前回の演習 '+(Math.min(session.cursor||0,session.ids.length-1)+1)+' / '+session.ids.length+' 問目から再開':'まだ続きはありません。新規で開始してください。';
+$('start-wrong').disabled=!wrongIds().size;$('review-from-stats').disabled=!wrongIds().size}
+function start(options){const {year='2025',field='すべて',kind='order'}=options;
+let selectedPool=all.filter(q=>(year==='すべて'||q.year===year)&&(field==='すべて'||q.field===field)&&(kind!=='wrong'||wrongIds().has(q.id)));
+if(kind==='random'){for(let i=selectedPool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[selectedPool[i],selectedPool[j]]=[selectedPool[j],selectedPool[i]]}}
+if(!selectedPool.length){alert('この条件に該当する問題がありません。');return}
+pool=selectedPool;cursor=0;selected=false;mode=kind;session={ids:pool.map(q=>q.id),cursor:0,kind,year,field};write(SESSION,session);show('quiz');renderQuestion()}
+function resume(){if(!session||!Array.isArray(session.ids))return;pool=session.ids.map(id=>all.find(q=>q.id===id)).filter(Boolean);if(!pool.length)return;cursor=Math.min(Math.max(0,session.cursor||0),pool.length-1);mode=session.kind||'order';show('quiz');renderQuestion()}
+function saveCursor(){if(session){session.cursor=cursor;write(SESSION,session)}}
+function renderQuestion(){selected=false;const q=pool[cursor];if(!q)return;
+$('position').textContent='問題 '+(cursor+1)+' / '+pool.length+(q.number?'　（令和7年度 問'+q.number+'）':'');
+$('topic').textContent=q.topic||q.field;$('progress-inner').style.width=(100*(cursor+1)/pool.length)+'%';
+$('source').innerHTML=q.source?esc(q.source)+' 問'+q.number+'（'+(q.displayTextSource==='ipa-pdf-verified'?'原文照合済み':'学習用の表現調整版')+'） · <a href="'+esc(q.sourceUrl)+'" target="_blank" rel="noopener noreferrer">原文PDF</a>':'オリジナル練習問題';
 $('question').textContent=q.displayText||q.q;
-$('answer-heading').textContent='解答を選択してください';
-const hasFigure=Boolean(q.figureUrl);
-$('figure-view').hidden=!hasFigure;
-if(hasFigure){$('question-figure').src=q.figureUrl;$('question-figure').alt=q.figureAlt||('問'+q.number+'の図表');$('figure-caption').textContent=q.figureCaption||'出典：IPA公式公開問題';$('figure-original').href=q.sourceUrl||OFFICIAL_PDF}
-else {$('question-figure').removeAttribute('src')}
-const requiresReference=Boolean(q.sourceUrl)&&(q.figureRequired===true||needsFigureReview.has(q.number));
-$('reference-link').hidden=!requiresReference||hasFigure;
-if(requiresReference){$('pdf-direct').href=q.sourceUrl||OFFICIAL_PDF}
+const hasFigure=Boolean(q.figureUrl);$('figure').hidden=!hasFigure;
+if(hasFigure){$('figure-image').src=q.figureUrl;$('figure-image').alt=q.figureAlt||'問題の図表';$('figure-caption').textContent=q.figureCaption||'出典：IPA公式公開問題'}
+else $('figure-image').removeAttribute('src');
+$('figure-note').hidden=!q.sourceUrl||(!q.figureRequired&&!figuresToCheck.has(q.number))||hasFigure;
+if(q.sourceUrl)$('figure-pdf').href=q.sourceUrl;
 $('choices').replaceChildren();$('feedback').hidden=true;$('next').hidden=true;
-q.choices.forEach((c,i)=>{const b=document.createElement('button');b.className='choice';b.innerHTML='<span class="circle">'+('アイウエ'[i])+'</span><span>'+esc(c)+'</span>';b.onclick=()=>answer(i);$('choices').append(b)});
-}
-function answer(i){if(selected)return;selected=true;const q=pool[cursor],ok=i===q.answer,d=saved[q.id]||{attempts:0,correct:0,wrong:0};d.attempts++;if(ok)d.correct++;else d.wrong++;saved[q.id]=d;store();stats();[...$('choices').children].forEach((b,j)=>{b.disabled=true;if(j===q.answer)b.classList.add('correct');else if(j===i)b.classList.add('wrong')});$('feedback').className='feedback';$('feedback').hidden=false;$('feedback').innerHTML='<b>'+(ok?'✓ 正解！':'✕ 不正解')+'</b><p>'+esc(q.explanation)+'</p><small>'+esc(q.tip)+'</small>';$('next').hidden=false;$('next').textContent=cursor===pool.length-1?'最初に戻る ↻':'次の問題 →'}
-$('next').onclick=()=>{cursor=(cursor+1)%pool.length;render()};$('reset').onclick=()=>{cursor=0;render()};$('mode').onchange=rebuild;$('year').onchange=rebuild;document.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{field=b.dataset.field;document.querySelectorAll('.chip').forEach(x=>x.classList.toggle('active',x===b));rebuild()});$('clear').onclick=()=>{if(confirm('この端末の学習履歴を削除しますか？')){saved={};store();stats();rebuild()}};stats();rebuild()})();
+(q.choices||[]).forEach((choice,i)=>{const b=document.createElement('button');b.type='button';b.className='choice';const kana=document.createElement('span');kana.className='kana';kana.textContent='アイウエ'[i];const value=document.createElement('span');value.textContent=choice;b.append(kana,value);b.addEventListener('click',()=>answer(i));$('choices').append(b)});
+saveCursor()}
+function answer(i){if(selected)return;selected=true;const q=pool[cursor],ok=i===q.answer;
+const h=saved[q.id]||{attempts:0,correct:0,wrong:0};h.attempts++;if(ok)h.correct++;else h.wrong++;saved[q.id]=h;write(HIST,saved);
+Array.from($('choices').children).forEach((b,j)=>{b.disabled=true;if(j===q.answer)b.classList.add('correct');else if(j===i)b.classList.add('wrong')});
+$('feedback').hidden=false;$('feedback').innerHTML='<b>'+(ok?'✓ 正解！':'✕ 不正解')+'</b><p>'+esc(q.explanation||'')+'</p><small>'+esc(q.tip||'')+'</small>';
+$('next').textContent=cursor===pool.length-1?'演習を終了する':'次の問題 →';$('next').hidden=false;
+if(session){session.cursor=Math.min(cursor+1,pool.length-1);write(SESSION,session)}}
+function next(){if(cursor>=pool.length-1){session=null;try{localStorage.removeItem(SESSION)}catch(e){}show('stats');return}cursor++;renderQuestion()}
+function setup(kind){$('setup-title').textContent=kind==='year'?'年度別に解く':'分野別に解く';$('setup-description').textContent=kind==='year'?'学習したい年度を選んでください。':'学習したい分野を選んでください。';$('setup-year').value='2025';$('setup-field').value='すべて';$('setup-order').value='order';$('setup-field').parentElement.parentElement.hidden=false;$('setup-year').parentElement.parentElement.hidden=false;updateSetupCount();show('setup')}
+function updateSetupCount(){const y=$('setup-year').value,f=$('setup-field').value;$('setup-count').textContent='対象：'+all.filter(q=>q.year===y&&(f==='すべて'||q.field===f)).length+'問'}
+function renderStats(){const n=attempts();$('stats-attempts').textContent=n;$('stats-accuracy').textContent=rate(n,correct());$('stats-unique').textContent=Object.keys(saved).filter(id=>(saved[id]?.attempts||0)>0).length;
+$('field-stats').replaceChildren();const summary=[];
+fields.forEach(field=>{const questions=all.filter(q=>q.field===field),value=questions.reduce((o,q)=>{o.n+=(saved[q.id]?.attempts||0);o.c+=(saved[q.id]?.correct||0);return o},{n:0,c:0});summary.push({field,...value});
+const row=document.createElement('div');row.className='statrow';const title=document.createElement('div');title.className='row';title.innerHTML='<b>'+esc(field)+'</b><span>'+rate(value.n,value.c)+'（'+value.n+'回解答）</span>';const bar=document.createElement('div');bar.className='bar';bar.style.marginTop='9px';const fill=document.createElement('span');fill.style.width=(value.n?100*value.c/value.n:0)+'%';bar.append(fill);row.append(title,bar);$('field-stats').append(row)});
+let msg;if(n===0)msg='まだ解答履歴がありません。まずは令和7年度の問題を5問ほど解き、結果を確認してみましょう。';
+else {const practiced=summary.filter(x=>x.n>0).sort((a,b)=>(a.c/a.n)-(b.c/b.n));const weakest=practiced[0];msg='現在の正答率は'+rate(n,correct())+'です。'+weakest.field+'の正答率が'+rate(weakest.n,weakest.c)+'なので、この分野から解説を読み直すのがおすすめです。';if(n<20)msg+=' まだ解答数が少ないため、正答率の変動が大きい点にも注意しましょう。';if(wrongIds().size)msg+=' 間違えた問題は「苦手問題を復習する」から再挑戦できます。'}
+$('advice').textContent=msg;$('review-from-stats').disabled=!wrongIds().size}
+$('brand').onclick=()=>show('home');$('navstats').onclick=()=>show('stats');
+document.querySelectorAll('[data-home]').forEach(b=>b.onclick=()=>show('home'));
+$('go-home-stats').onclick=()=>show('home');$('quiz-stats').onclick=()=>show('stats');$('start-stats').onclick=()=>show('stats');
+$('start-new').onclick=()=>start({year:'2025',field:'すべて',kind:'order'});$('start-resume').onclick=resume;
+$('start-year').onclick=()=>setup('year');$('start-field').onclick=()=>setup('field');
+$('start-wrong').onclick=()=>start({year:'すべて',field:'すべて',kind:'wrong'});
+$('review-from-stats').onclick=()=>start({year:'すべて',field:'すべて',kind:'wrong'});
+$('setup-year').onchange=updateSetupCount;$('setup-field').onchange=updateSetupCount;
+$('setup-go').onclick=()=>start({year:$('setup-year').value,field:$('setup-field').value,kind:$('setup-order').value});
+$('next').onclick=next;$('restart').onclick=()=>{if(confirm('この演習を最初から始めますか？（これまでの成績は保持します）')){cursor=0;renderQuestion()}};
+$('clear-history').onclick=()=>{if(confirm('この端末の学習履歴と「続きから」を削除しますか？')){saved={};session=null;try{localStorage.removeItem(HIST);localStorage.removeItem(SESSION)}catch(e){}renderStats();homeStats()}};
+homeStats();show('home');
+})();
 </script></body></html>
