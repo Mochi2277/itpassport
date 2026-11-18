@@ -1,4 +1,3 @@
-// 令和5年度100問。解説は独自作成。図表の原文照合は継続中。
 window.QUESTIONS_2023 = [
   {
     "id": "ipa-2023-001",
@@ -1882,7 +1881,40 @@ window.QUESTIONS_2023 = [
         ]
       ]
     ],
-    "explanationStatus": "original-draft-reviewed-against-answer"
+    "explanationStatus": "original-draft-reviewed-against-answer",
+    "figureUnderlinedHeaders": [
+      [
+        0,
+        2
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    "choiceUnderlinedHeaders": [
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "figureTableLabels": [
+      "会員管理",
+      "店舗",
+      "会員種別"
+    ]
   },
   {
     "id": "ipa-2023-060",
@@ -2379,19 +2411,24 @@ window.QUESTIONS_2023 = [
       [
         [
           "",
-          "機械学習モデルによる判定"
+          "",
+          "機械学習モデルによる判定",
+          ""
         ],
         [
+          "",
+          "",
           "不良品",
           "良品"
         ],
         [
-          "品質管理担当者に よる判定",
+          "品質管理担当者による判定",
           "不良品",
           "5",
           "5"
         ],
         [
+          "",
           "良品",
           "15",
           "75"
