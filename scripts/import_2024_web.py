@@ -64,6 +64,47 @@ def fetch_question(n):
                 label=normalize(cells[0].get_text(" ",strip=True))
                 if label in list(KANA):
                     rows.append((label,normalize(" | ".join(text_with_breaks(td) for td in cells[1:]))))
+            table_options = {
+                46: [
+                    "構成管理 | 問題管理 | リリース及び展開管理",
+                    "構成管理 | リリース及び展開管理 | 問題管理",
+                    "問題管理 | リリース及び展開管理 | 構成管理",
+                    "リリース及び展開管理 | 問題管理 | 構成管理",
+                ],
+                49: ["a | c | b", "b | a | c", "c | a | b", "c | b | a"],
+                57: [
+                    "共通鍵暗号方式 | 公開鍵暗号方式 | 遅い | 速い",
+                    "共通鍵暗号方式 | 公開鍵暗号方式 | 速い | 遅い",
+                    "公開鍵暗号方式 | 共通鍵暗号方式 | 遅い | 速い",
+                    "公開鍵暗号方式 | 共通鍵暗号方式 | 速い | 遅い",
+                ],
+                60: [
+                    "表 | フィールド | レコード",
+                    "表 | レコード | フィールド",
+                    "フィールド | 表 | レコード",
+                    "レコード | 表 | フィールド",
+                ],
+                65: [
+                    "回帰 | 分類 | クラスタリング",
+                    "クラスタリング | 分類 | 回帰",
+                    "分類 | 回帰 | クラスタリング",
+                    "分類 | クラスタリング | 回帰",
+                ],
+                75: [
+                    "可用性 | 完全性 | 機密性",
+                    "可用性 | 機密性 | 完全性",
+                    "完全性 | 機密性 | 可用性",
+                    "機密性 | 完全性 | 可用性",
+                ],
+                85: [
+                    "(2のi乗)−1 | integerNum × digitNum × exponent",
+                    "(2のi乗)−1 | integerNum ＋ digitNum × exponent",
+                    "2の(i−1)乗 | integerNum × digitNum × exponent",
+                    "2の(i−1)乗 | integerNum ＋ digitNum × exponent",
+                ],
+            }
+            if [a for a,_ in rows] != list(KANA) and n in table_options:
+                rows = list(zip(list(KANA), table_options[n]))
             if [a for a,_ in rows]!=list(KANA) and n==24:
                 rows=[
                   ("ア","営業日数 | 安全在庫量 | 現在の発注残"),
