@@ -1,0 +1,39 @@
+name: Restore R07 published question stems and figures
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/import_2025_source.py'
+      - 'scripts/reconcile_2025.py'
+      - '.github/workflows/restore-2025.yml'
+permissions:
+  contents: write
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install 'beautifulsoup4>=4.12,<5' 'requests>=2.32,<3'
+      - name: Extract and compare against official answer letters
+        run: python scripts/import_2025_source.py
+      - name: Merge source texts retaining IDs and explanations
+        run: python scripts/reconcile_2025.py
+      - name: Re-audit the seven year archive
+        run: python scripts/audit_questions.py > /tmp/audit.json
+      - name: Commit corrected archive and source figures
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add questions.js data/2025-source-restoration-report.json data/2025-import-report.json assets/questions/2025/
+          if ! git diff --cached --quiet; then
+            git commit -m "Replace R07 paraphrases with 100 public question transcriptions"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
