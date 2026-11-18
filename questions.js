@@ -1,4 +1,4 @@
-/* IPA掲載問題は画面向けの要約・表現調整版。原文は出典PDF参照。 */
+/* IPA公開問題を元に一部短縮・表現調整した学習用問題です。 */
 window.QUESTIONS = [
   {
     "id": "ipa-2025-001",
@@ -696,6 +696,326 @@ window.QUESTIONS = [
     "answer": 3,
     "explanation": "ポジショニングでは顧客の認識の中で自社製品をどのように差別化し位置付けるかを定めます。",
     "tip": "原文PDFで設問条件を確かめましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-036",
+    "year": "2025",
+    "number": 36,
+    "field": "マネジメント系",
+    "topic": "サービス品質",
+    "q": "合意したITサービス提供時間に対し、顧客が実際に利用できた時間の割合を表すものはどれか。",
+    "choices": [
+      "可用性",
+      "機能性",
+      "効率性",
+      "使用性"
+    ],
+    "answer": 0,
+    "explanation": "可用性は要求されたときにサービスを利用できる性質です。稼働率によって定量的に測定されます。",
+    "tip": "関連用語を整理して復習しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-037",
+    "year": "2025",
+    "number": 37,
+    "field": "マネジメント系",
+    "topic": "サービスマネジメント",
+    "q": "ITサービス提供者と顧客間で合意するサービス品質の合意書aと、その遵守状況を管理する活動bの組合せはどれか。",
+    "choices": [
+      "NDA／SCM",
+      "NDA／SLM",
+      "SLA／SCM",
+      "SLA／SLM"
+    ],
+    "answer": 3,
+    "explanation": "SLAはサービスレベル合意書、SLMはサービスレベル管理。NDAは秘密保持契約です。",
+    "tip": "関連用語を整理して復習しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-038",
+    "year": "2025",
+    "number": 38,
+    "field": "マネジメント系",
+    "topic": "監査",
+    "q": "情報セキュリティ監査の説明として最も適切なのはどれか。",
+    "choices": [
+      "ITシステム利用の適切性を検証するシステム監査全般",
+      "PCの盗難を物理的に防止する装置",
+      "IT戦略の策定活動",
+      "情報資産のリスクマネジメントが有効か検証・評価する"
+    ],
+    "answer": 3,
+    "explanation": "情報セキュリティ監査はセキュリティの管理策やリスクマネジメントの実施状況を客観的に評価します。",
+    "tip": "関連用語を整理して復習しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-039",
+    "year": "2025",
+    "number": 39,
+    "field": "マネジメント系",
+    "topic": "システム開発",
+    "q": "アジャイル開発は、ウォーターフォール開発の何を改善し、何ができるようにする手法か。",
+    "choices": [
+      "課題を改善／開発中の各種変更へ迅速に対応",
+      "課題を改善／工程を順番に実施",
+      "特徴を継承／各種変更へ迅速に対応",
+      "特徴を継承／工程を順番に実施"
+    ],
+    "answer": 0,
+    "explanation": "アジャイル開発では反復的な開発を通して変更に柔軟に対応します。",
+    "tip": "関連用語を整理して復習しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-040",
+    "year": "2025",
+    "number": 40,
+    "field": "マネジメント系",
+    "topic": "プロジェクト管理",
+    "q": "変更管理委員会を設けたプロジェクトで変更要求が生じた場合、適切な対応はどれか。",
+    "choices": [
+      "利害関係者以外の第三者が要求を審査する",
+      "コスト増加や納期延長を理由に変更を却下することもできる",
+      "スコープ変更がない限り必ず受け付ける",
+      "PM全員の承認後にのみ委員会が審査する"
+    ],
+    "answer": 1,
+    "explanation": "変更管理委員会は変更要求の影響を評価し承認・却下を判断します。コストやスケジュールへの影響も判断材料です。",
+    "tip": "関連用語を整理して復習しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-041",
+    "year": "2025",
+    "number": 41,
+    "field": "マネジメント系",
+    "topic": "プロジェクト管理",
+    "q": "システム開発プロジェクトのスケジュール作成に使用する技法はどれか。a:DFD、b:回帰分析、c:クリティカルパス法、d:プレシデンスダイアグラム法。",
+    "choices": [
+      "a、b",
+      "a、d",
+      "b、c",
+      "c、d"
+    ],
+    "answer": 3,
+    "explanation": "クリティカルパス法は全体の所要時間を求め、プレシデンスダイアグラムは作業の前後関係を表す技法です。",
+    "tip": "関連用語を整理して復習しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-042",
+    "year": "2025",
+    "number": 42,
+    "field": "マネジメント系",
+    "topic": "ファシリティ",
+    "q": "床下に配線などを通す空間を設け、取り外し可能な床パネルを並べる設備はどれか。",
+    "choices": [
+      "フリーアクセスフロア",
+      "フリーアドレス",
+      "フリースペース",
+      "フリースポット"
+    ],
+    "answer": 0,
+    "explanation": "フリーアクセスフロア（二重床）はケーブル類を床下に敷設できる構造です。",
+    "tip": "関連用語を整理して復習しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-043",
+    "year": "2025",
+    "number": 43,
+    "field": "マネジメント系",
+    "topic": "内部統制",
+    "q": "営業部門の出張旅費精算に関し、日常的に実施する組織内けん制として最も適切なものはどれか。",
+    "choices": [
+      "経理担当者が書類の適切性を審査し経理課長が承認する",
+      "本人精算・上長承認後、経理は無審査で支払う",
+      "上長承認後に旅行手配を依頼する",
+      "年度末に監査人が抜き取り検査する"
+    ],
+    "answer": 0,
+    "explanation": "組織内けん制では職務分掌や複数段階の確認・承認が重要です。",
+    "tip": "関連用語を整理して復習しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-044",
+    "year": "2025",
+    "number": 44,
+    "field": "マネジメント系",
+    "topic": "システム開発",
+    "q": "システム開発の早期段階で利用者の要求を目に見える形で確認するため試作品を作成するモデルはどれか。",
+    "choices": [
+      "アジャイル",
+      "ウォーターフォール",
+      "スパイラル",
+      "プロトタイピング"
+    ],
+    "answer": 3,
+    "explanation": "プロトタイピングは試作品で利用者の要望を具体化し、認識のずれを早期に発見します。",
+    "tip": "関連用語を整理して復習しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-045",
+    "year": "2025",
+    "number": 45,
+    "field": "マネジメント系",
+    "topic": "プロジェクト管理",
+    "q": "予算2,000万円、40日で100本を作成する計画。20日経過時に40本完成しコスト1,000万円。予定どおり均等に作業するとき、進捗率とコスト率の組合せはどれか。進捗＝完成本数÷予定本数、コスト率＝実際費用÷完成分の計画費用。",
+    "choices": [
+      "80%／125%",
+      "80%／100%",
+      "90%／125%",
+      "90%／100%"
+    ],
+    "answer": 0,
+    "explanation": "20日目の完成予定は50本なので40÷50＝80%。40本分の計画費用は800万円、実費1,000万円なので125%です。",
+    "tip": "関連用語を整理して復習しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-046",
+    "year": "2025",
+    "number": 46,
+    "field": "マネジメント系",
+    "topic": "システム開発",
+    "q": "開発済みのソフトウェアを本番環境にインストールする手順を定め実施する工程はどれか。",
+    "choices": [
+      "ソフトウェア統合",
+      "ソフトウェア導入",
+      "妥当性確認",
+      "利用者教育"
+    ],
+    "answer": 1,
+    "explanation": "ソフトウェア導入では本番環境へのインストール・設定などを実施します。",
+    "tip": "関連用語を整理して復習しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-047",
+    "year": "2025",
+    "number": 47,
+    "field": "マネジメント系",
+    "topic": "ユーザビリティ",
+    "q": "銀行ATMのパネル操作において使用性を考慮すべきインターフェースはどれか。",
+    "choices": [
+      "OSとパネル",
+      "ソフトウェア間",
+      "ハードウェアとOS",
+      "利用者とパネル"
+    ],
+    "answer": 3,
+    "explanation": "使用性を評価するときは利用者が直接操作するユーザーインターフェースに着目します。",
+    "tip": "関連用語を整理して復習しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-048",
+    "year": "2025",
+    "number": 48,
+    "field": "マネジメント系",
+    "topic": "プロジェクト管理",
+    "q": "顧客から受託した開発プロジェクトのスコープの対象はどれか。a:プロジェクトで作成する成果物、b:市販のスケジュール管理ツール、c:顧客が要求事項を記した文書。",
+    "choices": [
+      "aのみ",
+      "a、b",
+      "b、c",
+      "cのみ"
+    ],
+    "answer": 0,
+    "explanation": "プロジェクトスコープは実施する作業や成果物を定義するものです。利用する市販ツールや要求文書そのものは成果物ではありません。",
+    "tip": "関連用語を整理して復習しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-049",
+    "year": "2025",
+    "number": 49,
+    "field": "マネジメント系",
+    "topic": "サービスマネジメント",
+    "q": "クラウドサービスの電話オペレータ受付が9〜18時でFAQも公開中。チャットボットを導入してサービスレベルを向上させる効果として適切なのはどれか。",
+    "choices": [
+      "オペレータのチャット技能が向上",
+      "オペレータの電話技能が向上",
+      "問い合わせ受付可能な時間を拡大できる",
+      "FAQの記載内容が自動的に充実する"
+    ],
+    "answer": 2,
+    "explanation": "チャットボットは有人窓口の受付時間外にも自動応答できるため、問い合わせを受け付けられる時間帯を広げられます。",
+    "tip": "関連用語を整理して復習しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-050",
+    "year": "2025",
+    "number": 50,
+    "field": "マネジメント系",
+    "topic": "チャットボット",
+    "q": "チャットボットの説明として適切なのはどれか。",
+    "choices": [
+      "質問に対してソフトウェアがリアルタイムで自動応答する",
+      "センサ付き機器がネットで相互通信する",
+      "荷物を運ぶ機械",
+      "定型的なPC操作を自動化する"
+    ],
+    "answer": 0,
+    "explanation": "チャットボットは対話形式で自動応答するプログラムです。定型操作自動化のRPAとは異なります。",
+    "tip": "関連用語を整理して復習しましょう。",
+    "source": "IPA 令和7年度 ITパスポート試験 公開問題",
+    "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
+    "adapted": true
+  },
+  {
+    "id": "ipa-2025-051",
+    "year": "2025",
+    "number": 51,
+    "field": "マネジメント系",
+    "topic": "システム監査",
+    "q": "社内開発・運用している経理システムの内部監査を行う場合、システム監査人として適切なのはどれか。",
+    "choices": [
+      "経理システムの運用担当者",
+      "開発を担当した委託会社の従業員",
+      "経理システムを利用する経理担当者",
+      "経理とITの知識があり経営者直轄組織に所属する従業員"
+    ],
+    "answer": 3,
+    "explanation": "監査対象から独立して客観的に評価できる人を選ぶ必要があります。経営者直轄の監査組織などが候補になります。",
+    "tip": "関連用語を整理して復習しましょう。",
     "source": "IPA 令和7年度 ITパスポート試験 公開問題",
     "sourceUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pdf/questions/2025r07_ip_qs.pdf",
     "adapted": true
