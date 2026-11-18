@@ -256,7 +256,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "技術開発戦略の立案・技術開発計画",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 5,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-010",
@@ -283,7 +285,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "ビジネスシステム",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 6,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-011",
@@ -310,7 +314,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "エンジニアリングシステム",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 6,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-012",
@@ -337,7 +343,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "知的財産権",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 6,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-013",
@@ -364,7 +372,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "調達計画・実施",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 7,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-014",
@@ -391,7 +401,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "技術開発戦略の立案・技術開発計画",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 7,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-015",
@@ -418,7 +430,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "経営・組織論",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 7,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-016",
@@ -445,7 +459,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "セキュリティ関連法規",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 8,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-017",
@@ -472,7 +488,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "業務プロセス",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 8,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-018",
@@ -499,7 +517,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "システム活用促進・評価",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 9,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-019",
@@ -526,7 +546,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "IoTシステム・組込みシステム",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 9,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-020",
@@ -553,7 +575,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "システム化計画",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 10,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-021",
@@ -580,7 +604,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "e-ビジネス",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 10,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-022",
@@ -607,7 +633,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "業務分析・データ利活用",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 10,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-023",
@@ -634,7 +662,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "その他の法律・ガイドライン・情報倫理",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 11,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-024",
@@ -661,7 +691,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "業務プロセス",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 11,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-025",
@@ -688,7 +720,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "ビジネスシステム",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 12,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-026",
@@ -723,30 +757,72 @@ window.QUESTIONS = [
         ],
         [
           "取引①",
-          "4月2日 4月10日 4月30日",
-          "受注 売上計上 現金回収",
-          "800 800 800",
+          "4月2日",
+          "受注",
+          "800",
+          ""
+        ],
+        [
+          "取引①",
+          "4月10日",
+          "売上計上",
+          "800",
+          ""
+        ],
+        [
+          "取引①",
+          "4月30日",
+          "現金回収",
+          "800",
           ""
         ],
         [
           "取引②",
-          "4月5日 4月15日 4月30日",
-          "受注 売上計上 現金回収",
-          "500 500 500",
+          "4月5日",
+          "受注",
+          "500",
+          ""
+        ],
+        [
+          "取引②",
+          "4月15日",
+          "売上計上",
+          "500",
+          ""
+        ],
+        [
+          "取引②",
+          "4月30日",
+          "現金回収",
+          "500",
           ""
         ],
         [
           "取引③",
-          "5月1日 5月10日",
-          "受注 売上計上",
-          "1,300 1,300",
-          "6月30日 回収予定"
+          "5月1日",
+          "受注",
+          "1,300",
+          "6月30日回収予定"
+        ],
+        [
+          "取引③",
+          "5月10日",
+          "売上計上",
+          "1,300",
+          "6月30日回収予定"
         ],
         [
           "取引④",
-          "5月6日 5月15日",
-          "受注 売上計上",
-          "1,000 1,000",
+          "5月6日",
+          "受注",
+          "1,000",
+          "回収予定日未定"
+        ],
+        [
+          "取引④",
+          "5月15日",
+          "売上計上",
+          "1,000",
           "回収予定日未定"
         ],
         [
@@ -764,7 +840,10 @@ window.QUESTIONS = [
     "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
     "figureTableLabels": [
       "取引の明細"
-    ]
+    ],
+    "ipaPdfPage": 12,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual",
+    "ipaFigureReview": "table-values-checked-against-official-pdf-page-12"
   },
   {
     "id": "ipa-2025-027",
@@ -791,7 +870,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "情報システム戦略",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 13,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-028",
@@ -818,7 +899,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "ビジネスシステム",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 13,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-029",
@@ -845,7 +928,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "経営・組織論",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 13,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-030",
@@ -872,7 +957,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "知的財産権",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 14,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-031",
@@ -899,7 +986,9 @@ window.QUESTIONS = [
     "extractionStatus": "needs-pdf-review",
     "topic": "経営管理システム",
     "answerVerification": "official-answer-key-compared",
-    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration"
+    "explanationStatus": "prior-independent-explanation-needs-recheck-after-stem-restoration",
+    "ipaPdfPage": 14,
+    "ipaContentReview": "stem-and-options-meaning-reviewed-against-official-pdf-visual"
   },
   {
     "id": "ipa-2025-032",
