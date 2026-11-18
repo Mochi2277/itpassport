@@ -74,6 +74,19 @@ def fetch(n):
                 label=normalize(cells[0].get_text(" ",strip=True))
                 if label in KANA and len(label)==1:
                     choices.append((label," | ".join(with_breaks(c) for c in cells[1:])))
+            # IPA combination tables: their four answers are stored in a
+            # separate matrix instead of the standard q-options table.
+            matrix_choices = {
+                8: ["成約件数 | 売上高","成約件数 | 提案件数","提案件数 | 売上高","提案件数 | 成約件数"],
+                37: ["外観 | 客観的な","経営 | 被監査側の","契約 | 経営者側の","取引 | 良心的な"],
+                42: ["a | b | c","a | c | b","b | a | c","c | b | a"],
+                47: ["a | b | c","a | c | b","b | a | c","c | b | a"],
+                48: ["サービスレベルマネジメント | IPS","サービスレベルマネジメント | UPS","ファシリティマネジメント | IPS","ファシリティマネジメント | UPS"],
+                63: ["1Tバイト | 1Tバイト","1Tバイト | 500Gバイト","500Gバイト | 1Tバイト","500Gバイト | 500Gバイト"],
+                86: ["共通 | 公開","共通 | 秘密","公開 | 共通","公開 | 秘密"],
+            }
+            if [x[0] for x in choices] != list(KANA) and n in matrix_choices:
+                choices=list(zip(list(KANA),matrix_choices[n]))
             if [x[0] for x in choices] != list(KANA):
                 raise ValueError("Cannot extract 4 options, got "+str([x[0] for x in choices])+"; tableHTML="+str(opts)[:500])
             if any(not value.strip() for _,value in choices):raise ValueError("Empty choice")
