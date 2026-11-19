@@ -62,6 +62,8 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
 .question-source-table th{background:#eef6f7}
 .choice-source-table{margin:8px 0 0;font-size:12px}.choice-source-table th{white-space:normal}#quiz .choice span:last-child{min-width:0}
 .choice-figure{display:block;max-width:100%;height:auto;max-height:145px;margin:8px 0;border:1px solid #dce7eb;border-radius:7px;background:#fff}
+
+.topic-section{padding:10px 0 15px;border-bottom:1px solid #e4edef}.topic-section:last-child{border-bottom:0}.topic-section h3{font-size:15px;margin:8px 0 10px;color:#28546a}.topic-stat-row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:8px 0;font-size:13px;flex-wrap:wrap}.topic-stat-row span:last-child{color:#577384}.topic-note{font-size:11px;color:#718996;margin:4px 0 0}
 </style></head><body>
 <header><div class="nav"><button type="button" id="brand" class="brand">📘 ITパスポート <span>過去問学習室</span></button><button type="button" class="navlink" id="navstats">成績・アドバイス</button></div></header>
 <main class="wrap">
@@ -107,11 +109,12 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
 <section id="stats" hidden><button type="button" class="back" data-home>← トップへ戻る</button><h1 style="font-size:25px">成績確認・アドバイス</h1><p class="sub">この端末に保存された学習履歴に基づきます。合格可能性を保証するものではありません。</p>
  <div class="stats-mini"><div class="metric"><small>累計解答</small><b id="stats-attempts">0</b></div><div class="metric"><small>正答率</small><b id="stats-accuracy">—</b></div><div class="metric"><small>解いた問題数</small><b id="stats-unique">0</b></div></div>
  <div class="panel"><h2>分野別の正答率</h2><div id="field-stats"></div></div>
+ <div class="panel"><h2>ジャンル別の正答率</h2><p class="sub">問題右上のジャンルごとに集計。間違いが多い順に表示します。解答数が少ないジャンルは参考値です。</p><div id="topic-stats"></div></div>
  <div class="panel"><h2>学習アドバイス</h2><div id="advice" class="sub"></div><div class="gap" style="margin-top:18px"><button class="btn primary" type="button" id="review-from-stats">苦手問題を復習する</button><button class="btn secondary" type="button" id="go-home-stats">トップへ</button></div></div>
  <div class="panel"><h2>学習データの管理</h2><p class="sub">履歴はブラウザ内にのみ保存されます。別の端末には同期されません。</p><button class="btn secondary" id="clear-history" type="button">学習履歴を削除する</button></div>
 </section>
 </main>
-<footer><div>表示バージョン：2026-11-18 / qa-all-years-v2</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
+<footer><div>表示バージョン：2026-11-19 / topic-advice-v1</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
 <script src="questions.js?v=20261118-r07-restored-reviewed-v2"></script>
 <script src="questions_2024.js?v=20261118-r06-figures-v2"></script>
 <script src="questions_2023.js?v=20261118-r05-v3"></script>
@@ -174,13 +177,89 @@ if(session){session.cursor=Math.min(cursor+1,pool.length-1);write(SESSION,sessio
 function next(){if(cursor>=pool.length-1){session=null;try{localStorage.removeItem(SESSION)}catch(e){}show('stats');return}cursor++;renderQuestion()}
 function setup(){$('setup-title').textContent='年度・分野を指定して解く';$('setup-description').textContent='年度・分野・出題順を選んでください。';$('setup-year').value=latestYear;$('setup-field').value='すべて';$('setup-order').value='order';updateSetupCount();show('setup')}
 function updateSetupCount(){const y=$('setup-year').value,f=$('setup-field').value;$('setup-count').textContent='対象：'+all.filter(q=>q.year===y&&(f==='すべて'||q.field===f)).length+'問'}
-function renderStats(){const n=attempts();$('stats-attempts').textContent=n;$('stats-accuracy').textContent=rate(n,correct());$('stats-unique').textContent=Object.keys(saved).filter(id=>(saved[id]?.attempts||0)>0).length;
-$('field-stats').replaceChildren();const summary=[];
-fields.forEach(field=>{const questions=all.filter(q=>q.field===field),value=questions.reduce((o,q)=>{o.n+=(saved[q.id]?.attempts||0);o.c+=(saved[q.id]?.correct||0);return o},{n:0,c:0});summary.push({field,...value});
-const row=document.createElement('div');row.className='statrow';const title=document.createElement('div');title.className='row';title.innerHTML='<b>'+esc(field)+'</b><span>'+rate(value.n,value.c)+'（'+value.n+'回解答）</span>';const bar=document.createElement('div');bar.className='bar';bar.style.marginTop='9px';const fill=document.createElement('span');fill.style.width=(value.n?100*value.c/value.n:0)+'%';bar.append(fill);row.append(title,bar);$('field-stats').append(row)});
-let msg;if(n===0)msg='まだ解答履歴がありません。まずは令和7年度の問題を5問ほど解き、結果を確認してみましょう。';
-else {const practiced=summary.filter(x=>x.n>0).sort((a,b)=>(a.c/a.n)-(b.c/b.n));const weakest=practiced[0];msg='現在の正答率は'+rate(n,correct())+'です。'+weakest.field+'の正答率が'+rate(weakest.n,weakest.c)+'なので、この分野から解説を読み直すのがおすすめです。';if(n<20)msg+=' まだ解答数が少ないため、正答率の変動が大きい点にも注意しましょう。';if(wrongIds().size)msg+=' 間違えた問題は「苦手問題を復習する」から再挑戦できます。'}
-$('advice').textContent=msg;$('review-from-stats').disabled=!wrongIds().size}
+function topicSummary(){
+ const totals=new Map();
+ all.forEach(q=>{
+  const history=saved[q.id],n=Number(history?.attempts)||0,c=Number(history?.correct)||0;
+  if(!n)return;
+  const field=q.field||'その他',topic=(q.topic||'その他').trim(),key=field+'\\u0000'+topic;
+  const item=totals.get(key)||{field,topic,n:0,c:0,unique:0};
+  item.n+=n;item.c+=Math.max(0,Math.min(n,c));item.unique++;
+  totals.set(key,item);
+ });
+ return [...totals.values()].map(x=>({...x,miss:x.n-x.c,accuracy:x.c/x.n}));
+}
+function priorityTopics(items){
+ // A one-question sample should not outrank a repeatedly missed topic.
+ return [...items].filter(x=>x.miss>0).sort((a,b)=>
+  (b.unique>=2?1:0)-(a.unique>=2?1:0) ||
+  b.miss-a.miss || a.accuracy-b.accuracy || b.unique-a.unique || a.topic.localeCompare(b.topic,'ja'));
+}
+function renderStats(){
+ const n=attempts();
+ $('stats-attempts').textContent=n;
+ $('stats-accuracy').textContent=rate(n,correct());
+ $('stats-unique').textContent=Object.keys(saved).filter(id=>(saved[id]?.attempts||0)>0).length;
+ $('field-stats').replaceChildren();
+ const summary=[];
+ fields.forEach(field=>{
+  const value=all.filter(q=>q.field===field).reduce((o,q)=>{
+   o.n+=(saved[q.id]?.attempts||0);o.c+=(saved[q.id]?.correct||0);return o;
+  },{n:0,c:0});
+  summary.push({field,...value});
+  const row=document.createElement('div');row.className='statrow';
+  const title=document.createElement('div');title.className='row';
+  title.innerHTML='<b>'+esc(field)+'</b><span>'+rate(value.n,value.c)+'（'+value.n+'回解答）</span>';
+  const bar=document.createElement('div');bar.className='bar';bar.style.marginTop='9px';
+  const fill=document.createElement('span');fill.style.width=(value.n?100*value.c/value.n:0)+'%';
+  bar.append(fill);row.append(title,bar);$('field-stats').append(row);
+ });
+ const topics=topicSummary();
+ const topicBox=$('topic-stats');topicBox.replaceChildren();
+ for(const field of fields){
+  const practiced=topics.filter(t=>t.field===field);
+  const section=document.createElement('div');section.className='topic-section';
+  const heading=document.createElement('h3');heading.textContent=field;section.append(heading);
+  if(!practiced.length){
+   const empty=document.createElement('p');empty.className='sub';empty.textContent='まだ解答データがありません。';
+   section.append(empty);
+  }else{
+   const sorted=priorityTopics(practiced);
+   const display=sorted.length?sorted.slice(0,3):[...practiced].sort((a,b)=>b.n-a.n).slice(0,3);
+   for(const item of display){
+    const line=document.createElement('div');line.className='topic-stat-row';
+    const name=document.createElement('span');name.textContent=item.topic;
+    const result=document.createElement('span');result.textContent=rate(item.n,item.c)+'（'+item.c+'/'+item.n+'回正解）'+(item.unique<2?' ※少数':'');
+    line.append(name,result);section.append(line);
+   }
+   const note=document.createElement('p');note.className='topic-note';
+   note.textContent=sorted.length?'誤答があったジャンルを優先表示':'間違えたジャンルはありません。解答数の多い順に表示';
+   section.append(note);
+  }
+  topicBox.append(section);
+ }
+ let msg;
+ if(n===0){
+  msg='まだ解答履歴がありません。まずは最新年度の問題を5問ほど解き、結果を確認してみましょう。';
+ }else{
+  const practicedFields=summary.filter(x=>x.n>0).sort((a,b)=>a.c/a.n-b.c/b.n);
+  const weakest=practicedFields[0];
+  const weakTopics=priorityTopics(topics.filter(t=>t.field===weakest.field));
+  msg='現在の正答率は'+rate(n,correct())+'です。';
+  if(weakTopics.length){
+   const recommended=weakTopics.slice(0,2);
+   msg+=weakest.field+'では、特に「'+recommended.map(t=>t.topic).join('」と「')+'」を重点的に復習しましょう。';
+   msg+='（'+recommended.map(t=>t.topic+'：'+rate(t.n,t.c)+'／'+t.n+'回解答').join('、')+'）';
+   if(recommended.some(t=>t.unique<2)||weakest.n<5)msg+=' 対象の問題数が少ないため、ほかの問題にも挑戦して傾向を確認しましょう。';
+  }else{
+   msg+=weakest.field+'の正答率は'+rate(weakest.n,weakest.c)+'です。間違えたジャンルがまだないので、ほかの分野にも挑戦しましょう。';
+  }
+  if(n<20)msg+=' 全体の解答数も少ないため、正答率の変動が大きい点に注意しましょう。';
+  if(wrongIds().size)msg+=' 間違えた問題は「苦手問題を復習する」から再挑戦できます。';
+ }
+ $('advice').textContent=msg;
+ $('review-from-stats').disabled=!wrongIds().size;
+}
 $('brand').onclick=()=>show('home');$('navstats').onclick=()=>show('stats');
 document.querySelectorAll('[data-home]').forEach(b=>b.onclick=()=>show('home'));
 $('go-home-stats').onclick=()=>show('home');$('quiz-stats').onclick=()=>show('stats');$('start-stats').onclick=()=>show('stats');
