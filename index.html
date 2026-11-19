@@ -125,6 +125,17 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
 
 </section>
 <section id="stats" hidden><button type="button" class="back" data-home>← トップへ戻る</button><h1 style="font-size:25px">成績確認・アドバイス</h1><p class="sub">この端末に保存された学習履歴に基づきます。合格可能性を保証するものではありません。</p>
+ <div class="panel mastery-progress" aria-labelledby="stats-mastery-progress-title">
+   <div class="row"><h2 id="stats-mastery-progress-title">📊 問題の習得状況</h2><span class="mastery-overall" id="stats-mastery-overall">0 / 700問 習得済み</span></div>
+   <div class="mastery-meter" id="stats-mastery-meter" role="img" aria-label="習得状況"><span id="stats-mastery-meter-mastered"></span><span id="stats-mastery-meter-learning"></span><span id="stats-mastery-meter-unseen"></span></div>
+   <div class="mastery-counts">
+     <div class="mastery-count"><span class="mastery-dot mastered"></span><div><small>習得済み</small><b id="stats-mastery-count-mastered">0</b></div></div>
+     <div class="mastery-count"><span class="mastery-dot learning"></span><div><small>未習得</small><b id="stats-mastery-count-learning">0</b></div></div>
+     <div class="mastery-count"><span class="mastery-dot unseen"></span><div><small>未挑戦</small><b id="stats-mastery-count-unseen">700</b></div></div>
+   </div>
+   <p class="sub" id="stats-mastery-progress-note">累計3回正解した問題を習得済みとして集計します。</p>
+ </div>
+
  <div class="stats-mini"><div class="metric"><small>累計解答</small><b id="stats-attempts">0</b></div><div class="metric"><small>正答率</small><b id="stats-accuracy">—</b></div><div class="metric"><small>解いた問題数</small><b id="stats-unique">0</b></div></div>
  <div class="panel"><h2>分野別の正答率</h2><div id="field-stats"></div></div>
  <div class="panel"><h2>ジャンル別の正答率</h2><div id="topic-stats"></div></div>
@@ -132,7 +143,7 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
  <div class="panel"><h2>学習データの管理</h2><p class="sub">履歴はブラウザ内にのみ保存されます。別の端末には同期されません。</p><button class="btn secondary" id="clear-history" type="button">学習履歴を削除する</button></div>
 </section>
 </main>
-<footer><div>表示バージョン：2026-11-19 / mastery-progress-v1</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
+<footer><div>表示バージョン：2026-11-19 / mastery-progress-stats-v1</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
 <script src="questions.js?v=20261118-r07-restored-reviewed-v2"></script>
 <script src="questions_2024.js?v=20261118-r06-figures-v2"></script>
 <script src="questions_2023.js?v=20261118-r05-v3"></script>
@@ -178,15 +189,17 @@ function renderMasteryProgress(){
  const total=all.length,masteredCount=all.filter(q=>(Number(saved[q.id]?.correct)||0)>=mastery.threshold).length;
  const attemptedCount=all.filter(q=>(Number(saved[q.id]?.attempts)||0)>0).length;
  const learningCount=Math.max(0,attemptedCount-masteredCount),unseenCount=Math.max(0,total-attemptedCount);
- $('mastery-count-mastered').textContent=masteredCount;
- $('mastery-count-learning').textContent=learningCount;
- $('mastery-count-unseen').textContent=unseenCount;
- $('mastery-overall').textContent=masteredCount+' / '+total+'問 習得済み（'+(total?Math.round(masteredCount/total*100):0)+'%）';
- $('mastery-meter-mastered').style.width=(total?100*masteredCount/total:0)+'%';
- $('mastery-meter-learning').style.width=(total?100*learningCount/total:0)+'%';
- $('mastery-meter-unseen').style.width=(total?100*unseenCount/total:0)+'%';
- $('mastery-meter').setAttribute('aria-label','習得済み'+masteredCount+'問、未習得'+learningCount+'問、未挑戦'+unseenCount+'問');
- $('mastery-progress-note').textContent='累計'+mastery.threshold+'回正解した問題を習得済みとして集計します。'+(!mastery.enabled?'（現在、出題時の除外はOFFです）':'');
+ for(const prefix of ['mastery-','stats-mastery-']){
+  $(prefix+'count-mastered').textContent=masteredCount;
+  $(prefix+'count-learning').textContent=learningCount;
+  $(prefix+'count-unseen').textContent=unseenCount;
+  $(prefix+'overall').textContent=masteredCount+' / '+total+'問 習得済み（'+(total?Math.round(masteredCount/total*100):0)+'%）';
+  $(prefix+'meter-mastered').style.width=(total?100*masteredCount/total:0)+'%';
+  $(prefix+'meter-learning').style.width=(total?100*learningCount/total:0)+'%';
+  $(prefix+'meter-unseen').style.width=(total?100*unseenCount/total:0)+'%';
+  $(prefix+'meter').setAttribute('aria-label','習得済み'+masteredCount+'問、未習得'+learningCount+'問、未挑戦'+unseenCount+'問');
+  $(prefix+'progress-note').textContent='累計'+mastery.threshold+'回正解した問題を習得済みとして集計します。'+(!mastery.enabled?'（現在、出題時の除外はOFFです）':'');
+ }
 }
 function homeStats(){
  syncMasteryControls();renderMasteryProgress();
@@ -271,6 +284,7 @@ function priorityTopics(items){
   b.miss-a.miss || a.accuracy-b.accuracy || b.unique-a.unique || a.topic.localeCompare(b.topic,'ja'));
 }
 function renderStats(){
+ renderMasteryProgress();
  const n=attempts();
  $('stats-attempts').textContent=n;
  $('stats-accuracy').textContent=rate(n,correct());
