@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="ja"><head>
 <meta name="google-site-verification" content="mTHiP2D0Pw-aAVsG-sNEJsDpxeaIvfnvBWB_JG7lfgA" /><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="ITパスポート過去問学習室。年度別・分野別の過去問演習、学習の続き、成績と苦手分野の復習。">
-<title>ITパスポート 過去問学習室｜無料問題演習</title>
+<meta name="description" content="ITパスポートの公開問題700問を無料で学習。令和2〜8年度に対応。年度別・分野別演習、苦手ジャンル分析、習得済み問題の自動除外に対応。登録不要。">
+<title>ITパスポート過去問700問｜無料・解説付き・苦手分野を復習</title>
+<link rel="canonical" href="https://itpassport.studyroomnyan.workers.dev/">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap');
 :root{font-family:"BIZ UDPGothic","BIZ UD Pゴシック",sans-serif;color:#1b3f4b;background:#f4f8fa}
@@ -67,11 +68,12 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
 .mastery-settings{margin-top:18px}.mastery-settings h2{margin:0 0 14px}.mastery-toggle{display:flex;gap:10px;align-items:flex-start;font-size:14px;line-height:1.6}.mastery-toggle input{margin-top:5px;accent-color:#147f85}.mastery-threshold{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-top:14px;font-size:14px}.mastery-settings #mastery-status{margin:12px 0 0}
 .mastery-progress{margin:20px 0 0}.mastery-progress h2{margin:0 0 14px}.mastery-overall{font-size:12px;color:#456b76;font-weight:700}.mastery-meter{height:19px;background:#e1e8eb;display:flex;border-radius:12px;overflow:hidden;margin:12px 0 18px}.mastery-meter span{display:block;height:100%;min-width:0;flex-shrink:0;transition:width .2s,flex-basis .2s}.mastery-meter #mastery-meter-mastered,.mastery-meter #stats-mastery-meter-mastered{background:#188d77}.mastery-meter #mastery-meter-learning,.mastery-meter #stats-mastery-meter-learning{background:#e0ac50}.mastery-meter #mastery-meter-unseen,.mastery-meter #stats-mastery-meter-unseen{background:#dce7eb}.mastery-counts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.mastery-count{display:flex;align-items:center;gap:10px;padding:12px;background:#f6fafb;border-radius:10px}.mastery-count small{display:block;color:#607b85;font-size:12px}.mastery-count b{font-size:23px;display:block;margin-top:5px}.mastery-dot{width:11px;height:11px;border-radius:50%;flex-shrink:0}.mastery-dot.mastered{background:#188d77}.mastery-dot.learning{background:#e0ac50}.mastery-dot.unseen{background:#c4d4d9}.mastery-progress #mastery-progress-note{margin-bottom:0}@media(max-width:580px){.mastery-counts{gap:5px}.mastery-count{padding:9px 6px;gap:5px}.mastery-count b{font-size:19px}.mastery-count small{font-size:11px}.mastery-overall{font-size:11px}}
 .question-meta{display:flex;flex-direction:column;align-items:flex-end;gap:5px;text-align:right}.question-meta #question-history{color:#5c7885;font-size:11px;white-space:nowrap}.question-meta #topic{font-weight:700}
+.seo-intro{margin-top:20px}.seo-intro h2{margin-top:0}.seo-intro h3{font-size:15px;margin:18px 0 10px}.seo-intro p,.seo-intro li{font-size:13px;line-height:1.9;color:#506e7a}.seo-intro ul{padding-left:1.4em;margin:0}
 </style></head><body>
 <header><div class="nav"><button type="button" id="brand" class="brand">📘 ITパスポート <span>過去問学習室</span></button></div></header>
 <main class="wrap">
 <section id="home">
- <div class="hero"><h1>ITパスポート 過去問学習室</h1><p>合格に向けて一緒にがんばりましょう🔥<br>学習履歴はこの端末に保存されます。</p></div>
+ <div class="hero"><h1>ITパスポート過去問700問を無料で学習</h1><p>合格に向けて一緒にがんばりましょう🔥<br>学習履歴はこの端末に保存されます。</p></div>
  <div class="panel mastery-progress" aria-labelledby="mastery-progress-title">
    <div class="row"><h2 id="mastery-progress-title">📊 問題の習得状況</h2><span class="mastery-overall" id="mastery-overall">0 / 700問 習得済み</span></div>
    <div class="mastery-meter" id="mastery-meter" role="img" aria-label="習得状況"><span id="mastery-meter-mastered"></span><span id="mastery-meter-learning"></span><span id="mastery-meter-unseen"></span></div>
@@ -96,6 +98,17 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
   <button type="button" class="card" id="start-wrong"><span class="icon">🔁</span><h2>間違えた問題を復習</h2><p>苦手な問題を解き直す</p></button>
   <button type="button" class="card card-wide" id="start-stats"><span class="icon">📊</span><h2>成績確認・アドバイス</h2><p>分野別正答率とおすすめの復習方法を見る</p></button>
  </div>
+ <section class="panel seo-intro" aria-labelledby="seo-intro-title">
+  <h2 id="seo-intro-title">ITパスポート試験の過去問を無料で学習</h2>
+  <p>令和2〜8年度の公開問題700問を収録。年度・分野を選んで、自分のペースで演習できます。</p>
+  <h3>このサイトでできること</h3>
+  <ul>
+   <li>ストラテジ系・マネジメント系・テクノロジ系の分野別演習</li>
+   <li>解説を読みながら苦手なジャンルを復習</li>
+   <li>正解回数に応じて習得済み問題を自動で除外</li>
+   <li>正答率や学習の進捗をグラフで確認</li>
+  </ul>
+ </section>
  <p class="note">※ 令和2～8年度の公開問題を収録しています。令和2年度は10月の公開問題です。原文・正答・図表は追加校閲中のため、必要に応じてIPA公式PDFをご確認ください。</p>
 <section class="rakuten-section" aria-label="おすすめITパスポート教材"><div class="row rakuten-header"><h2>📚 おすすめのITパスポート教材</h2><span class="rakuten-pr">PR</span></div><div class="rakuten-grid"><article class="rakuten-product"><a href="https://hb.afl.rakuten.co.jp/ichiba/3ad4ccdc.678427d2.3ad4ccdd.111a946e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F18432510%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1lIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" aria-label="【令和8年度】いちばんやさしい ITパスポート 絶対合格の教科書＋出る順問題集"><img src="https://hbb.afl.rakuten.co.jp/hgb/3ad4ccdc.678427d2.3ad4ccdd.111a946e/?me_id=1213310&amp;item_id=21788381&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F8207%2F9784815638207_1_2.jpg%3F_ex%3D128x128&amp;s=128x128&amp;t=picttext" alt="【令和8年度】いちばんやさしい ITパスポート 絶対合格の教科書＋出る順問題集の書影" loading="lazy" width="128" height="128"></a><div class="rakuten-product-info"><a href="https://hb.afl.rakuten.co.jp/ichiba/3ad4ccdc.678427d2.3ad4ccdd.111a946e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F18432510%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1lIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener">【令和8年度】いちばんやさしい ITパスポート 絶対合格の教科書＋出る順問題集</a><div class="rakuten-author">高橋 京介</div><div class="rakuten-price">1,815円<span>（税込）</span></div></div></article>
 <article class="rakuten-product"><a href="https://hb.afl.rakuten.co.jp/ichiba/3ad4ccdc.678427d2.3ad4ccdd.111a946e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F18472423%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1lIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" aria-label="教育系YouTuberせかチャンのITパスポート テキストいらずのすごい問題集"><img src="https://hbb.afl.rakuten.co.jp/hgb/3ad4ccdc.678427d2.3ad4ccdd.111a946e/?me_id=1213310&amp;item_id=21820786&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F7364%2F9784046067364_1_9.jpg%3F_ex%3D128x128&amp;s=128x128&amp;t=picttext" alt="教育系YouTuberせかチャンのITパスポート テキストいらずのすごい問題集の書影" loading="lazy" width="128" height="128"></a><div class="rakuten-product-info"><a href="https://hb.afl.rakuten.co.jp/ichiba/3ad4ccdc.678427d2.3ad4ccdd.111a946e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F18472423%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1lIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener">教育系YouTuberせかチャンのITパスポート テキストいらずのすごい問題集</a><div class="rakuten-author">せかチャン</div><div class="rakuten-price">1,980円<span>（税込）</span></div></div></article>
