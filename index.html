@@ -65,25 +65,35 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
 
 .topic-section{padding:10px 0 15px;border-bottom:1px solid #e4edef}.topic-section:last-child{border-bottom:0}.topic-section h3{font-size:15px;margin:8px 0 10px;color:#28546a}.topic-stat-row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:8px 0;font-size:13px;flex-wrap:wrap}.topic-stat-row span:last-child{color:#577384}.topic-note{font-size:11px;color:#718996;margin:4px 0 0}
 .mastery-settings{margin-top:18px}.mastery-settings h2{margin:0 0 14px}.mastery-toggle{display:flex;gap:10px;align-items:flex-start;font-size:14px;line-height:1.6}.mastery-toggle input{margin-top:5px;accent-color:#147f85}.mastery-threshold{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-top:14px;font-size:14px}.mastery-settings #mastery-status{margin:12px 0 0}
+.mastery-progress{margin:20px 0 0}.mastery-progress h2{margin:0 0 14px}.mastery-overall{font-size:12px;color:#456b76;font-weight:700}.mastery-meter{height:19px;background:#e1e8eb;display:flex;border-radius:12px;overflow:hidden;margin:12px 0 18px}.mastery-meter span{display:block;height:100%;transition:width .2s}.mastery-meter #mastery-meter-mastered{background:#188d77}.mastery-meter #mastery-meter-learning{background:#e0ac50}.mastery-meter #mastery-meter-unseen{background:#dce7eb}.mastery-counts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.mastery-count{display:flex;align-items:center;gap:10px;padding:12px;background:#f6fafb;border-radius:10px}.mastery-count small{display:block;color:#607b85;font-size:12px}.mastery-count b{font-size:23px;display:block;margin-top:5px}.mastery-dot{width:11px;height:11px;border-radius:50%;flex-shrink:0}.mastery-dot.mastered{background:#188d77}.mastery-dot.learning{background:#e0ac50}.mastery-dot.unseen{background:#c4d4d9}.mastery-progress #mastery-progress-note{margin-bottom:0}@media(max-width:580px){.mastery-counts{gap:5px}.mastery-count{padding:9px 6px;gap:5px}.mastery-count b{font-size:19px}.mastery-count small{font-size:11px}.mastery-overall{font-size:11px}}
 </style></head><body>
 <header><div class="nav"><button type="button" id="brand" class="brand">📘 ITパスポート <span>過去問学習室</span></button><button type="button" class="navlink" id="navstats">成績・アドバイス</button></div></header>
 <main class="wrap">
 <section id="home">
  <div class="hero"><h1>ITパスポート 過去問学習室</h1><p>公式公開問題をベースに、毎日少しずつ学習。<br>学習履歴はこの端末に保存されます。</p></div>
- <div class="stats-mini"><div class="metric"><small>累計解答</small><b id="home-attempts">0</b></div><div class="metric"><small>正答率</small><b id="home-accuracy">—</b></div><div class="metric"><small>収録問題</small><b id="home-total">—</b></div></div>
+ <div class="panel mastery-progress" aria-labelledby="mastery-progress-title">
+   <div class="row"><h2 id="mastery-progress-title">📊 問題の習得状況</h2><span class="mastery-overall" id="mastery-overall">0 / 700問 習得済み</span></div>
+   <div class="mastery-meter" id="mastery-meter" role="img" aria-label="習得状況"><span id="mastery-meter-mastered"></span><span id="mastery-meter-learning"></span><span id="mastery-meter-unseen"></span></div>
+   <div class="mastery-counts">
+     <div class="mastery-count"><span class="mastery-dot mastered"></span><div><small>習得済み</small><b id="mastery-count-mastered">0</b></div></div>
+     <div class="mastery-count"><span class="mastery-dot learning"></span><div><small>未習得</small><b id="mastery-count-learning">0</b></div></div>
+     <div class="mastery-count"><span class="mastery-dot unseen"></span><div><small>未挑戦</small><b id="mastery-count-unseen">700</b></div></div>
+   </div>
+   <p class="sub" id="mastery-progress-note">累計3回正解した問題を習得済みとして集計します。</p>
+ </div>
+ <div class="panel mastery-settings" id="mastery-settings"><h2>⚙ 問題出題方式設定</h2>
+  <label class="mastery-toggle"><input type="checkbox" id="mastery-enabled" checked> 累計正解回数が設定値に達した問題を出題しない</label>
+  <div class="mastery-threshold"><label for="mastery-threshold">除外するまでの正解回数</label>
+   <select id="mastery-threshold"><option value="1">1回</option><option value="2">2回</option><option value="3" selected>3回（おすすめ）</option><option value="5">5回</option></select>
+  </div>
+  <p class="sub" id="mastery-status">設定はこの端末に自動保存されます。</p>
+ </div>
  <div class="cards">
   <button type="button" class="card" id="start-new"><span class="icon">✏️</span><h2>新規で解く</h2><p id="start-new-description">最新年度の問題を1問目から順番に始める</p></button>
   <button type="button" class="card" id="start-resume"><span class="icon">▶️</span><h2>続きから解く</h2><p id="resume-description">前回の学習位置から再開する</p></button>
   <button type="button" class="card" id="start-custom"><span class="icon">📅</span><h2>年度・分野を指定して解く</h2><p>年度・分野・出題順を自由に組み合わせて演習</p></button>
   <button type="button" class="card" id="start-wrong"><span class="icon">🔁</span><h2>間違えた問題を復習</h2><p>苦手な問題を解き直す</p></button>
   <button type="button" class="card card-wide" id="start-stats"><span class="icon">📊</span><h2>成績確認・アドバイス</h2><p>分野別正答率とおすすめの復習方法を見る</p></button>
- </div>
- <div class="panel mastery-settings" id="mastery-settings"><h2>✅ 習得済みの問題を除外する</h2>
-  <label class="mastery-toggle"><input type="checkbox" id="mastery-enabled" checked> 累計正解回数が設定値に達した問題を出題しない</label>
-  <div class="mastery-threshold"><label for="mastery-threshold">除外するまでの正解回数</label>
-   <select id="mastery-threshold"><option value="1">1回</option><option value="2">2回</option><option value="3" selected>3回（おすすめ）</option><option value="5">5回</option></select>
-  </div>
-  <p class="sub" id="mastery-status">設定はこの端末に自動保存されます。</p>
  </div>
  <p class="note">※ 令和2～8年度の公開問題を収録しています。令和2年度は10月の公開問題です。原文・正答・図表は追加校閲中のため、必要に応じてIPA公式PDFをご確認ください。</p>
 <section class="rakuten-section" aria-label="おすすめITパスポート教材"><div class="row rakuten-header"><h2>📚 おすすめのITパスポート教材</h2><span class="rakuten-pr">PR</span></div><div class="rakuten-grid"><article class="rakuten-product"><a href="https://hb.afl.rakuten.co.jp/ichiba/3ad4ccdc.678427d2.3ad4ccdd.111a946e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F18432510%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1lIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" aria-label="【令和8年度】いちばんやさしい ITパスポート 絶対合格の教科書＋出る順問題集"><img src="https://hbb.afl.rakuten.co.jp/hgb/3ad4ccdc.678427d2.3ad4ccdd.111a946e/?me_id=1213310&amp;item_id=21788381&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F8207%2F9784815638207_1_2.jpg%3F_ex%3D128x128&amp;s=128x128&amp;t=picttext" alt="【令和8年度】いちばんやさしい ITパスポート 絶対合格の教科書＋出る順問題集の書影" loading="lazy" width="128" height="128"></a><div class="rakuten-product-info"><a href="https://hb.afl.rakuten.co.jp/ichiba/3ad4ccdc.678427d2.3ad4ccdd.111a946e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F18432510%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1lIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener">【令和8年度】いちばんやさしい ITパスポート 絶対合格の教科書＋出る順問題集</a><div class="rakuten-author">高橋 京介</div><div class="rakuten-price">1,815円<span>（税込）</span></div></div></article>
@@ -122,7 +132,7 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
  <div class="panel"><h2>学習データの管理</h2><p class="sub">履歴はブラウザ内にのみ保存されます。別の端末には同期されません。</p><button class="btn secondary" id="clear-history" type="button">学習履歴を削除する</button></div>
 </section>
 </main>
-<footer><div>表示バージョン：2026-11-19 / mastery-filter-v1</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
+<footer><div>表示バージョン：2026-11-19 / mastery-progress-v1</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
 <script src="questions.js?v=20261118-r07-restored-reviewed-v2"></script>
 <script src="questions_2024.js?v=20261118-r06-figures-v2"></script>
 <script src="questions_2023.js?v=20261118-r05-v3"></script>
@@ -153,7 +163,6 @@ function syncMasteryControls(){
 function updateMastery(){
  mastery={enabled:$('mastery-enabled').checked,threshold:Number($('mastery-threshold').value)};
  write(MASTERY,mastery);
- syncMasteryControls();
  homeStats();
  updateSetupCount();
 }
@@ -165,14 +174,28 @@ function attempts(){return Object.values(saved).reduce((sum,v)=>sum+(v.attempts|
 function correct(){return Object.values(saved).reduce((sum,v)=>sum+(v.correct||0),0)}
 function wrongIds(){return new Set(all.filter(q=>(saved[q.id]?.wrong||0)>0).map(q=>q.id))}
 function rate(n,c){return n?Math.round(100*c/n)+'%':'—'}
-function homeStats(){const n=attempts();syncMasteryControls();$('home-attempts').textContent=n;$('home-accuracy').textContent=rate(n,correct());$('home-total').textContent=all.length;
-const pending=sessionPending();
-const valid=Boolean(pending.length);
-$('start-resume').disabled=!valid;
-$('resume-description').textContent=valid?'前回の演習：残り'+pending.length+'問から再開':'続きから解ける問題はありません。新規で開始してください。';
-const wrong=all.filter(q=>(saved[q.id]?.wrong||0)>0&&eligible(q));
-$('start-wrong').disabled=!wrong.length;
-$('review-from-stats').disabled=!wrong.length;
+function renderMasteryProgress(){
+ const total=all.length,masteredCount=all.filter(q=>(Number(saved[q.id]?.correct)||0)>=mastery.threshold).length;
+ const attemptedCount=all.filter(q=>(Number(saved[q.id]?.attempts)||0)>0).length;
+ const learningCount=Math.max(0,attemptedCount-masteredCount),unseenCount=Math.max(0,total-attemptedCount);
+ $('mastery-count-mastered').textContent=masteredCount;
+ $('mastery-count-learning').textContent=learningCount;
+ $('mastery-count-unseen').textContent=unseenCount;
+ $('mastery-overall').textContent=masteredCount+' / '+total+'問 習得済み（'+(total?Math.round(masteredCount/total*100):0)+'%）';
+ $('mastery-meter-mastered').style.width=(total?100*masteredCount/total:0)+'%';
+ $('mastery-meter-learning').style.width=(total?100*learningCount/total:0)+'%';
+ $('mastery-meter-unseen').style.width=(total?100*unseenCount/total:0)+'%';
+ $('mastery-meter').setAttribute('aria-label','習得済み'+masteredCount+'問、未習得'+learningCount+'問、未挑戦'+unseenCount+'問');
+ $('mastery-progress-note').textContent='累計'+mastery.threshold+'回正解した問題を習得済みとして集計します。'+(!mastery.enabled?'（現在、出題時の除外はOFFです）':'');
+}
+function homeStats(){
+ syncMasteryControls();renderMasteryProgress();
+ const pending=sessionPending(),valid=Boolean(pending.length);
+ $('start-resume').disabled=!valid;
+ $('resume-description').textContent=valid?'前回の演習：残り'+pending.length+'問から再開':'続きから解ける問題はありません。新規で開始してください。';
+ const wrong=all.filter(q=>(saved[q.id]?.wrong||0)>0&&eligible(q));
+ $('start-wrong').disabled=!wrong.length;
+ $('review-from-stats').disabled=!wrong.length;
 }
 function sessionPending(){
  if(!session||!Array.isArray(session.ids))return [];
