@@ -103,7 +103,7 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
 <article class="rakuten-product"><a href="https://hb.afl.rakuten.co.jp/ichiba/3ad4ccdc.678427d2.3ad4ccdd.111a946e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F18822565%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1lIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" aria-label="出るとこだけ！ITパスポート 2027年版［情報処理教科書］"><img src="https://hbb.afl.rakuten.co.jp/hgb/3ad4ccdc.678427d2.3ad4ccdd.111a946e/?me_id=1213310&amp;item_id=22108388&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F9450%2F9784798199450_1_122.jpg%3F_ex%3D128x128&amp;s=128x128&amp;t=picttext" alt="出るとこだけ！ITパスポート 2027年版［情報処理教科書］の書影" loading="lazy" width="128" height="128"></a><div class="rakuten-product-info"><a href="https://hb.afl.rakuten.co.jp/ichiba/3ad4ccdc.678427d2.3ad4ccdd.111a946e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F18822565%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1lIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener">出るとこだけ！ITパスポート 2027年版［情報処理教科書］</a><div class="rakuten-author">城田 比佐子</div><div class="rakuten-price">1,760円<span>（税込）</span></div></div></article></div></section>
 </section>
 <section id="setup" hidden><button type="button" class="back" data-home>← トップへ戻る</button><div class="panel"><h2 id="setup-title">演習の条件を選択</h2><p id="setup-description" class="sub">演習の種類を選んでください。</p>
- <div style="margin:17px 0"><label for="setup-year">年度</label><div style="margin-top:7px"><select id="setup-year"><option value="すべて">全年度</option><option value="2025">令和7年度（2025年）</option></select></div></div>
+ <div style="margin:17px 0"><label for="setup-year">年度</label><div style="margin-top:7px"><select id="setup-year"><option value="すべて" selected>全年度</option><option value="2025">令和7年度（2025年）</option></select></div></div>
  <div style="margin:17px 0"><label for="setup-field">分野</label><div style="margin-top:7px"><select id="setup-field"><option value="すべて">全分野</option><option value="ストラテジ系">ストラテジ系</option><option value="マネジメント系">マネジメント系</option><option value="テクノロジ系">テクノロジ系</option></select></div></div>
  <div style="margin:17px 0"><label for="setup-order">出題順</label><div style="margin-top:7px"><select id="setup-order"><option value="order">問番号順</option><option value="random">ランダム</option></select></div></div>
  <p id="setup-count" class="sub"></p><button type="button" class="btn primary" id="setup-go">演習を始める →</button></div></section>
@@ -273,7 +273,7 @@ function next(){
  if(nextIndex>=pool.length){session=null;try{localStorage.removeItem(SESSION)}catch(e){}show('stats');return}
  cursor=nextIndex;renderQuestion();
 }
-function setup(){$('setup-title').textContent='年度・分野を指定して解く';$('setup-description').textContent='年度・分野・出題順を選んでください。';$('setup-year').value=latestYear;$('setup-field').value='すべて';$('setup-order').value='order';updateSetupCount();show('setup')}
+function setup(){$('setup-title').textContent='年度・分野を指定して解く';$('setup-description').textContent='年度・分野・出題順を選んでください。';$('setup-year').value='すべて';$('setup-field').value='すべて';$('setup-order').value='order';updateSetupCount();show('setup')}
 function updateSetupCount(){const y=$('setup-year').value,f=$('setup-field').value,base=all.filter(q=>(y==='すべて'||q.year===y)&&(f==='すべて'||q.field===f));$('setup-count').textContent='対象：'+countEligible(base)+'問'+(mastery.enabled?'（習得済み'+(base.length-countEligible(base))+'問を除外）':'')}
 function topicSummary(){
  const totals=new Map();
@@ -376,8 +376,8 @@ if(imported2023.filter(q=>q.year==='2023').length===100){const option=document.c
 if(imported2022.filter(q=>q.year==='2022').length===100){const option=document.createElement('option');option.value='2022';option.textContent='令和4年度（2022年）';$('setup-year').append(option)}
 if(imported2021.filter(q=>q.year==='2021').length===100){const option=document.createElement('option');option.value='2021';option.textContent='令和3年度（2021年）';$('setup-year').append(option)}
 if(imported2020.filter(q=>q.year==='2020').length===100){const option=document.createElement('option');option.value='2020';option.textContent='令和2年度（2020年・10月）';$('setup-year').append(option)}
-if(imported2026.filter(q=>q.year==='2026').length===100){const option=document.createElement('option');option.value='2026';option.textContent='令和8年度（2026年）';$('setup-year').prepend(option)}
-$('start-new-description').textContent='最新年度の問題を1問目から順番に始める（令和'+(Number(latestYear)-2018)+'年度）';$('setup-year').value=latestYear;
+if(imported2026.filter(q=>q.year==='2026').length===100){const option=document.createElement('option');option.value='2026';option.textContent='令和8年度（2026年）';$('setup-year').insertBefore(option,$('setup-year').options[1]||null)}
+$('start-new-description').textContent='最新年度の問題を1問目から順番に始める（令和'+(Number(latestYear)-2018)+'年度）';$('setup-year').value='すべて';
 homeStats();show('home');
 })();
 </script></body></html>
