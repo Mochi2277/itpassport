@@ -66,11 +66,12 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
 .topic-section{padding:10px 0 15px;border-bottom:1px solid #e4edef}.topic-section:last-child{border-bottom:0}.topic-section h3{font-size:15px;margin:8px 0 10px;color:#28546a}.topic-stat-row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:8px 0;font-size:13px;flex-wrap:wrap}.topic-stat-row span:last-child{color:#577384}.topic-note{font-size:11px;color:#718996;margin:4px 0 0}
 .mastery-settings{margin-top:18px}.mastery-settings h2{margin:0 0 14px}.mastery-toggle{display:flex;gap:10px;align-items:flex-start;font-size:14px;line-height:1.6}.mastery-toggle input{margin-top:5px;accent-color:#147f85}.mastery-threshold{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-top:14px;font-size:14px}.mastery-settings #mastery-status{margin:12px 0 0}
 .mastery-progress{margin:20px 0 0}.mastery-progress h2{margin:0 0 14px}.mastery-overall{font-size:12px;color:#456b76;font-weight:700}.mastery-meter{height:19px;background:#e1e8eb;display:flex;border-radius:12px;overflow:hidden;margin:12px 0 18px}.mastery-meter span{display:block;height:100%;min-width:0;flex-shrink:0;transition:width .2s,flex-basis .2s}.mastery-meter #mastery-meter-mastered,.mastery-meter #stats-mastery-meter-mastered{background:#188d77}.mastery-meter #mastery-meter-learning,.mastery-meter #stats-mastery-meter-learning{background:#e0ac50}.mastery-meter #mastery-meter-unseen,.mastery-meter #stats-mastery-meter-unseen{background:#dce7eb}.mastery-counts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.mastery-count{display:flex;align-items:center;gap:10px;padding:12px;background:#f6fafb;border-radius:10px}.mastery-count small{display:block;color:#607b85;font-size:12px}.mastery-count b{font-size:23px;display:block;margin-top:5px}.mastery-dot{width:11px;height:11px;border-radius:50%;flex-shrink:0}.mastery-dot.mastered{background:#188d77}.mastery-dot.learning{background:#e0ac50}.mastery-dot.unseen{background:#c4d4d9}.mastery-progress #mastery-progress-note{margin-bottom:0}@media(max-width:580px){.mastery-counts{gap:5px}.mastery-count{padding:9px 6px;gap:5px}.mastery-count b{font-size:19px}.mastery-count small{font-size:11px}.mastery-overall{font-size:11px}}
+.question-meta{display:flex;flex-direction:column;align-items:flex-end;gap:5px;text-align:right}.question-meta #question-history{color:#5c7885;font-size:11px;white-space:nowrap}.question-meta #topic{font-weight:700}
 </style></head><body>
-<header><div class="nav"><button type="button" id="brand" class="brand">📘 ITパスポート <span>過去問学習室</span></button><button type="button" class="navlink" id="navstats">成績・アドバイス</button></div></header>
+<header><div class="nav"><button type="button" id="brand" class="brand">📘 ITパスポート <span>過去問学習室</span></button></div></header>
 <main class="wrap">
 <section id="home">
- <div class="hero"><h1>ITパスポート 過去問学習室</h1><p>公式公開問題をベースに、毎日少しずつ学習。<br>学習履歴はこの端末に保存されます。</p></div>
+ <div class="hero"><h1>ITパスポート 過去問学習室</h1><p>合格に向けて一緒にがんばりましょう🔥<br>学習履歴はこの端末に保存されます。</p></div>
  <div class="panel mastery-progress" aria-labelledby="mastery-progress-title">
    <div class="row"><h2 id="mastery-progress-title">📊 問題の習得状況</h2><span class="mastery-overall" id="mastery-overall">0 / 700問 習得済み</span></div>
    <div class="mastery-meter" id="mastery-meter" role="img" aria-label="習得状況"><span id="mastery-meter-mastered"></span><span id="mastery-meter-learning"></span><span id="mastery-meter-unseen"></span></div>
@@ -109,7 +110,7 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
 <section id="quiz" hidden><button type="button" class="back" data-home>← トップへ戻る</button>
  <div class="layout"><div><div class="panel">
  <div class="row"><h2 style="margin:0">問題演習</h2><button type="button" class="btn outline" id="quiz-stats">成績を見る</button></div>
- <div class="row" style="margin-top:18px"><small id="position"></small><small id="topic"></small></div>
+ <div class="row" style="margin-top:18px"><small id="position"></small><span class="question-meta"><small id="topic"></small><small id="question-history" aria-live="polite">挑戦 0回・正解 0回</small></span></div>
  <div class="progress"><div id="progress-inner" class="progress-inner"></div></div>
  <div id="source" class="note"></div>
  <div id="question" class="question"></div><div id="figure-tables" class="question-tables" hidden></div>
@@ -143,7 +144,7 @@ footer{padding:24px;text-align:center;border-top:1px solid #dde8ec;font-size:12p
  <div class="panel"><h2>学習データの管理</h2><p class="sub">履歴はブラウザ内にのみ保存されます。別の端末には同期されません。</p><button class="btn secondary" id="clear-history" type="button">学習履歴を削除する</button></div>
 </section>
 </main>
-<footer><div>表示バージョン：2026-11-19 / mastery-progress-stats-v2</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
+<footer><div>表示バージョン：2026-11-19 / quiz-scroll-attempts-v1</div>ITパスポート 過去問学習室は非公式の独立した学習サイトです。IPAによる運営・後援ではありません。<br>IPA公式公開問題をベースに一部表現を調整した学習用問題を掲載しています。</footer>
 <script src="questions.js?v=20261118-r07-restored-reviewed-v2"></script>
 <script src="questions_2024.js?v=20261118-r06-figures-v2"></script>
 <script src="questions_2023.js?v=20261118-r05-v3"></script>
@@ -240,9 +241,10 @@ function resume(){
  write(SESSION,session);show('quiz');renderQuestion();
 }
 function saveCursor(){if(session){session.cursor=cursor;write(SESSION,session)}}
+function updateQuestionHistory(q){const h=saved[q.id]||{};$('question-history').textContent='挑戦 '+(h.attempts||0)+'回・正解 '+(h.correct||0)+'回'}
 function renderQuestion(){selected=false;const q=pool[cursor];if(!q)return;
 $('position').textContent='問題 '+(cursor+1)+' / '+pool.length+(q.number?'　（'+('令和'+(Number(q.year)-2018)+'年度')+' 問'+q.number+'）':'');
-$('topic').textContent=q.topic||q.field;$('progress-inner').style.width=(100*(cursor+1)/pool.length)+'%';
+$('topic').textContent=q.topic||q.field;updateQuestionHistory(q);$('progress-inner').style.width=(100*(cursor+1)/pool.length)+'%';
 $('source').innerHTML=q.source?esc(q.source)+' 問'+q.number+'（'+(q.displayTextSource==='ipa-pdf-verified'?'原文照合済み':q.year==='オリジナル'?'独自問題':'原文校閲中')+'） · <a href="'+esc(q.sourceUrl)+'" target="_blank" rel="noopener noreferrer">原文PDF</a>':'オリジナル練習問題';
 $('question').textContent=q.displayText||q.q;
 const tableSets=Array.isArray(q.figureTables)?q.figureTables:[];$('figure-tables').replaceChildren();$('figure-tables').hidden=!tableSets.length;
@@ -258,9 +260,9 @@ const choiceRows=Array.isArray(q.choiceTables)?q.choiceTables[i]:null;
 if(Array.isArray(choiceRows)){const t=document.createElement('table');t.className='question-source-table choice-source-table';choiceRows.forEach((cells,j)=>{const tr=document.createElement('tr');cells.forEach((cell,k)=>{const td=document.createElement(j===0?'th':'td');td.textContent=cell;if(j===0&&q.choiceUnderlinedHeaders?.[i]?.includes(k))td.style.textDecoration='underline';tr.append(td)});t.append(tr)});value.append(t)}
 if(q.choiceFigures?.[i]){const im=document.createElement('img');im.src=q.choiceFigures[i];im.alt='選択肢'+ 'アイウエ'[i]+'の図';im.className='choice-figure';value.append(im)}
 b.append(kana,value);b.addEventListener('click',()=>answer(i));$('choices').append(b)});
-saveCursor()}
+saveCursor();window.scrollTo(0,0)}
 function answer(i){if(selected)return;selected=true;const q=pool[cursor],ok=i===q.answer;
-const h=saved[q.id]||{attempts:0,correct:0,wrong:0};h.attempts++;if(ok)h.correct++;else h.wrong++;saved[q.id]=h;write(HIST,saved);
+const h=saved[q.id]||{attempts:0,correct:0,wrong:0};h.attempts++;if(ok)h.correct++;else h.wrong++;saved[q.id]=h;write(HIST,saved);updateQuestionHistory(q);
 Array.from($('choices').children).forEach((b,j)=>{b.disabled=true;if(j===q.answer)b.classList.add('correct');else if(j===i)b.classList.add('wrong')});
 $('feedback').hidden=false;$('feedback').innerHTML='<b>'+(ok?'✓ 正解！':'✕ 不正解')+'</b><p>'+esc(q.explanation||'')+'</p><small>'+esc(q.tip||'')+'</small>';
 $('next').textContent=cursor===pool.length-1?'演習を終了する':'次の問題 →';$('next').hidden=false;
@@ -357,7 +359,7 @@ function renderStats(){
  $('advice').textContent=msg;
  $('review-from-stats').disabled=!wrongIds().size;
 }
-$('brand').onclick=()=>show('home');$('navstats').onclick=()=>show('stats');
+$('brand').onclick=()=>show('home');
 document.querySelectorAll('[data-home]').forEach(b=>b.onclick=()=>show('home'));
 $('go-home-stats').onclick=()=>show('home');$('quiz-stats').onclick=()=>show('stats');$('start-stats').onclick=()=>show('stats');
 $('start-new').onclick=()=>start({year:latestYear,field:'すべて',kind:'order'});$('start-resume').onclick=resume;
